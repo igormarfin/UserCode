@@ -394,7 +394,8 @@ if __name__ == '__main__':
 	    thedata[ikey].TH1s[ihname] = ROOT.gDirectory.Get(thehistos[ihname])
 	    #SetOwnership(thedata[ikey].TH1s[ihname], 0)
 	    # check if file exists
-	    print thedata[ikey].TH1s[ihname].GetName()
+            if ( thedata[ikey] != None and thedata[ikey].TH1s[ihname]!=None): 
+             print thedata[ikey].TH1s[ihname].GetName()
             
 
     # plot superimpose histograms

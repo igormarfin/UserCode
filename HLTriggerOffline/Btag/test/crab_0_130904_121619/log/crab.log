@@ -1,0 +1,1438 @@
+2013-09-04 12:16:19,671 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -create -submit
+
+2013-09-04 12:16:19,671 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:16:19 2013 CET (10:16:19 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:16:19,672 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:16:19,672 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xa08a248>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xa08a488>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,707 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:16:19,707 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:16:19,708 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xa08a248>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xa1c15f0>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,721 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa1c1710>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,721 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa1c15f0>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,721 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:19,721 [DEBUG] 	Input blacklist: 
+2013-09-04 12:16:19,722 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:19,722 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:16:19,722 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:16:19,722 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xa08a248>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xa1c1ea8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,722 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:16:19,722 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xa08a248>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xa1c1ea8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:19,723 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:16:19,954 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa1c1d88>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,479 [DEBUG] 	Linux vocms110.cern.ch 2.6.18-348.1.1.el5 #1 SMP Thu Jan 24 13:25:42 CET 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux vocms110.cern.ch 2.6.18-348.1.1.el5 #1 SMP Thu Jan 24 13:25:42 CET 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CAF.queue : cmscaf8nh
+   CMSSW.datasetpath : /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG
+   CMSSW.get_edm_output : 1
+   CMSSW.number_of_jobs : 19
+   CMSSW.output_file : output.root
+   CMSSW.pset : hlt_my_2011_53X_v4.py
+   CMSSW.total_number_of_events : -1
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : glite
+   CRAB.submit : 
+   CRAB.use_server : 0
+   GRID.rb : CERN
+   USER.copy_data : 1
+   USER.dbs_url_for_publication : https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet
+   USER.publish_data : 1
+   USER.publish_data_name : 53xRelVal2011Redigi
+   USER.return_data : 0
+   USER.storage_element : srm-cms.cern.ch
+   USER.storage_path : /srm/managerv2?SFN=/castor/cern.ch/user/m/marfin
+   USER.user_remote_dir : /53xRelVal2011Redigi
+End of used properties.
+
+2013-09-04 12:16:20,495 [DEBUG] 	CMSSW::__init__
+2013-09-04 12:16:20,496 [DEBUG] 	Scram::Scram() version is 2
+2013-09-04 12:16:20,496 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2013-09-04 12:16:20,496 [DEBUG] 	Downloading file [https://cmstags.cern.ch/tc/] to [/afs/cern.ch/user/m/marfin/.cms_crab/ReleasesXML].
+2013-09-04 12:16:20,496 [DEBUG] 	Service initialised ({'endpoint': 'https://cmstags.cern.ch/tc/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/tc/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmstags.cern.ch/tc/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmstags.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xa08a248>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0xa4ddd40>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmstags.cern.ch, basepath: /tc/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,533 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa4ddcf8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,534 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa47b7a0>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,534 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:20,534 [DEBUG] 	Input blacklist: 
+2013-09-04 12:16:20,534 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:20,534 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:16:20,583 [INFO] 	Contacting Data Discovery Services ...
+2013-09-04 12:16:20,583 [INFO] 	Accessing DBS at: http://cmsdbsprod.cern.ch/cms_dbs_prod_global/servlet/DBSServlet
+2013-09-04 12:16:20,587 [DEBUG] 	Set of input parameters used for DBS query: []
+2013-09-04 12:16:20,676 [DEBUG] 	Datatype is mc
+2013-09-04 12:16:20,677 [DEBUG] 	DLS interface: DLS_TYPE_PHEDEX Server https://cmsweb.cern.ch/phedex/datasvc/xml/prod/
+2013-09-04 12:16:20,812 [INFO] 	Requested dataset: /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG has 9000 events in 2 blocks.
+
+2013-09-04 12:16:20,812 [DEBUG] 	Job splitting method: EventBased
+2013-09-04 12:16:20,813 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa5b23f8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,813 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa5b5440>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:20,813 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:20,813 [DEBUG] 	Input blacklist: 
+2013-09-04 12:16:20,813 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:20,813 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:16:20,813 [INFO] 	May not create the exact number_of_jobs requested.
+2013-09-04 12:16:20,813 [DEBUG] 	Events in Block File 700
+2013-09-04 12:16:20,913 [DEBUG] 	Events in Block File 8300
+2013-09-04 12:16:20,917 [DEBUG] 	
+Job 3 can run over 473 events.
+Job 3 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 4 can run over 473 events.
+Job 4 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 5 can run over 473 events.
+Job 5 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 6 can run over 473 events.
+Job 6 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 7 can run over 473 events.
+Job 7 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 8 can run over 473 events.
+Job 8 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 9 can run over 473 events.
+Job 9 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 10 can run over 473 events.
+Job 10 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 11 can run over 473 events.
+Job 11 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 12 can run over 473 events.
+Job 12 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 13 can run over 473 events.
+Job 13 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 14 can run over 473 events.
+Job 14 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 15 can run over 473 events.
+Job 15 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 16 can run over 473 events.
+Job 16 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 17 can run over 473 events.
+Job 17 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 18 can run over 473 events.
+Job 18 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 19 can run over 473 events.
+Job 19 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+Job 20 can run over 259 events.
+Job 20 Destination: ['T2_CH_CERN', 'T1_US_FNAL_MSS']
+
+2013-09-04 12:16:20,917 [INFO] 	20 job(s) can run on 9000 events.
+
+2013-09-04 12:16:20,917 [DEBUG] 	Selected sites for block /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG#178900fa-e90f-11e2-95e5-00221959e7c0 via blacklist are srm-eoscms.cern.ch, cmssrm.fnal.gov.
+
+2013-09-04 12:16:20,917 [DEBUG] 	Selected sites for block /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG#bc03e9fc-e90e-11e2-95e5-00221959e7c0 via blacklist are srm-eoscms.cern.ch, cmssrm.fnal.gov.
+
+2013-09-04 12:16:20,918 [INFO] 	List of jobs and available destination sites:
+
+Block     1: jobs                  1-2: sites: T2_CH_CERN, T1_US_FNAL_MSS
+Block     2: jobs                 3-20: sites: T2_CH_CERN, T1_US_FNAL_MSS
+
+2013-09-04 12:16:20,929 [DEBUG] 	PsetManipulator::__init__: PSet file = hlt_my_2011_53X_v4.py
+2013-09-04 12:16:26,359 [DEBUG] 	(test) edmOutputDict = {'output.root': {'selectEvents': None, 'dataset': ''}}
+2013-09-04 12:16:26,360 [DEBUG] 	(test) filter_dict for multi =  {'output.root': ''}
+2013-09-04 12:16:26,360 [DEBUG] 	(test) var_filter for multi =  {"output.root": ""}
+2013-09-04 12:16:26,360 [DEBUG] 	Output from PoolOutputModule output.root already in output files
+2013-09-04 12:16:26,370 [DEBUG] 	lib /build/marfin/CMSSW_5_3_11_patch6/lib to be tarred
+2013-09-04 12:16:26,555 [DEBUG] 	data HLTriggerOffline/Common/data to be tarred
+2013-09-04 12:16:26,559 [DEBUG] 	data HLTrigger/Configuration/data to be tarred
+2013-09-04 12:16:26,570 [DEBUG] 	data PhysicsTools/PatAlgos/data to be tarred
+2013-09-04 12:16:27,404 [DEBUG] 	Creator: JobType CMSSW created
+2013-09-04 12:16:27,404 [DEBUG] 	Creator: total # of jobs = 20
+2013-09-04 12:16:27,404 [DEBUG] 	Creator constructor finished
+2013-09-04 12:16:27,502 [DEBUG] 	parseRange_ None
+2013-09-04 12:16:27,511 [DEBUG] 	Scram::Scram() version is 2
+2013-09-04 12:16:27,511 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2013-09-04 12:16:27,512 [DEBUG] 	Creator::run() called
+2013-09-04 12:16:27,512 [DEBUG] 	Scram::Scram() version is 2
+2013-09-04 12:16:27,512 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2013-09-04 12:16:27,616 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xcd149e0>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:28,141 [DEBUG] 	CheckLength of LFN and User DatasetName
+2013-09-04 12:16:28,141 [DEBUG] 	max length for complete LFN is 500 characters, max length for primary dataset is 100 characters
+2013-09-04 12:16:28,141 [DEBUG] 	PrimaryDataset = RelValTTbar
+2013-09-04 12:16:28,141 [DEBUG] 	len_primary = 11
+2013-09-04 12:16:28,142 [DEBUG] 	ProcessedDataset = 53xRelVal2011Redigi
+2013-09-04 12:16:28,142 [DEBUG] 	len(ProcessedDataset) = 19
+2013-09-04 12:16:28,142 [DEBUG] 	forced_path = /53xRelVal2011Redigi/
+2013-09-04 12:16:28,142 [DEBUG] 	len(forced_path) = 21
+2013-09-04 12:16:28,171 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xcb8c680>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:28,700 [DEBUG] 	user = marfin
+2013-09-04 12:16:28,701 [DEBUG] 	len_user_name = 6
+2013-09-04 12:16:28,701 [DEBUG] 	lfnbase = /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi
+2013-09-04 12:16:28,701 [DEBUG] 	len(lfnbase) = 59
+2013-09-04 12:16:28,730 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xca11560>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:29,282 [INFO] 	Checking remote location
+2013-09-04 12:16:32,581 [DEBUG] 	protocol = srm-lcg
+endpoint = srm://srm-cms.cern.ch:8443/srm/managerv2?SFN=/castor/cern.ch/user/m/marfin//53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/
+
+2013-09-04 12:16:33,094 [DEBUG] 	Command:	unset LD_LIBRARY_PATH; unset GLITE_ENV_SET; export PATH=/usr/bin:/bin; source /etc/profile; source /afs/cern.ch/project/gd/LCG-share/3.2.10-1/external/etc/profile.d/grid-env.sh ; lcg-ls -d -b -D srmv2 srm://srm-cms.cern.ch:8443/srm/managerv2?SFN=/castor/cern.ch/user/m/marfin//53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/
+2013-09-04 12:16:33,095 [DEBUG] 	ExitCode:	0
+2013-09-04 12:16:33,095 [DEBUG] 	Output:	/castor/cern.ch/user/m/marfin//53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/
+
+2013-09-04 12:16:33,095 [INFO] 	WARNING: The stageout directory already exists. Be careful not to accidentally mix outputs from different tasks
+2013-09-04 12:16:33,167 [INFO] 	Creating 20 jobs, please wait...
+2013-09-04 12:16:33,167 [DEBUG] 	Creation Time: 5.65564084053
+2013-09-04 12:16:33,167 [INFO] 	Total of 20 jobs created.
+
+2013-09-04 12:16:33,168 [DEBUG] 	Submitter::run() called
+2013-09-04 12:16:33,176 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa4b1a28>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:33,176 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa4b1bd8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:33,176 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:33,177 [DEBUG] 	Input blacklist: 
+2013-09-04 12:16:33,177 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:33,177 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:16:33,177 [DEBUG] 	nsjobs -1
+2013-09-04 12:16:33,177 [DEBUG] 	Total jobs 20
+2013-09-04 12:16:33,185 [DEBUG] 	nj_list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+2013-09-04 12:16:33,230 [DEBUG] 	GRIDNAME: /C=DE/O=GermanGrid/OU=DESY/CN=Ihar Marfin 
+2013-09-04 12:16:33,260 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xcffc6c8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:33,824 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xcffc6c8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:34,381 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_11_patch6', 'taskId': 'marfin_crab_0_130904_121619_65f3cv', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'vocms110.cern.ch', 'JSToolVersion': '2.9.0', 'user': 'marfin', 'scheduler': 'glite', 'taskType': 'analysis', 'CMSUser': 'marfin', 'jobId': 'TaskMeta', 'datasetFull': '/RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG', 'exe': 'cmsRun', 'GridName': '/C=DE/O=GermanGrid/OU=DESY/CN=Ihar Marfin', 'SubmissionType': 'direct'}
+2013-09-04 12:16:34,381 [INFO] 	Checking available resources...
+2013-09-04 12:16:34,403 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xcb8cc20>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:34,403 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xa42bf38>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:34,403 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:34,404 [DEBUG] 	Input blacklist: T1_DE, T1_ES, T1_FR, T1_IT, T1_TW, T1_US, T3_US_Vanderbilt_EC2
+
+2013-09-04 12:16:34,404 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_sitedbcache/0_GET_site-names.json expired, refreshing cache
+2013-09-04 12:16:34,404 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-names
+	data: {}
+2013-09-04 12:16:34,588 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_sitedbcache/0_GET_site-resources.json expired, refreshing cache
+2013-09-04 12:16:34,588 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-resources
+	data: {}
+2013-09-04 12:16:35,045 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:35,045 [DEBUG] 	Converted blacklist: cmsosgce4.fnal.gov, ce08.pic.es, cream01.grid.sinica.edu.tw, cmsosgce.fnal.gov, cream-ge-1-kit.gridka.de, cream-ge-3-kit.gridka.de, cmsosgce2.fnal.gov, cccreamceli05.in2p3.fr, ce10.pic.es, ce04-lcg.cr.cnaf.infn.it, ce07-lcg.cr.cnaf.infn.it, cream-ge-8-kit.gridka.de, cream-ge-7-kit.gridka.de, se2.accre.vanderbilt.edu, ce09.pic.es, cream-ge-5-kit.gridka.de, ce06-lcg.cr.cnaf.infn.it, ce11.pic.es, ce07.pic.es, cream-ge-4-kit.gridka.de, ce08-lcg.cr.cnaf.infn.it, cream-ge-2-kit.gridka.de, cccreamceli06.in2p3.fr, cream-ge-6-kit.gridka.de, ce01-lcg.cr.cnaf.infn.it, ce05-lcg.cr.cnaf.infn.it
+2013-09-04 12:16:37,027 [DEBUG] 	list of available site ( fast matching ) : ['ce203.cern.ch', 'ce204.cern.ch', 'ce206.cern.ch', 'ce207.cern.ch', 'ce201.cern.ch', 'ce202.cern.ch']
+2013-09-04 12:16:37,027 [INFO] 	Found  compatible site(s) for job 1
+2013-09-04 12:16:37,029 [INFO] 	1 blocks of jobs will be submitted
+2013-09-04 12:16:37,029 [DEBUG] 	Delegating proxy 
+2013-09-04 12:16:37,228 [DEBUG] 	Submitting jobs [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+2013-09-04 12:16:37,249 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xc827518>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:37,249 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xc8272d8>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:16:37,249 [DEBUG] 	Input whitelist: 
+2013-09-04 12:16:37,249 [DEBUG] 	Input blacklist: T1_DE, T1_ES, T1_FR, T1_IT, T1_TW, T1_US, T3_US_Vanderbilt_EC2
+
+2013-09-04 12:16:37,586 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:16:37,586 [DEBUG] 	Converted blacklist: cmsosgce4.fnal.gov, ce08.pic.es, cream01.grid.sinica.edu.tw, cmsosgce.fnal.gov, cream-ge-1-kit.gridka.de, cream-ge-3-kit.gridka.de, cmsosgce2.fnal.gov, cccreamceli05.in2p3.fr, ce10.pic.es, ce04-lcg.cr.cnaf.infn.it, ce07-lcg.cr.cnaf.infn.it, cream-ge-8-kit.gridka.de, cream-ge-7-kit.gridka.de, se2.accre.vanderbilt.edu, ce09.pic.es, cream-ge-5-kit.gridka.de, ce06-lcg.cr.cnaf.infn.it, ce11.pic.es, ce07.pic.es, cream-ge-4-kit.gridka.de, ce08-lcg.cr.cnaf.infn.it, cream-ge-2-kit.gridka.de, cccreamceli06.in2p3.fr, cream-ge-6-kit.gridka.de, ce01-lcg.cr.cnaf.infn.it, ce05-lcg.cr.cnaf.infn.it
+2013-09-04 12:16:39,962 [DEBUG] 	Your job identifier is: https://wms317.cern.ch:9000/VPWlZ_YXVPQ_BO1EMkmIyA
+2013-09-04 12:16:39,976 [DEBUG] 	WMS : https://wms317.cern.ch:7443/glite_wms_wmproxy_server
+Collection ID : https://wms317.cern.ch:9000/VPWlZ_YXVPQ_BO1EMkmIyA
+2013-09-04 12:16:39,984 [DEBUG] 	Submitted job # 1
+2013-09-04 12:16:39,984 [DEBUG] 	Submitted job # 2
+2013-09-04 12:16:39,984 [DEBUG] 	Submitted job # 3
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 4
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 5
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 6
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 7
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 8
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 9
+2013-09-04 12:16:39,985 [DEBUG] 	Submitted job # 10
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 11
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 12
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 13
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 14
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 15
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 16
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 17
+2013-09-04 12:16:39,986 [DEBUG] 	Submitted job # 18
+2013-09-04 12:16:39,987 [DEBUG] 	Submitted job # 19
+2013-09-04 12:16:39,987 [DEBUG] 	Submitted job # 20
+2013-09-04 12:16:40,004 [DEBUG] 	Updating [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]] state SubSuccess
+2013-09-04 12:16:40,065 [DEBUG] 	GRIDNAME: /C=DE/O=GermanGrid/OU=DESY/CN=Ihar Marfin 
+2013-09-04 12:16:40,095 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xc827b90>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:40,651 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xa08a248>, 'conn': <httplib.HTTPSConnection instance at 0xc827b90>}, 'logger': <logging.Logger instance at 0xa08a248>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2013-09-04 12:16:41,184 [DEBUG] 	Submission Time: 8.01581501961
+2013-09-04 12:16:41,184 [INFO] 	Total of 20 jobs submitted.
+2013-09-04 12:21:16,872 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:21:16,872 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:21:16 2013 CET (10:21:16 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:21:16,872 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:21:16,872 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x7d1cb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x7d1cef0>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,906 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:21:16,907 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:21:16,907 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x7d1cb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x7e535f0>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,919 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x7d1cb90>, 'conn': <httplib.HTTPSConnection instance at 0x7e53710>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,920 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x7d1cb90>, 'conn': <httplib.HTTPSConnection instance at 0x7e535f0>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,920 [DEBUG] 	Input whitelist: 
+2013-09-04 12:21:16,920 [DEBUG] 	Input blacklist: 
+2013-09-04 12:21:16,920 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:21:16,920 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:21:16,920 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:21:16,921 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x7d1cb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x7e53ea8>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,921 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:21:16,921 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x7d1cb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x7e53ea8>}, 'logger': <logging.Logger instance at 0x7d1cb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:21:16,921 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:21:17,157 [DEBUG] 	Status::run() called
+2013-09-04 12:21:17,157 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:21:17,640 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:21:17,669 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:21:17,676 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:21:17,676 [DEBUG] 	Status Time: 0.518729925156
+2013-09-04 12:23:52,335 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:23:52,335 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:23:52 2013 CET (10:23:52 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:23:52,335 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:23:52,335 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaecbb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xaecbef0>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,371 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:23:52,372 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:23:52,372 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaecbb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xb0025f0>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,384 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaecbb90>, 'conn': <httplib.HTTPSConnection instance at 0xb002710>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,384 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaecbb90>, 'conn': <httplib.HTTPSConnection instance at 0xb0025f0>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,385 [DEBUG] 	Input whitelist: 
+2013-09-04 12:23:52,385 [DEBUG] 	Input blacklist: 
+2013-09-04 12:23:52,385 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:23:52,385 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:23:52,385 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:23:52,385 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaecbb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xb002ea8>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,386 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:23:52,386 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaecbb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xb002ea8>}, 'logger': <logging.Logger instance at 0xaecbb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:23:52,386 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:23:52,593 [DEBUG] 	Status::run() called
+2013-09-04 12:23:52,594 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:23:53,074 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:23:53,103 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:23:53,110 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:23:53,110 [DEBUG] 	Status Time: 0.516305923462
+2013-09-04 12:26:57,154 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:26:57,155 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:26:57 2013 CET (10:26:57 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:26:57,155 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:26:57,155 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c0feb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c0feef0>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,191 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:26:57,192 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:26:57,192 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c0feb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c2355f0>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,205 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1c0feb90>, 'conn': <httplib.HTTPSConnection instance at 0x1c235710>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,205 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1c0feb90>, 'conn': <httplib.HTTPSConnection instance at 0x1c2355f0>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,205 [DEBUG] 	Input whitelist: 
+2013-09-04 12:26:57,205 [DEBUG] 	Input blacklist: 
+2013-09-04 12:26:57,205 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:26:57,205 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:26:57,206 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:26:57,206 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c0feb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c235ea8>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,206 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:26:57,206 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c0feb90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c235ea8>}, 'logger': <logging.Logger instance at 0x1c0feb90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:26:57,207 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:26:57,432 [DEBUG] 	Status::run() called
+2013-09-04 12:26:57,432 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:26:57,906 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:26:57,934 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:26:57,941 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:26:57,941 [DEBUG] 	Status Time: 0.508816003799
+2013-09-04 12:29:00,012 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:29:00,012 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:29:00 2013 CET (10:29:00 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:29:00,012 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:29:00,013 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x13e13b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x13e13ef0>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,048 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:29:00,048 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:29:00,048 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x13e13b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x13f4a5f0>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,061 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x13e13b90>, 'conn': <httplib.HTTPSConnection instance at 0x13f4a710>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,062 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x13e13b90>, 'conn': <httplib.HTTPSConnection instance at 0x13f4a5f0>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,062 [DEBUG] 	Input whitelist: 
+2013-09-04 12:29:00,062 [DEBUG] 	Input blacklist: 
+2013-09-04 12:29:00,062 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:29:00,062 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:29:00,062 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:29:00,063 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x13e13b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x13f4aea8>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,063 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:29:00,063 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x13e13b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x13f4aea8>}, 'logger': <logging.Logger instance at 0x13e13b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:29:00,063 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:29:00,299 [DEBUG] 	Status::run() called
+2013-09-04 12:29:00,299 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:29:00,770 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:29:00,798 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:29:00,805 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:29:00,805 [DEBUG] 	Status Time: 0.505923032761
+2013-09-04 12:37:59,784 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:37:59,784 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:37:59 2013 CET (10:37:59 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:37:59,785 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:37:59,785 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x14a42b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14a42ef0>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,820 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:37:59,820 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:37:59,820 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x14a42b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14b795f0>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,833 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x14a42b90>, 'conn': <httplib.HTTPSConnection instance at 0x14b79710>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,833 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x14a42b90>, 'conn': <httplib.HTTPSConnection instance at 0x14b795f0>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,833 [DEBUG] 	Input whitelist: 
+2013-09-04 12:37:59,833 [DEBUG] 	Input blacklist: 
+2013-09-04 12:37:59,834 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:37:59,834 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:37:59,834 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:37:59,834 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x14a42b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14b79ea8>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,834 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:37:59,835 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x14a42b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14b79ea8>}, 'logger': <logging.Logger instance at 0x14a42b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:37:59,835 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:38:00,191 [DEBUG] 	Status::run() called
+2013-09-04 12:38:00,191 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:38:00,687 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:38:00,715 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:38:00,722 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:38:00,722 [DEBUG] 	Status Time: 0.530776977539
+2013-09-04 12:43:00,948 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 12:43:00,948 [INFO] 	Version 2.9.0 running on Wed Sep  4 12:43:00 2013 CET (10:43:00 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 12:43:00,948 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 12:43:00,949 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1ffb3ef0>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:00,949 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2013-09-04 12:43:00,949 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2013-09-04 12:43:01,028 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 12:43:01,029 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 12:43:01,029 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x200ee7a0>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:01,029 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_glite_wms_CERN.conf expired, refreshing cache
+2013-09-04 12:43:01,029 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/glite_wms_CERN.conf
+	data: {}
+2013-09-04 12:43:01,099 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'conn': <httplib.HTTPSConnection instance at 0x200ee8c0>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:01,099 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'conn': <httplib.HTTPSConnection instance at 0x200ee7a0>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:01,100 [DEBUG] 	Input whitelist: 
+2013-09-04 12:43:01,100 [DEBUG] 	Input blacklist: 
+2013-09-04 12:43:01,100 [DEBUG] 	Converted whitelist: 
+2013-09-04 12:43:01,100 [DEBUG] 	Converted blacklist: 
+2013-09-04 12:43:01,100 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 12:43:01,100 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x200f87e8>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:01,100 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2013-09-04 12:43:01,100 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2013-09-04 12:43:01,130 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 12:43:01,130 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1ffb3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x200f87e8>}, 'logger': <logging.Logger instance at 0x1ffb3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 12:43:01,130 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2013-09-04 12:43:01,130 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2013-09-04 12:43:01,135 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 12:43:01,364 [DEBUG] 	Status::run() called
+2013-09-04 12:43:01,364 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 12:43:02,209 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Running           SubSuccess                           ce207.cern.ch
+3     N   Running           SubSuccess                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 12:43:02,239 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 20 Jobs Running 
+	List of jobs Running: 1-20 
+
+2013-09-04 12:43:02,246 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 12:43:02,246 [DEBUG] 	Status Time: 0.881526947021
+2013-09-04 13:28:44,329 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 13:28:44,329 [INFO] 	Version 2.9.0 running on Wed Sep  4 13:28:44 2013 CET (11:28:44 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 13:28:44,330 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 13:28:44,330 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x98d8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x98d8ef0>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,330 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2013-09-04 13:28:44,330 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2013-09-04 13:28:44,463 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 13:28:44,463 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 13:28:44,464 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x98d8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x9a137a0>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,464 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_glite_wms_CERN.conf expired, refreshing cache
+2013-09-04 13:28:44,464 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/glite_wms_CERN.conf
+	data: {}
+2013-09-04 13:28:44,512 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x98d8b90>, 'conn': <httplib.HTTPSConnection instance at 0x9a138c0>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,512 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x98d8b90>, 'conn': <httplib.HTTPSConnection instance at 0x9a137a0>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,512 [DEBUG] 	Input whitelist: 
+2013-09-04 13:28:44,512 [DEBUG] 	Input blacklist: 
+2013-09-04 13:28:44,512 [DEBUG] 	Converted whitelist: 
+2013-09-04 13:28:44,512 [DEBUG] 	Converted blacklist: 
+2013-09-04 13:28:44,512 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 13:28:44,513 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x98d8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x9a1d7e8>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,513 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2013-09-04 13:28:44,513 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2013-09-04 13:28:44,529 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 13:28:44,529 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x98d8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x9a1d7e8>}, 'logger': <logging.Logger instance at 0x98d8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:28:44,529 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2013-09-04 13:28:44,529 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2013-09-04 13:28:44,534 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 13:28:45,083 [DEBUG] 	Status::run() called
+2013-09-04 13:28:45,083 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 13:28:45,603 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     N   Done              Terminated                           ce207.cern.ch
+3     N   Done              Terminated                           ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 13:28:45,632 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 18 Jobs Running 
+	List of jobs Running: 1,4-20 
+ >>>>>>>>> 2 Jobs Done
+	Jobs terminated: retrieve them with: crab -getoutput <List of jobs>
+	List of jobs: 2-3 
+
+2013-09-04 13:28:45,639 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 13:28:45,639 [DEBUG] 	Status Time: 0.555802106857
+2013-09-04 13:29:00,044 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -getoutput 2,3
+
+2013-09-04 13:29:00,045 [INFO] 	Version 2.9.0 running on Wed Sep  4 13:29:00 2013 CET (11:29:00 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 13:29:00,045 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 13:29:00,045 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x15389b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x15389ef0>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,081 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 13:29:00,081 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 13:29:00,082 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x15389b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x154c05f0>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,095 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x15389b90>, 'conn': <httplib.HTTPSConnection instance at 0x154c0710>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,096 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x15389b90>, 'conn': <httplib.HTTPSConnection instance at 0x154c05f0>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,096 [DEBUG] 	Input whitelist: 
+2013-09-04 13:29:00,096 [DEBUG] 	Input blacklist: 
+2013-09-04 13:29:00,096 [DEBUG] 	Converted whitelist: 
+2013-09-04 13:29:00,096 [DEBUG] 	Converted blacklist: 
+2013-09-04 13:29:00,096 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 13:29:00,097 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x15389b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x154c0ea8>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,097 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 13:29:00,097 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x15389b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x154c0ea8>}, 'logger': <logging.Logger instance at 0x15389b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:00,097 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 13:29:00,422 [DEBUG] 	parseRange_ 2,3
+2013-09-04 13:29:00,423 [DEBUG] 	GetOutput::run() called
+2013-09-04 13:29:00,442 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2013-09-04 13:29:00,453 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2013-09-04 13:29:01,178 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/5Zvu0iCgVDTkFOmeoUhpoA
+2013-09-04 13:29:01,225 [INFO] 	Results of Jobs # 2 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 13:29:01,735 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2013-09-04 13:29:01,748 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2013-09-04 13:29:02,398 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/PH41GC9M6CgtzY1ZugqUZQ
+2013-09-04 13:29:02,437 [INFO] 	Results of Jobs # 3 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 13:29:02,445 [DEBUG] 	GetOutput Time: 2.02200198174
+2013-09-04 13:29:05,227 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 13:29:05,227 [INFO] 	Version 2.9.0 running on Wed Sep  4 13:29:05 2013 CET (11:29:05 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 13:29:05,227 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 13:29:05,227 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x31b8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x31b8ef0>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,264 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 13:29:05,264 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 13:29:05,264 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x31b8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x32ef5f0>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,277 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x31b8b90>, 'conn': <httplib.HTTPSConnection instance at 0x32ef710>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,277 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x31b8b90>, 'conn': <httplib.HTTPSConnection instance at 0x32ef5f0>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,278 [DEBUG] 	Input whitelist: 
+2013-09-04 13:29:05,278 [DEBUG] 	Input blacklist: 
+2013-09-04 13:29:05,278 [DEBUG] 	Converted whitelist: 
+2013-09-04 13:29:05,278 [DEBUG] 	Converted blacklist: 
+2013-09-04 13:29:05,278 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 13:29:05,278 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x31b8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x32efea8>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,279 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 13:29:05,279 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x31b8b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x32efea8>}, 'logger': <logging.Logger instance at 0x31b8b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 13:29:05,279 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 13:29:05,497 [DEBUG] 	Status::run() called
+2013-09-04 13:29:05,497 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 13:29:05,972 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce207.cern.ch
+2     Y   Retrieved         Cleared       0          60307       ce207.cern.ch
+3     Y   Retrieved         Cleared       143        50660       ce202.cern.ch
+4     N   Running           SubSuccess                           ce202.cern.ch
+5     N   Running           SubSuccess                           ce206.cern.ch
+6     N   Running           SubSuccess                           ce202.cern.ch
+7     N   Running           SubSuccess                           ce206.cern.ch
+8     N   Running           SubSuccess                           ce202.cern.ch
+9     N   Running           SubSuccess                           ce207.cern.ch
+10    N   Running           SubSuccess                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Running           SubSuccess                           ce204.cern.ch
+12    N   Running           SubSuccess                           ce201.cern.ch
+13    N   Running           SubSuccess                           ce207.cern.ch
+14    N   Running           SubSuccess                           ce203.cern.ch
+15    N   Running           SubSuccess                           ce207.cern.ch
+16    N   Running           SubSuccess                           ce204.cern.ch
+17    N   Running           SubSuccess                           ce201.cern.ch
+18    N   Running           SubSuccess                           ce207.cern.ch
+19    N   Running           SubSuccess                           ce203.cern.ch
+20    N   Running           SubSuccess                           ce203.cern.ch
+
+2013-09-04 13:29:05,987 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 50660 
+	 List of jobs: 3 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 13:29:06,002 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 60307 
+	 List of jobs: 2 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 13:29:06,002 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 18 Jobs Running 
+	List of jobs Running: 1,4-20 
+ >>>>>>>>> 2 Jobs Retrieved 
+	List of jobs Retrieved: 2-3 
+
+2013-09-04 13:29:06,008 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 13:29:06,009 [DEBUG] 	Status Time: 0.511374950409
+2013-09-04 14:06:26,738 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 14:06:26,738 [INFO] 	Version 2.9.0 running on Wed Sep  4 14:06:26 2013 CET (12:06:26 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 14:06:26,738 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 14:06:26,738 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4682b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x4682ef0>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,739 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2013-09-04 14:06:26,739 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2013-09-04 14:06:26,837 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 14:06:26,837 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 14:06:26,838 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4682b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x47bd7a0>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,838 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_glite_wms_CERN.conf expired, refreshing cache
+2013-09-04 14:06:26,838 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/glite_wms_CERN.conf
+	data: {}
+2013-09-04 14:06:26,905 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4682b90>, 'conn': <httplib.HTTPSConnection instance at 0x47bd8c0>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,906 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4682b90>, 'conn': <httplib.HTTPSConnection instance at 0x47bd7a0>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,906 [DEBUG] 	Input whitelist: 
+2013-09-04 14:06:26,906 [DEBUG] 	Input blacklist: 
+2013-09-04 14:06:26,906 [DEBUG] 	Converted whitelist: 
+2013-09-04 14:06:26,906 [DEBUG] 	Converted blacklist: 
+2013-09-04 14:06:26,906 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 14:06:26,906 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4682b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x47c77e8>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,907 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2013-09-04 14:06:26,907 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2013-09-04 14:06:26,956 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 14:06:26,956 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4682b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x47c77e8>}, 'logger': <logging.Logger instance at 0x4682b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:26,956 [DEBUG] 	/afs/cern.ch/user/m/marfin/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2013-09-04 14:06:26,957 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2013-09-04 14:06:26,994 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 14:06:27,390 [DEBUG] 	Status::run() called
+2013-09-04 14:06:27,390 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 14:06:28,109 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Done              Terminated                           ce207.cern.ch
+2     Y   Retrieved         Cleared       0          60307       ce207.cern.ch
+3     Y   Retrieved         Cleared       143        50660       ce202.cern.ch
+4     N   Done              Terminated                           ce202.cern.ch
+5     N   Done              Terminated                           ce206.cern.ch
+6     N   Done              Terminated                           ce202.cern.ch
+7     N   Done              Terminated                           ce206.cern.ch
+8     N   Done              Terminated                           ce202.cern.ch
+9     N   Done              Terminated                           ce207.cern.ch
+10    N   Done              Terminated                           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    N   Done              Terminated                           ce204.cern.ch
+12    N   Done              Terminated                           ce201.cern.ch
+13    N   Done              Terminated                           ce207.cern.ch
+14    N   Done              Terminated                           ce203.cern.ch
+15    N   Done              Terminated                           ce207.cern.ch
+16    N   Done              Terminated                           ce204.cern.ch
+17    N   Done              Terminated                           ce201.cern.ch
+18    N   Done              Terminated                           ce207.cern.ch
+19    N   Done              Terminated                           ce203.cern.ch
+20    N   Done              Terminated                           ce203.cern.ch
+
+2013-09-04 14:06:28,124 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 50660 
+	 List of jobs: 3 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 14:06:28,138 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 60307 
+	 List of jobs: 2 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 14:06:28,138 [INFO] 	 20 Total Jobs 
+ >>>>>>>>> 2 Jobs Retrieved 
+	List of jobs Retrieved: 2-3 
+ >>>>>>>>> 18 Jobs Done
+	Jobs terminated: retrieve them with: crab -getoutput <List of jobs>
+	List of jobs: 1,4-20 
+
+2013-09-04 14:06:28,145 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 14:06:28,145 [DEBUG] 	Status Time: 0.755180120468
+2013-09-04 14:06:33,408 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -getoutput
+
+2013-09-04 14:06:33,408 [INFO] 	Version 2.9.0 running on Wed Sep  4 14:06:33 2013 CET (12:06:33 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 14:06:33,408 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 14:06:33,408 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1baa5b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1baa5ef0>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,444 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 14:06:33,444 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 14:06:33,445 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1baa5b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1bbdc5f0>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,457 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1baa5b90>, 'conn': <httplib.HTTPSConnection instance at 0x1bbdc710>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,458 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1baa5b90>, 'conn': <httplib.HTTPSConnection instance at 0x1bbdc5f0>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,458 [DEBUG] 	Input whitelist: 
+2013-09-04 14:06:33,458 [DEBUG] 	Input blacklist: 
+2013-09-04 14:06:33,458 [DEBUG] 	Converted whitelist: 
+2013-09-04 14:06:33,458 [DEBUG] 	Converted blacklist: 
+2013-09-04 14:06:33,458 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 14:06:33,459 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1baa5b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1bbdcea8>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,459 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 14:06:33,459 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1baa5b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1bbdcea8>}, 'logger': <logging.Logger instance at 0x1baa5b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:33,460 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 14:06:33,977 [DEBUG] 	GetOutput::run() called
+2013-09-04 14:06:33,985 [INFO] 	Only 18 jobs will be retrieved  from 20 requested.
+	(for details: crab -status)
+2013-09-04 14:06:33,997 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2013-09-04 14:06:34,008 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2013-09-04 14:06:34,690 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/dybAYejn1-wKSGc0fSGqXw
+2013-09-04 14:06:34,736 [INFO] 	Results of Jobs # 1 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:35,127 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2013-09-04 14:06:35,140 [DEBUG] 	fs: Invalid argument; it is possible that /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/ is not in AFS.
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2013-09-04 14:06:35,851 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/ktbHdiDPtD-tUyRDuSWeAQ
+2013-09-04 14:06:36,504 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/qeNEi3JTf_cpET-ftO72ew
+2013-09-04 14:06:37,224 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/tsof5gfXHBJOeqQEGMOpqg
+2013-09-04 14:06:37,862 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/ar1JTDPR2i6TFWyBawZvlA
+2013-09-04 14:06:38,558 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/nEZoiWtzOi6vTZ_ln2rE2A
+2013-09-04 14:06:39,186 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/wrrdD_IhbS6a8g_c15jymw
+2013-09-04 14:06:39,865 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/a-RcyPkZgKys_MQf-JnO4Q
+2013-09-04 14:06:40,503 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/4_Ads1OF-9aQXnlHjdz_5Q
+2013-09-04 14:06:41,310 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/W4Yx_8uyerepCeXyv88ykQ
+2013-09-04 14:06:41,940 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/foDyb7PSSC-GCFTn0DONsA
+2013-09-04 14:06:42,603 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/S5sSlJO_5XbrWqBf6PRjpw
+2013-09-04 14:06:43,351 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/MsTpmjp-UaHe3wDFkfET1A
+2013-09-04 14:06:43,996 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/acA2oLSqZR-3AW4HTEK0uA
+2013-09-04 14:06:44,611 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/-W2pqWTBbkZ6MZX_56bRrw
+2013-09-04 14:06:45,294 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/r8XL6z7y757u_nmAfd3rlg
+2013-09-04 14:06:45,963 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/ZVsjb06SHO_JNTI8dkhC4w
+2013-09-04 14:06:46,640 [DEBUG] 	Output retrieve done for https://wms317.cern.ch:9000/7i89fTZFsTQG-BpPXKRGGA
+2013-09-04 14:06:46,697 [INFO] 	Results of Jobs # 4 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:47,177 [INFO] 	Results of Jobs # 5 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:47,677 [INFO] 	Results of Jobs # 6 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:48,160 [INFO] 	Results of Jobs # 7 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:48,673 [INFO] 	Results of Jobs # 8 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:49,250 [INFO] 	Results of Jobs # 9 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:49,736 [INFO] 	Results of Jobs # 10 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:50,234 [INFO] 	Results of Jobs # 11 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:50,719 [INFO] 	Results of Jobs # 12 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:51,230 [INFO] 	Results of Jobs # 13 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:51,809 [INFO] 	Results of Jobs # 14 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:52,293 [INFO] 	Results of Jobs # 15 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:52,794 [INFO] 	Results of Jobs # 16 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:53,279 [INFO] 	Results of Jobs # 17 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:53,794 [INFO] 	Results of Jobs # 18 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:54,372 [INFO] 	Results of Jobs # 19 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:54,856 [INFO] 	Results of Jobs # 20 are in /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res/
+2013-09-04 14:06:55,352 [DEBUG] 	GetOutput Time: 21.3746929169
+2013-09-04 14:06:58,485 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -status
+
+2013-09-04 14:06:58,485 [INFO] 	Version 2.9.0 running on Wed Sep  4 14:06:58 2013 CET (12:06:58 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 14:06:58,486 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 14:06:58,486 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe462b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe462ef0>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,522 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 14:06:58,522 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 14:06:58,522 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe462b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe5995f0>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,535 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xe462b90>, 'conn': <httplib.HTTPSConnection instance at 0xe599710>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,535 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xe462b90>, 'conn': <httplib.HTTPSConnection instance at 0xe5995f0>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,535 [DEBUG] 	Input whitelist: 
+2013-09-04 14:06:58,535 [DEBUG] 	Input blacklist: 
+2013-09-04 14:06:58,536 [DEBUG] 	Converted whitelist: 
+2013-09-04 14:06:58,536 [DEBUG] 	Converted blacklist: 
+2013-09-04 14:06:58,536 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 14:06:58,536 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe462b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe599ea8>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,537 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 14:06:58,537 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe462b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe599ea8>}, 'logger': <logging.Logger instance at 0xe462b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:06:58,537 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 14:06:58,751 [DEBUG] 	Status::run() called
+2013-09-04 14:06:58,751 [INFO] 	Checking the status of all jobs: please wait
+2013-09-04 14:06:58,815 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce207.cern.ch
+2     Y   Retrieved         Cleared       0          60307       ce207.cern.ch
+3     Y   Retrieved         Cleared       143        50660       ce202.cern.ch
+4     Y   Retrieved         Cleared       0          0           ce202.cern.ch
+5     Y   Retrieved         Cleared       0          0           ce206.cern.ch
+6     Y   Retrieved         Cleared       0          0           ce202.cern.ch
+7     Y   Retrieved         Cleared       0          0           ce206.cern.ch
+8     Y   Retrieved         Cleared       0          0           ce202.cern.ch
+9     Y   Retrieved         Cleared       0          0           ce207.cern.ch
+10    Y   Retrieved         Cleared       0          0           ce207.cern.ch
+--------------------------------------------------------------------------------
+11    Y   Retrieved         Cleared       0          0           ce204.cern.ch
+12    Y   Retrieved         Cleared       0          0           ce201.cern.ch
+13    Y   Retrieved         Cleared       0          0           ce207.cern.ch
+14    Y   Retrieved         Cleared       0          60307       ce203.cern.ch
+15    Y   Retrieved         Cleared       0          0           ce207.cern.ch
+16    Y   Retrieved         Cleared       0          0           ce204.cern.ch
+17    Y   Retrieved         Cleared       0          0           ce201.cern.ch
+18    Y   Retrieved         Cleared       0          0           ce207.cern.ch
+19    Y   Retrieved         Cleared       0          0           ce203.cern.ch
+20    Y   Retrieved         Cleared       0          0           ce203.cern.ch
+
+2013-09-04 14:06:58,830 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 50660 
+	 List of jobs: 3 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 14:06:58,836 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 17 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1,4-13,15-20 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 14:06:58,837 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 2 Jobs with Wrapper Exit Code : 60307 
+	 List of jobs: 2,14 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2013-09-04 14:06:58,837 [INFO] 	 20 Total Jobs 
+
+2013-09-04 14:06:58,843 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=marfin_crab_0_130904_121619_65f3cv
+	Your task name is: marfin_crab_0_130904_121619_65f3cv 
+
+2013-09-04 14:06:58,843 [DEBUG] 	Status Time: 0.0918309688568
+2013-09-04 14:07:11,892 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -publish
+
+2013-09-04 14:07:11,892 [INFO] 	Version 2.9.0 running on Wed Sep  4 14:07:11 2013 CET (12:07:11 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 14:07:11,892 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 14:07:11,893 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x173f3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x173f3ef0>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,927 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 14:07:11,928 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 14:07:11,928 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x173f3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1752a5f0>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,940 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x173f3b90>, 'conn': <httplib.HTTPSConnection instance at 0x1752a710>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,940 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x173f3b90>, 'conn': <httplib.HTTPSConnection instance at 0x1752a5f0>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,941 [DEBUG] 	Input whitelist: 
+2013-09-04 14:07:11,941 [DEBUG] 	Input blacklist: 
+2013-09-04 14:07:11,941 [DEBUG] 	Converted whitelist: 
+2013-09-04 14:07:11,941 [DEBUG] 	Converted blacklist: 
+2013-09-04 14:07:11,941 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 14:07:11,941 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x173f3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1752aea8>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,942 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 14:07:11,942 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x173f3b90>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1752aea8>}, 'logger': <logging.Logger instance at 0x173f3b90>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:07:11,942 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 14:07:12,283 [INFO] 	<dbs_url_for_publication> = https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet
+2013-09-04 14:07:19,854 [INFO] 	--->>> Start dataset publication
+2013-09-04 14:07:20,211 [INFO] 	--->>> Importing parent dataset in the dbs: /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG
+2013-09-04 14:07:20,217 [INFO] 	--->>> Importing all parents level
+2013-09-04 14:07:20,217 [DEBUG] 	start import parents time: 1378296440.22
+2013-09-04 14:07:31,311 [DEBUG] 	stop import parents time: 1378296451.31
+2013-09-04 14:07:31,311 [INFO] 	--->>> duration of all parents import (sec): 11.0940761566
+2013-09-04 14:07:31,312 [INFO] 	Import ok of dataset /RelValTTbar/CMSSW_5_3_11_patch3-PU_START53_LV2_09Jul2013-v1/GEN-SIM-DIGI-RAW-HLTDEBUG
+2013-09-04 14:07:31,312 [DEBUG] 	fjr contains some files to publish
+2013-09-04 14:07:31,544 [INFO] 	PrimaryDataset = RelValTTbar
+2013-09-04 14:07:31,544 [INFO] 	ProcessedDataset = marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e
+2013-09-04 14:07:31,544 [INFO] 	<User Dataset Name> = /RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER
+2013-09-04 14:07:32,321 [INFO] 	--->>> End dataset publication
+2013-09-04 14:07:32,322 [INFO] 	--->>> Start files publication
+2013-09-04 14:07:32,322 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_1.xml
+2013-09-04 14:07:32,662 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_1_1_dXV.root
+2013-09-04 14:07:34,798 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:34,799 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_4.xml
+2013-09-04 14:07:35,234 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_4_1_WPo.root
+2013-09-04 14:07:36,250 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:36,251 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_5.xml
+2013-09-04 14:07:36,709 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_5_1_afw.root
+2013-09-04 14:07:37,646 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:37,647 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_6.xml
+2013-09-04 14:07:38,082 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_6_1_RtI.root
+2013-09-04 14:07:39,864 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:39,865 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_7.xml
+2013-09-04 14:07:40,334 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_7_1_iPd.root
+2013-09-04 14:07:41,398 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:41,399 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_8.xml
+2013-09-04 14:07:41,925 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_8_1_gaQ.root
+2013-09-04 14:07:42,959 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:42,960 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_9.xml
+2013-09-04 14:07:43,394 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_9_1_omN.root
+2013-09-04 14:07:44,258 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:44,259 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_10.xml
+2013-09-04 14:07:44,712 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_10_1_E2t.root
+2013-09-04 14:07:45,806 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:45,807 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_11.xml
+2013-09-04 14:07:46,242 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_11_1_3eg.root
+2013-09-04 14:07:47,103 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:47,104 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_12.xml
+2013-09-04 14:07:47,572 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_12_1_79S.root
+2013-09-04 14:07:48,461 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:48,462 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_13.xml
+2013-09-04 14:07:48,989 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_13_1_Xqx.root
+2013-09-04 14:07:49,879 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:49,880 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_15.xml
+2013-09-04 14:07:50,316 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_15_1_nQt.root
+2013-09-04 14:07:51,175 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:51,176 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_16.xml
+2013-09-04 14:07:51,632 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_16_1_J2O.root
+2013-09-04 14:07:52,471 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:52,472 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_17.xml
+2013-09-04 14:07:52,905 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_17_1_ho9.root
+2013-09-04 14:07:53,767 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:53,768 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_18.xml
+2013-09-04 14:07:54,327 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_18_1_d7g.root
+2013-09-04 14:07:55,295 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:55,296 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_19.xml
+2013-09-04 14:07:55,731 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_19_1_oH6.root
+2013-09-04 14:07:56,651 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:56,652 [DEBUG] 	FJR = /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/res//crab_fjr_20.xml
+2013-09-04 14:07:56,991 [DEBUG] 	--->>> LFN of file to publish =  /53xRelVal2011Redigi/marfin/RelValTTbar/53xRelVal2011Redigi/844a175eacc74cc51be2e7d71ca2539e/output_20_1_HJO.root
+2013-09-04 14:07:57,835 [DEBUG] 	--->>> Inserting file in blocks = ['/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER#b4d53e8a-31b9-4817-a4c1-d3bfeb1cc91e']
+2013-09-04 14:07:58,218 [INFO] 	--->>> End files publication
+2013-09-04 14:07:58,223 [INFO] 	--->>> Check data publication: dataset /RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER in DBS url https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet
+
+2013-09-04 14:07:58,665 [INFO] 	You can obtain more info about files of the dataset using: crab -checkPublication -USER.dataset_to_check=/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER -USER.dbs_url_for_publication=https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet -debug
+2013-09-04 14:08:11,876 [DEBUG] 	/afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_0/python/crab.py -checkPublication -USER.dataset_to_check=/RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER -USER.dbs_url_for_publication=https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet -debug
+
+2013-09-04 14:08:11,877 [INFO] 	Version 2.9.0 running on Wed Sep  4 14:08:11 2013 CET (12:08:11 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /build/marfin/CMSSW_5_3_11_patch6/src/HLTriggerOffline/Btag/test/crab_0_130904_121619/
+
+2013-09-04 14:08:11,877 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/allowed_releases.conf].
+2013-09-04 14:08:11,878 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdacbbd8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xdacbf38>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,913 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2013-09-04 14:08:11,914 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/glite_wms_CERN.conf].
+2013-09-04 14:08:11,914 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdacbbd8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xdc05638>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,927 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xdacbbd8>, 'conn': <httplib.HTTPSConnection instance at 0xdc05758>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,927 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xdacbbd8>, 'conn': <httplib.HTTPSConnection instance at 0xdc05638>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,927 [DEBUG] 	Input whitelist: 
+2013-09-04 14:08:11,928 [DEBUG] 	Input blacklist: 
+2013-09-04 14:08:11,928 [DEBUG] 	Converted whitelist: 
+2013-09-04 14:08:11,928 [DEBUG] 	Converted blacklist: 
+2013-09-04 14:08:11,928 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/myproxy_server.conf].
+2013-09-04 14:08:11,929 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdacbbd8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xdc05ef0>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,929 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/afs/cern.ch/user/m/marfin/.cms_crab/site_black_list.conf].
+2013-09-04 14:08:11,929 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/afs/cern.ch/user/m/marfin/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdacbbd8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xdc05ef0>}, 'logger': <logging.Logger instance at 0xdacbbd8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /afs/cern.ch/user/m/marfin/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2013-09-04 14:08:11,930 [DEBUG] 	Enforced black list: T1_DE,T1_ES,T1_FR,T1_IT,T1_TW,T1_US,T3_US_Vanderbilt_EC2
+ 
+2013-09-04 14:08:12,280 [INFO] 	--->>> Check data publication: dataset /RelValTTbar/marfin-53xRelVal2011Redigi-844a175eacc74cc51be2e7d71ca2539e/USER in DBS url https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_01_writer/servlet/DBSServlet
+

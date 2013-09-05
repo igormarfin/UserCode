@@ -56,6 +56,7 @@ l3TagInfo="hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV"
 l3JetTag="hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV"
 HLTPathName="HLT_DiJet40Eta2p6_BTagIP3DFastPV"
 processname="HLT"
+CMSSWVER="CMSSW_X_Y_Z"
 files="file:output.root"
 
 # set up variables
@@ -67,6 +68,7 @@ try:
  l3JetTag=ConfigSectionMap("l3")["jettag"]
  HLTPathName=ConfigSectionMap("l25")["hltpathname"]
  processname=ConfigSectionMap("l25")["processname"]
+ CMSSWVER=ConfigSectionMap("l25")["CMSSW_VER"]
  files=ConfigSectionMap("l25")["files"]
 except:
  print "Something wrong with ini"
@@ -98,9 +100,9 @@ massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("TriggerResults"
 
 
 
-process.dqmSaver.workflow = "/CMSSW_5_3_11/RelVal/TrigVal"
+process.dqmSaver.workflow = "/" + CMSSW_VER + "/RelVal/TrigVal"
 process.DQMStore.verbose=0
-process.maxEvents.input = 20
+process.maxEvents.input = -1
 
 process.source.fileNames.extend(files)
 #process.source.fileNames = cms.untracked.vstring(
