@@ -1,2 +1,5 @@
 # all root files
 *.root
+
+# all logs
+*crab_0_*
