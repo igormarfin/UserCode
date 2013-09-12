@@ -55,6 +55,7 @@ l25JetTag="hltBLifetimeL25BJetTagsbbPhiL1FastJetFastPV"
 l3TagInfo="hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV"
 l3JetTag="hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV"
 HLTPathName="HLT_DiJet40Eta2p6_BTagIP3DFastPV"
+jets="hltCaloJetL1FastJetCorrected"
 processname="HLT"
 CMSSWVER="CMSSW_X_Y_Z"
 files="file:output.root"
@@ -68,7 +69,8 @@ try:
  l3JetTag=ConfigSectionMap("l3")["jettag"]
  HLTPathName=ConfigSectionMap("l25")["hltpathname"]
  processname=ConfigSectionMap("l25")["processname"]
- CMSSWVER=ConfigSectionMap("l25")["CMSSW_VER"]
+ CMSSWVER=ConfigSectionMap("l25")["cmsswver"]
+ jets=ConfigSectionMap("l25")["hltjets"]
  files=ConfigSectionMap("l25")["files"]
 except:
  print "Something wrong with ini"
@@ -84,6 +86,10 @@ massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("hltBLifetimeL25
 massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV"),cms.InputTag(l3TagInfo,'',processname),verbose=True)
 massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV"),cms.InputTag(l3JetTag,'',processname))
 
+massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("hltCaloJetL1FastJetCorrected","","HLT"),cms.InputTag(jets,'',processname),verbose=True)
+massSearchReplaceAnyInputTag(process.hltpostvalidation,cms.InputTag("hltCaloJetL1FastJetCorrected","","HLT"),cms.InputTag(jets,'',processname),verbose=True)
+
+
 # fix path name in hltvalidation and hltpostvalidation
 massSearchReplaceParam(process.hltvalidation,"HLTPathName",cms.string('HLT_DiJet40Eta2p6_BTagIP3DFastPV'),HLTPathName)
 massSearchReplaceParam(process.hltpostvalidation,"HLTPathName",cms.string('HLT_DiJet40Eta2p6_BTagIP3DFastPV'),HLTPathName)
@@ -92,15 +98,17 @@ massSearchReplaceParam(process.hltpostvalidation,"HLTPathName",cms.string('HLT_D
 massSearchReplaceAnyInputTag(process.hltvalidation,cms.InputTag("TriggerResults"),cms.InputTag("TriggerResults",'',processname))
 
 
-#print l25TagInfo
-#print l3TagInfo
-#print l25JetTag
-#print l3JetTag
-#print HLTPathName
+print l25TagInfo
+print l3TagInfo
+print l25JetTag
+print l3JetTag
+print HLTPathName
+print  CMSSWVER
+print processname
+print files
+print jets
 
-
-
-process.dqmSaver.workflow = "/" + CMSSW_VER + "/RelVal/TrigVal"
+process.dqmSaver.workflow = "/" + CMSSWVER + "/RelVal/TrigVal"
 process.DQMStore.verbose=0
 process.maxEvents.input = -1
 
@@ -122,11 +130,14 @@ process.source.fileNames.extend(files)
 print process.source.fileNames
 
 
+
 #extra config needed in standalone
 process.load("L1TriggerConfig.L1GtConfigProducers.L1GtConfig_cff")
 #process.load("Configuration.StandardSequences.L1TriggerDefaultMenu_cff")
 #process.load("Configuration.StandardSequences.Geometry_cff")
-process.load("Configuration.Geometry.GeometryIdeal_cff")
+#process.load("Configuration.Geometry.GeometryIdeal_cff")
+
+process.load("Configuration.StandardSequences.Geometry_cff")
 process.load("HLTriggerOffline.Btag.Validation.hltJetMCTools_cff")
 process.validation = cms.Path(
     process.hltvalidation
@@ -146,6 +157,8 @@ process.post_validation = cms.Path(
     )
 
 process.extra_jetmctools  = cms.Path( process.hltJetMCTools )
+
+massSearchReplaceAnyInputTag(process.extra_jetmctools,cms.InputTag("hltCaloJetL1FastJetCorrected","","HLT"),cms.InputTag(jets,'',processname),verbose=True)
 
 
 process.EDMtoMEconv_and_saver= cms.Path(process.EDMtoMEConverter*process.dqmSaver)

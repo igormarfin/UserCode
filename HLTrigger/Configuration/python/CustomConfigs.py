@@ -1,18 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-def ProcessName(process):
-#   processname modifications
-
-    if 'hltTrigReport' in process.__dict__:
-        process.hltTrigReport.HLTriggerResults = cms.InputTag( 'TriggerResults','',process.name_() )
-
-    if 'hltDQMHLTScalers' in process.__dict__:
-        process.hltDQMHLTScalers.triggerResults = cms.InputTag( 'TriggerResults','',process.name_() )
-
-    if 'hltDQML1SeedLogicScalers' in process.__dict__:
-        process.hltDQML1SeedLogicScalers.processname = process.name_()
-
-    return(process)
+from HLTrigger.Configuration import customizeHLTforL1Emulator
 
 
 def Base(process):
@@ -24,12 +12,14 @@ def Base(process):
     process.MessageLogger.categories.append('L1GtTrigReport')
     process.MessageLogger.categories.append('HLTrigReport')
 
-# override the GlobalTag, connection string and pfnPrefix
-    if 'GlobalTag' in process.__dict__:
-        process.GlobalTag.connect   = 'frontier://FrontierProd/CMS_COND_31X_GLOBALTAG'
-        process.GlobalTag.pfnPrefix = cms.untracked.string('frontier://FrontierProd/')
-        
-    process=ProcessName(process)
+    if 'hltTrigReport' in process.__dict__:
+        process.hltTrigReport.HLTriggerResults = cms.InputTag( 'TriggerResults','',process.name_() )
+
+    if 'hltDQMHLTScalers' in process.__dict__:
+        process.hltDQMHLTScalers.triggerResults = cms.InputTag( 'TriggerResults','',process.name_() )
+
+    if 'hltDQML1SeedLogicScalers' in process.__dict__:
+        process.hltDQML1SeedLogicScalers.processname = process.name_()
 
     return(process)
 
@@ -51,23 +41,26 @@ def L1T(process):
 def L1THLT(process):
 #   modifications when running L1T+HLT
 
-    if not ('HLTAnalyzerEndpath' in process.__dict__) :
-        from HLTrigger.Configuration.HLT_FULL_cff import hltL1GtTrigReport,hltTrigReport
-        process.hltL1GtTrigReport = hltL1GtTrigReport
-        process.hltTrigReport = hltTrigReport
-        process.HLTAnalyzerEndpath = cms.EndPath(process.hltL1GtTrigReport +  process.hltTrigReport)
-        process.schedule.append(process.HLTAnalyzerEndpath)
-
     process=Base(process)
 
     return(process)
 
 
-def FASTSIM(process):
-#   modifications when running L1T+HLT
+def L1THLT2(process):
+#   modifications when re-running L1T+HLT    
 
-    process=L1THLT(process)
-    process.hltL1GtTrigReport.L1GtRecordInputTag = cms.InputTag("gtDigis")
+#   run trigger primitive generation on unpacked digis, then central L1
+
+    process.load("L1Trigger.Configuration.CaloTriggerPrimitives_cff")
+    process.simEcalTriggerPrimitiveDigis.Label = 'ecalDigis'
+    process.simHcalTriggerPrimitiveDigis.inputLabel = ('hcalDigis', 'hcalDigis')
+
+#   patch the process to use 'sim*Digis' from the L1 emulator
+#   instead of 'hlt*Digis' from the RAW data
+
+    patchToRerunL1Emulator.switchToSimGtDigis( process )
+
+    process=Base(process)
 
     return(process)
 
