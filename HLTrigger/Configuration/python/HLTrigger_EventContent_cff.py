@@ -327,22 +327,22 @@ HLTDebugFEVT  = cms.PSet(
         'keep *_hltAntiKT5CaloJets_*_*',
         'keep *_hltAntiKT5PFJetsForTaus_*_*',
         'keep *_hltAntiKT5PFJets_*_*',
-#        'keep *_hltBLifetimeL25AssociatorbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeL25BJetTagsbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeL25TagInfosbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeL3AssociatorbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBLifetimeRegionalCtfWithMaterialTracksbbPhiL1FastJetFastPV_*_*',
-#        'keep *_hltBSoftMuonDiJet110Mu5L3FilterByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet110Mu5SelL3BJetTagsByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet20Mu5L3FilterByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet20Mu5SelL3BJetTagsByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet40Mu5L3FilterByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet40Mu5SelL3BJetTagsByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet70Mu5L3FilterByDR_*_*',
-#        'keep *_hltBSoftMuonDiJet70Mu5SelL3BJetTagsByDR_*_*',
-#        'keep *_hltBSoftMuonMu5L3_*_*',
+        'keep *_hltBLifetimeL25AssociatorbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBLifetimeL25BJetTagsbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBLifetimeL25TagInfosbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBLifetimeL3AssociatorbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV_*_*',
+       'keep *_hltBLifetimeRegionalCtfWithMaterialTracksbbPhiL1FastJetFastPV_*_*',
+        'keep *_hltBSoftMuonDiJet110Mu5L3FilterByDR_*_*',
+        'keep *_hltBSoftMuonDiJet110Mu5SelL3BJetTagsByDR_*_*',
+        'keep *_hltBSoftMuonDiJet20Mu5L3FilterByDR_*_*',
+        'keep *_hltBSoftMuonDiJet20Mu5SelL3BJetTagsByDR_*_*',
+        'keep *_hltBSoftMuonDiJet40Mu5L3FilterByDR_*_*',
+        'keep *_hltBSoftMuonDiJet40Mu5SelL3BJetTagsByDR_*_*',
+        'keep *_hltBSoftMuonDiJet70Mu5L3FilterByDR_*_*',
+        'keep *_hltBSoftMuonDiJet70Mu5SelL3BJetTagsByDR_*_*',
+        'keep *_hltBSoftMuonMu5L3_*_*',
 # 2011
         'keep *_hltBLifetimeL25AssociatorHbb_*_*',
         'keep *_hltBLifetimeL25BJetTagsHbb_*_*',
@@ -353,6 +353,23 @@ HLTDebugFEVT  = cms.PSet(
         'keep *_hltBLifetimeRegionalCtfWithMaterialTracksHbb_*_*',
         'keep *_hltBSoftMuonDiJet*_*_*',
         'keep *_hltBSoftMuonMu5L3_*_*',
+# PU study with HLT_QuadJet75_55_35_20_BTagIP_VBF_v7
+	
+# needed collection:
+# L25
+ 'keep *_hltCaloJetL1FastJetCorrected_*_*',
+ 'keep *_hltBLifetimeL25JetsHbbVBF_*_*',
+ 'keep *_hltBLifetimeL25TagInfosHbbVBF_*_*',
+ 'keep *_hltBLifetimeL25AssociatorHbbVBF_*_*',
+ 'keep *_hltBLifetimeL25BJetTagsHbbVBF_*_*',
+# L3
+ 'keep *_hltBLifetimeRegionalCtfWithMaterialTracksHbbVBF_*_*',
+ 'keep *_hltBLifetimeRegionalCkfTrackCandidatesHbbVBF_*_*',
+ 'keep *_hltBLifetimeL3AssociatorbbHbbVBF_*_*',
+ 'keep *_hltBLifetimeL3TagInfosHbbVBF_*_*',
+ 'keep *_hltBLifetimeL3BJetTagsHbbVBF_*_*',
+# 
+
 # 2012 continuing
 
         'keep *_hltCaloJetCorrectedRegional_*_*',

@@ -1,5 +1,5 @@
 from HLTriggerOffline.Muon.HLTMuonVal_cff import *
-from HLTriggerOffline.Tau.Validation.HLTTauValidation_cff import *
+#from HLTriggerOffline.Tau.Validation.HLTTauValidation_cff import *
 from HLTriggerOffline.Egamma.EgammaValidationAutoConf_cff import *
 from HLTriggerOffline.Top.topvalidation_cfi import *
 from HLTriggerOffline.Common.FourVectorHLTriggerOffline_cff import *
@@ -16,7 +16,7 @@ from DQMOffline.Trigger.HLTTauDQMOffline_cff import *
 from DQMOffline.Trigger.EgHLTOfflineSource_cfi import *
 #from DQMOffline.Trigger.MuonTrigRateAnalyzer_cfi import *
 # online dqm:
-from DQMOffline.Trigger.HLTMonTau_cfi import *
+#from DQMOffline.Trigger.HLTMonTau_cfi import *
 
 # additional producer sequence prior to hltvalidation
 # to evacuate producers/filters from the EndPath
@@ -40,49 +40,49 @@ hltvalidation = cms.Sequence(
 # additional producer sequence prior to hltvalidation_fastsim
 # to evacuate producers from the EndPath
 hltassociation_fastsim = cms.Sequence(
-    HLTMuonAss_FastSim
-  + egammaSelectors
-  + hltTauRef
+#    HLTMuonAss_FastSim
+#  + egammaSelectors
+#  + hltTauRef
 )
 
 hltvalidation_fastsim = cms.Sequence(
-     HLTMuonVal_FastSim
-    +HLTTauValFS
-    +egammaValidationSequenceFS
-    +HLTTopVal
-    +HLTFourVector
-    +heavyFlavorValidationSequence
-    +HLTJetMETValSeq
-    #+HLTAlCaVal_FastSim
-    +HLTSusyExoValSeq_FastSim
-    +HiggsValidationSequence
+ #    HLTMuonVal_FastSim
+ #   +HLTTauValFS
+ #   +egammaValidationSequenceFS
+ #   +HLTTopVal
+ #   +HLTFourVector
+ #   +heavyFlavorValidationSequence
+ #   +HLTJetMETValSeq
+ #   #+HLTAlCaVal_FastSim
+ #   +HLTSusyExoValSeq_FastSim
+ #   +HiggsValidationSequence
     )
 
 hltvalidation_preprod = cms.Sequence(
-  HLTTauVal
-  +HLTTopVal
-  +HLTFourVector
-  +heavyFlavorValidationSequence
-  +HLTSusyExoValSeq
+ # HLTTauVal
+ # +HLTTopVal
+ # +HLTFourVector
+ # +heavyFlavorValidationSequence
+ # +HLTSusyExoValSeq
  #+HiggsValidationSequence
  )
 
 hltvalidation_preprod_fastsim = cms.Sequence(
- HLTTauVal
- +HLTTopVal
- +HLTFourVector
- +heavyFlavorValidationSequence
- +HLTSusyExoValSeq_FastSim
+ #HLTTauVal
+ #+HLTTopVal
+ #+HLTFourVector
+ #+heavyFlavorValidationSequence
+ #+HLTSusyExoValSeq_FastSim
 #+HiggsValidationSequence
 )
 
 hltvalidation_prod = cms.Sequence(
-  HLTFourVector
+ # HLTFourVector
   )
 
 trigdqm_forValidation = cms.Sequence(
-    hltMonTauReco+HLTTauDQMOffline
-    +egHLTOffDQMSource
+ #   hltMonTauReco+HLTTauDQMOffline
+ #   +egHLTOffDQMSource
     )
 
 hltvalidation_withDQM = cms.Sequence(

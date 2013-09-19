@@ -40,13 +40,13 @@ bool RequireModule::filter(edm::Event & event, const edm::EventSetup & setup)
   event.getAllProvenance(provenances);
 
   edm::ArbitraryHandle handle;
-//    std::cout<<"my moduleLabel "<< m_requirement.label() <<std::endl;
- //   std::cout<<"my instancec "<< m_requirement.instance()<<std::endl;
- //   std::cout<<"my process "<< m_requirement.process() <<std::endl;
+//     std::cout<<"my moduleLabel "<< m_requirement.label() <<std::endl;
+//    std::cout<<"my instancec "<< m_requirement.instance()<<std::endl;
+//    std::cout<<"my process "<< m_requirement.process() <<std::endl;
     
   for (unsigned int i = 0; i < provenances.size(); ++i) {
 //    std::cout<<"i="<<i<<std::endl;
- //   std::cout<<"moduleLabel "<< provenances[i]->moduleLabel() <<std::endl;
+//   std::cout<<"moduleLabel "<< provenances[i]->moduleLabel() <<std::endl;
 //    std::cout<<"instancec "<< provenances[i]->productInstanceName()<<std::endl;
 //    std::cout<<"process "<< provenances[i]->processName() <<std::endl;
 //    event.get(provenances[i]->productID(), handle);

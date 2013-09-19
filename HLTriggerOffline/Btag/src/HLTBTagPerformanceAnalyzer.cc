@@ -99,12 +99,23 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
 //   std::cout<<"HLT path index is "<<hltPathIndex_<<std::endl;
    if ( triggerResults.accept(hltPathIndex_) )
    {
+//	std::cout<<"HLT path index is accepted "<<hltPathIndex_<<std::endl;
+
    // ONLINE BTAGGING  
 
-
-      Handle<reco::TrackIPTagInfoCollection> l25IPTagInfoHandler;
+      double L25Ok=false;
+      double L3Ok=false;
       
-//	std::cout<<"HLT path index is accepted "<<hltPathIndex_<<std::endl;
+      Handle<reco::TrackIPTagInfoCollection> l25IPTagInfoHandler;      
+      Handle<reco::TrackIPTagInfoCollection> l3IPTagInfoHandler;
+      Handle<reco::JetTagCollection> l25JetTagHandler;
+      Handle<reco::JetTagCollection> l3JetTagHandler;
+
+     reco::TrackIPTagInfoCollection l25IPTagInfos;
+     reco::TrackIPTagInfoCollection l3IPTagInfos;
+
+      JetTagMap l25JetTag;
+      JetTagMap l3JetTag;
 
       if ( l25IPTagInfoCollection_.label() != "" && l25IPTagInfoCollection_.label() != "NULL" )
       {
@@ -114,14 +125,14 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
         try {
         if (l25IPTagInfoHandler.isValid())   {
 
-	         const reco::TrackIPTagInfoCollection & l25IPTagInfos = *(l25IPTagInfoHandler.product());
+//	         const reco::TrackIPTagInfoCollection & l25IPTagInfos = *(l25IPTagInfoHandler.product());
+	       	l25IPTagInfos = *(l25IPTagInfoHandler.product());
+
 //        	 std::cout<<"size of L25  TagInfog collection "<<l25IPTagInfos.size()<<std::endl;
 	         // JetTag L25
-	         Handle<reco::JetTagCollection> l25JetTagHandler;
 	         iEvent.getByLabel(l25JetTagCollection_, l25JetTagHandler);
                  if (l25JetTagHandler.isValid())  {
 	        	 // Btag mapping
-		         JetTagMap l25JetTag; 
 //        		 std::cout<<"I'm filling l25JetTag"<<std::endl;  
 	         for ( reco::JetTagCollection::const_iterator iter = l25JetTagHandler->begin(); iter != l25JetTagHandler->end(); iter++ )
         	     l25JetTag.insert(JetTagMap::value_type(iter->first, iter->second));
@@ -130,19 +141,21 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
         	    const reco::TrackIPTagInfo & l25IPTag = l25IPTagInfos[j];
 	            // jet
         	    RefToBase<reco::Jet> jet  = l25IPTag.jet();
-	            H1_["JetTag_L25"] -> Fill(l25JetTag[jet]);
-//			std::cout<<"# "<<j<<" "<<l25JetTag[jet]<<std::endl;
-        	 }
+ /// will be filled later with MC info
+//                   H1_["JetTag_L25"] -> Fill(l25JetTag[jet]); 
+
+//		std::cout<<"# "<<j<<" "<<l25JetTag[jet]<<std::endl;
+      	 }
+
+	L25Ok=true;
+
 	} // l25IPJetTagHandler.isValid()
 	} // l25IPTagInfoHandler.isValid()
-      } catch (...) { std::cout<<"Exception caught"<<std::endl;}
+      } catch (...) { std::cout<<"Exception caught in L25"<<std::endl;}
       } 
     else std::cout<<"troubles with  l25IPTagInfoCollection. The label is empty!"<<std::endl;
 
  
-      Handle<reco::TrackIPTagInfoCollection> l3IPTagInfoHandler;
-      reco::TrackIPTagInfoCollection l3IPTagInfos;
-      JetTagMap l3JetTag;
     
    if ( l3IPTagInfoCollection_.label() != "" && l3IPTagInfoCollection_.label() != "NULL" ) {   
       // IPTagInfo L3
@@ -154,11 +167,9 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
 	       	l3IPTagInfos = *(l3IPTagInfoHandler.product());
    
 	      // JetTag L3
-	      Handle<reco::JetTagCollection> l3JetTagHandler;
 	      iEvent.getByLabel(l3JetTagCollection_, l3JetTagHandler);
 	      if (l3JetTagHandler.isValid())  {      
 	      // Btag mapping
-//	        JetTagMap l3JetTag;
 	      for ( reco::JetTagCollection::const_iterator iter = l3JetTagHandler->begin(); iter != l3JetTagHandler->end(); iter++ )
 	          l3JetTag.insert(JetTagMap::value_type(iter->first, iter->second));      
 	      for ( size_t j = 0; j != l3IPTagInfos.size(); ++j )
@@ -166,9 +177,12 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
         	 const reco::TrackIPTagInfo & l3IPTag = l3IPTagInfos[j];
 	         // jet
         	 RefToBase<reco::Jet> jet  = l3IPTag.jet();
-	         H1_["JetTag_L3"] -> Fill(l3JetTag[jet]);
+ /// will be filled later with MC info
+//	         H1_["JetTag_L3"] -> Fill(l3JetTag[jet]);
 //		  std::cout<<"l3: # "<<j<<" "<<l3JetTag[jet]<<std::endl;       
       }
+	L3Ok=true;
+
         } // l3IPJetTagHandler.isValid()
         } // l3IPTagInfoHandler.isValid()
       } catch (...) { std::cout<<"Exception caught"<<std::endl;}
@@ -179,72 +193,72 @@ HLTBTagPerformanceAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSe
 
   // GEN MATCHING  & FLAVOUR DEPENDENT PLOTS for L25 & L3
   // match to MC parton flavour - accessed on demand
+
+
           if (m_mcMatching) {
-
-
 	  edm::Handle<reco::JetFlavourMatchingCollection> h_mcPartons;
 	   iEvent.getByLabel(m_mcPartons, h_mcPartons);
 
+double  MCOK=false;
 
-    if ( l25IPTagInfoCollection_.label() != "" && l25IPTagInfoCollection_.label() != "NULL" ) {
+try {
+if (h_mcPartons.isValid()) MCOK=true;
+
+} catch(...){ std::cout<<"Partons collection is not valid "<<std::endl;}
+
+if (! MCOK) std::cout<<"Something wrong with partons "<<std::endl;
+
+    if ( L25Ok && MCOK) {
+//    std::cout<<"Trying L25 for matching "<<std::endl;
     try {
-	    if (l25IPTagInfoHandler.isValid())
-	      {
+//			std::cout<<"Lets go trought the jet before"<<std::endl;
 
-		
-         const reco::TrackIPTagInfoCollection & l25IPTagInfos = *(l25IPTagInfoHandler.product());
-         // JetTag L25
-         Handle<reco::JetTagCollection> l25JetTagHandler;
-         iEvent.getByLabel(l25JetTagCollection_, l25JetTagHandler);
-         if (l25JetTagHandler.isValid()) {
 		for ( reco::JetTagCollection::const_iterator iter = l25JetTagHandler->begin(); iter != l25JetTagHandler->end(); iter++ )
 	        {
+//			std::cout<<"Lets go trought the jet after"<<std::endl;
 		     edm::RefToBase<reco::Jet> jetBase=     iter->first;
+//                     std::cout<<"Jet pt "<<jetBase->pt()<<std::endl;
 		    ///matching L25  to partons       
         	    // match to MC parton
 	          unsigned int flavour = 0;
         	    int m = closestJet(jetBase, *h_mcPartons, m_mcRadius);
+//		std::cout<<"Closest parton with # "<<m<<std::endl;
 	            flavour = (m != -1) ? abs((*h_mcPartons)[m].second.getFlavour()) : 0;
 
 		            for (unsigned int i = 0; i < m_mcLabels.size(); ++i) {
 				 TString flavour_str= m_mcLabels[i].c_str();         
+//                                 std::cout<<"Falvour is "<<flavour_str<<std::endl;
 				flavours_t flav_collection=  m_mcFlavours[i];
         		        flavours_t::iterator it = std::find(flav_collection.begin(), flav_collection.end(), flavour);
 		                if (it!= flav_collection.end()) 	{
+
+
+                   H1_["JetTag_L25"] -> Fill(iter->second); 
+
 						TString label="JetTag_L25_";
 						 label+=flavour_str;
 						     H1_[label.Data()]->Fill( iter->second);                       
 						    label="JetTag_L25_";
 						    label+=flavour_str+TString("_disc_pT");
 						    H2_[label.Data()]->Fill(iter->second,jetBase->pt());
-//                                                    std::cout<<"Found matched L25 jet "<<jetBase->pt()<<" of flav. "<<flavour_str<<std::endl;
+                                                    //std::cout<<"Found matched L25 jet "<<jetBase->pt()<<" of flav. "<<flavour_str<<std::endl;
 					} /// if it
                  
 			} ///mcLabels
 
      }//for reco::JetTagCollection L25
 
-    } ///if l25JetTagHandler.isValid()
 
-     } // if (l25IPTagInfoHandler.isValid())
-
-     } catch (...) {std::cout<<"Exception caught"<<std::endl;}
+     } catch (...) {std::cout<<"Exception caught in L25 for matching"<<std::endl;}
 
 	} /// if l25IPTagInfoCollection
 
 
 try {
-     if ( l3IPTagInfoCollection_.label() != "" && l3IPTagInfoCollection_.label() != "NULL" ) 
-	if (l3IPTagInfoHandler.isValid())  
-    {
+     if ( L3Ok && MCOK) 
 		
-         const reco::TrackIPTagInfoCollection & l3IPTagInfos = *(l3IPTagInfoHandler.product());
-         // JetTag L3
-         Handle<reco::JetTagCollection> l3JetTagHandler;
-         iEvent.getByLabel(l3JetTagCollection_, l3JetTagHandler);
-                if (l3JetTagHandler.isValid()) {
 		for ( reco::JetTagCollection::const_iterator iter = l3JetTagHandler->begin(); iter != l3JetTagHandler->end(); iter++ )
-        {
+	        {
 	     edm::RefToBase<reco::Jet> jetBase=     iter->first;
     ///matching L3  to partons       
           // match to MC parton
@@ -258,6 +272,8 @@ try {
 				flavours_t flav_collection=  m_mcFlavours[i];
                 flavours_t::iterator it = std::find(flav_collection.begin(), flav_collection.end(), flavour);
                 if (it!= flav_collection.end()) 	{
+                        
+					 H1_["JetTag_L3"] -> Fill(iter->second);
 						TString label="JetTag_L3_";
 						 label+=flavour_str;
 					     H1_[label.Data()]->Fill( iter->second);                       
@@ -272,8 +288,6 @@ try {
 
 		} //for  l3JetTagHandler
 
-		} // if l3JetTagHandler.isValid()
-	} /// if l3IPTagInfoCollection_.label
    } catch(...) {std::cout<<"Exception caught"<<std::endl;}
  
         } ///matching
