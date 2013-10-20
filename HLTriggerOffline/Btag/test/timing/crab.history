@@ -1,0 +1,17 @@
+130924_131651: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_131741: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_132012: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_132103: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_132659: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -status
+130924_132723: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_132806: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -create -submit
+130924_140837: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132103 -status
+130924_140854: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132723 -status
+130924_140910: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132806 -status
+130924_162452: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132103 -status
+130924_162518: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132723 -status
+130924_162811: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132723 -getoutput
+130924_163007: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132723 -status
+130924_171031: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132806 -status
+130924_171059: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132806 -getoutput
+130924_181722: /afs/naf.desy.de/group/cms/crab/CRAB_2_8_8/python/crab.py -c crab_0_130924_132103 -status

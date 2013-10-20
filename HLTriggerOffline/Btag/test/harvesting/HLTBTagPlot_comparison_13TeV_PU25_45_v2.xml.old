@@ -1,0 +1,275 @@
+
+<cuy>
+
+
+  <validation type="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root" file="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root" release="x.y.z">
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root:/DQMData/Run 1/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/BTag/ -->
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_b"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_b_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_c"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_c_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_g" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_g"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_g_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_g_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_light"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_light_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_uds" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_uds"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_uds_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_uds_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_b"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_b_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_c"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_c_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_g" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_g"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_g_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_g_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_light"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_light_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_uds" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_uds"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_uds_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_uds_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_Offline" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_Offline"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_OffvsL3" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_OffvsL3"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_HLT_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_HLT_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_HLT_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_z"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_Off_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_Off_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_Off_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_z"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_OffvsHLT_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_OffvsHLT_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_Vertex_OffvsHLT_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_z"/>
+
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/ -->
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_b_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_b_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_c_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_c_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_g_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_g_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_g_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_g_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_light_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_light_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_uds_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_uds_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_uds_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_uds_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_b_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_b_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_c_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_c_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_g_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_g_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_g_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_g_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_light_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_light_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_uds_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_uds_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_uds_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_uds_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L25_b_c_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_c_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L25_b_g_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_g_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L25_b_light_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_light_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L3_b_c_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_c_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L3_b_g_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_g_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L3_b_light_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_light_mistagrate"/>
+
+  </validation>
+
+
+  <validation type="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root" file="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root" release="x.y.z">
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root:/DQMData/Run 1/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/ -->
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/BTag/ -->
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_b"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_b_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_c"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_c_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_g" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_g"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_g_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_g_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_light"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_light_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_uds" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_uds"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_uds_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L25_uds_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_b"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_b_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_c"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_c_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_g" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_g"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_g_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_g_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_light"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_light_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_uds" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_uds"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_uds_disc_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_L3_uds_disc_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_Offline" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_Offline"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_OffvsL3" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/JetTag_OffvsL3"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_HLT_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_HLT_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_HLT_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_HLT_z"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_Off_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_Off_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_Off_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_Off_z"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_OffvsHLT_x" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_x"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_OffvsHLT_y" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_y"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_Vertex_OffvsHLT_z" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/Vertex_OffvsHLT_z"/>
+   <!-- DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal.root:/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/ -->
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_b_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_b_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_c_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_c_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_g_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_g_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_g_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_g_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_light_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_light_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_uds_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_uds_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_uds_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L25_uds_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_b_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_b_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_c_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_c_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_g_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_g_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_g_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_g_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_light_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_light_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_uds_disc_pT_efficiency_vs_pT" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_uds_disc_pT_efficiency_vs_pT"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_uds_efficiency_vs_disc" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/JetTag_L3_uds_efficiency_vs_disc"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L25_b_c_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_c_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L25_b_g_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_g_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L25_b_light_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L25_b_light_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L3_b_c_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_c_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L3_b_g_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_g_mistagrate"/>
+   <TH1 name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L3_b_light_mistagrate" source="/DQMData/Run 1/HLT/Run summary/BTag/HLT_QuadJet75_55_35_20_BTagIP_VBF_v7/efficiency/L3_b_light_mistagrate"/>
+
+  </validation>
+
+
+<!-- comparison 
+-->
+
+<superimpose name="JetTagL25" title="JetTagL25" SetLogy="false" SetGrid="true" XTitle="Discriminator" YTitle="a.u" Option="Hist" Normalize="true">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25" color="1" MarkerStyle="22" legend="JetTag_L25@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25" color="2" MarkerStyle="22" legend="JetTag_L25@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="JetTagL25_Log" title="JetTagL25 Log scale" SetLogy="true" SetGrid="true" XTitle="Discriminator" YTitle="a.u" Option="Hist" Normalize="true">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25" color="1" MarkerStyle="22" legend="JetTag_L25@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25" color="2" MarkerStyle="22" legend="JetTag_L25@13TeV_PU45v2"/>
+</superimpose>
+
+
+<superimpose name="JetTagL3" title="JetTagL3" SetLogy="false" SetGrid="true" XTitle="Discriminator" YTitle="a.u" Option="Hist" Normalize="true">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3" color="1" MarkerStyle="22" legend="JetTag_L3@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3" color="2" MarkerStyle="22" legend="JetTag_L3@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="JetTagL25_Log" title="JetTagL3 Log scale" SetLogy="true" SetGrid="true" XTitle="Discriminator" YTitle="a.u" Option="Hist" Normalize="true">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3" color="1" MarkerStyle="22" legend="JetTag_L3@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3" color="2" MarkerStyle="22" legend="JetTag_L3@13TeV_PU45v2"/>
+</superimpose>
+
+
+
+ <divide name="L25_ratio" numerator="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25" 
+ denominator="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25"/>
+ <divide name="L3_ratio" numerator="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3" 
+ denominator="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3"/>
+
+ <superimpose name="JetTagL25_ratio" title="Ratio of JetTags" SetLogy="false" XTitle="Discriminator" YTitle="a.u" Option="E1">
+ <superimposeItem name="L25_ratio"  color="1" MarkerStyle="22" legend="13TeVv2/13TeV_PU45v2@L25"/>
+ <superimposeItem name="L3_ratio"  color="2" MarkerStyle="22" legend="13TeVv2/13TeV_PU45v2@L3"/>
+ </superimpose>
+
+
+<superimpose name="EffvsL25_c" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(c)vsL25@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(c)vsL25@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="EffvsL23_c" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(c)vsL3@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(c)vsL3@13TeV_PU45v2"/>
+</superimpose>
+
+
+<superimpose name="EffvsL25_b" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(b)vsL25@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(b)vsL25@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="EffvsL23_b" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(b)vsL3@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(b)vsL3@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="EffvsL25_udsg" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(udsg)vsL25@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(udsg)vsL25@13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="EffvsL3_udsg" title="Efficiency vs JetTag" SetLogy="false" SetGrid="true" XTitle="JetTag" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light_efficiency_vs_disc" color="1" MarkerStyle="22" legend="eff(udsg)vsL3@13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light_efficiency_vs_disc" color="2" MarkerStyle="22" legend="eff(udsg)vsL3@13TeV_PU45v2"/>
+</superimpose>
+
+
+<superimpose name="mistag_c_vs_effb_L25" title="Mistag-rate vs Efficiency(b)" SetLogy="true" SetGrid="true" XTitle="Efficiency(b)" YTitle="Mistag-rate" Option="P0" >
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L25_b_c_mistagrate" Option="P0" color="1" MarkerStyle="22" legend="mistag-rate(c)@L25_13TeVv2" />
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L25_b_c_mistagrate" Option="P0" color="2" MarkerStyle="22" legend="mistag-rate(c)@L25_13TeV_PU45v2" />
+</superimpose>
+
+<superimpose name="mistag_light_vs_effb_L25" title="Mistag-rate vs Efficiency(b)" SetLogy="true" SetGrid="true" XTitle="Efficiency(b)" YTitle="Mistag-rate" Option="P0" >
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L25_b_light_mistagrate" Option="P0" color="1" MarkerStyle="22" legend="mistag-rate(udsg)@L25_13TeVv2" />
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L25_b_light_mistagrate" Option="P0" color="2" MarkerStyle="22" legend="mistag-rate(udsg)@L25_13TeV_PU45v2" />
+</superimpose>
+
+<superimpose name="mistag_c_vs_effb_L3" title="Mistag-rate vs Efficiency(b)" SetLogy="true" SetGrid="true" XTitle="Efficiency(b)" YTitle="Mistag-rate" Option="P0" >
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L3_b_c_mistagrate" Option="P0" color="1" MarkerStyle="22" legend="mistag-rate(c)@L3_13TeVv2" />
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L3_b_c_mistagrate" Option="P0" color="2" MarkerStyle="22" legend="mistag-rate(c)@L3_13TeV_PU45v2" />
+</superimpose>
+
+<superimpose name="mistag_light_vs_effb_L3" title="Mistag-rate vs Efficiency(b)" SetLogy="true" SetGrid="true" XTitle="Efficiency(b)" YTitle="Mistag-rate" Option="P0" >
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_L3_b_light_mistagrate" Option="P0" color="1" MarkerStyle="22" legend="mistag-rate(udsg)@L3_13TeVv2" />
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_L3_b_light_mistagrate" Option="P0" color="2" MarkerStyle="22" legend="mistag-rate(udsg)@L3_13TeV_PU45v2" />
+</superimpose>
+
+
+	
+
+<superimpose name="Eff_b_vsPt_L25" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_b_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(b)@L25vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_b_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(b)@L25vspT_13TeV_PU45v2"/>
+</superimpose>
+	
+
+<superimpose name="Eff_c_vsPt_L25" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Maximum="0.3" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_c_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(c)@L25vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_c_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(c)@L25vspT_13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="Eff_udsg_vsPt_L25" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Maximum="0.3" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L25_light_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(udsg)@L25vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L25_light_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(udsg)@L25vspT_13TeV_PU45v2"/>
+</superimpose>
+	
+
+
+<superimpose name="Eff_b_vsPt_L3" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_b_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(b)@L3vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_b_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(b)@L3vspT_13TeV_PU45v2"/>
+</superimpose>
+	
+
+<superimpose name="Eff_c_vsPt_L3" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Maximum="0.3" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_c_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(c)@L3vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_c_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(c)@L3vspT_13TeV_PU45v2"/>
+</superimpose>
+
+<superimpose name="Eff_udsg_vsPt_L3" title="Efficiency vs pT" SetLogy="false" SetGrid="true" XTitle="pT [GeV]" YTitle="Efficiency" Maximum="0.3" Option="Hist">
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeVv2__RelVal__TrigVal_JetTag_L3_light_disc_pT_efficiency_vs_pT" color="1" MarkerStyle="22" legend="eff(udsg)@L3vspT_13TeVv2"/>
+<superimposeItem name="DQM_V0001_R000000001__CMSSW_5_3_11_13TeV_PU45v2__RelVal__TrigVal_JetTag_L3_light_disc_pT_efficiency_vs_pT" color="2" MarkerStyle="22" legend="eff(udsg)@L3vspT_13TeV_PU45v2"/>
+</superimpose>
+	
+
+
+
+
+</cuy>
+

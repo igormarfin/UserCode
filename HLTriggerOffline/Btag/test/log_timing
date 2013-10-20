@@ -1,0 +1,15 @@
+23-Sep-2013 16:47:15 CEST  Initiating request to open file dcap://dcache-cms-dcap.desy.de//pnfs/desy.de/cms/tier2/store/mc/Summer13dr53X/TTbar_TuneZ2star_13TeV-pythia6-tauola/GEN-SIM-RAW/PU25bx25_START53_V19D-v1/20000/50B096FD-A1DF-E211-BEA7-001E67398E49.root
+23-Sep-2013 16:47:17 CEST  Successfully opened file dcap://dcache-cms-dcap.desy.de//pnfs/desy.de/cms/tier2/store/mc/Summer13dr53X/TTbar_TuneZ2star_13TeV-pythia6-tauola/GEN-SIM-RAW/PU25bx25_START53_V19D-v1/20000/50B096FD-A1DF-E211-BEA7-001E67398E49.root
+----- Begin Fatal Exception 23-Sep-2013 16:49:11 CEST-----------------------
+An exception of category 'FailModule' occurred while
+   [0] Processing run: 1 lumi: 48 event: 13537
+   [1] Running path 'HLT_Mu15_eta2p1_L1Mu10erJetC12WdEtaPhi1DiJetsC_v3'
+   [2] Calling event method for module HLTLevel1GTSeed/'hltL1sL1Mu10erJetC20JetC12Corr1OrL1Mu10erJetC32OrMu10erJetC32JetC12Corr1OrMu12erOrMu14er'
+Exception Message:
+
+Algorithm  L1_SingleMu12er, requested as seed by a HLT path, not found in the L1 trigger menu
+   L1Menu_Collisions2012_v1/L1T_Scales_20101224/Imp0
+Incompatible L1 and HLT menus.
+
+----- End Fatal Exception -------------------------------------------------
+23-Sep-2013 16:49:11 CEST  Closed file dcap://dcache-cms-dcap.desy.de//pnfs/desy.de/cms/tier2/store/mc/Summer13dr53X/TTbar_TuneZ2star_13TeV-pythia6-tauola/GEN-SIM-RAW/PU25bx25_START53_V19D-v1/20000/50B096FD-A1DF-E211-BEA7-001E67398E49.root

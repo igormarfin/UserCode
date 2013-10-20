@@ -1,0 +1,1805 @@
+hltTimingSummary output at a glance: 
+
+Input file: outputTiming.root
+Output root file name: outfile.root
+
+NOTE: Results obtained using CPU time.
+      Due to resolution effects in CPUTimer, event histograms may not reflect reality.
+      Please be aware of these limitations when drawing your conclusions.
+
+Skipping 37 event(s) due to module initialization:
+Events 0, 4, 1, 13, 23, 2, 3, 8, 15, 6, 62, 29, 32, 44, 81, 133, 9, 12, 17, 136, 172, 16, 122, 90, 126, 37, 107, 45, 7, 174, 74, 18, 67, 22, 52, 10, 116
+
+Not including any information from the following excluded modules: 
+hltGetRaw
+hltGetConditions
+hltBoolFalse
+hltBoolEnd
+
+Average path times are as follows (all in msec): 
+  78.0557 (path HLT_Activity_Ecal_SC7_v13)
+  28.8668 (path HLT_L1SingleJet16_v7)
+  28.8607 (path HLT_L1SingleJet36_v7)
+1462.1581 (path HLT_PFJet40_v8)
+1481.0755 (path HLT_PFJet80_v9)
+1167.4790 (path HLT_PFJet140_v9)
+ 562.0863 (path HLT_PFJet200_v9)
+ 241.1965 (path HLT_PFJet260_v9)
+  95.4211 (path HLT_PFJet320_v9)
+  36.4607 (path HLT_Jet370_NoJetID_v15)
+  52.0780 (path HLT_PFJet400_v9)
+ 409.7782 (path HLT_MonoCentralPFJet80_PFMETnoMu105_NHEF0p95_v4)
+  52.8569 (path HLT_SingleForJet25_v4)
+  59.6044 (path HLT_SingleForJet15_v4)
+1462.1152 (path HLT_DiPFJetAve40_v9)
+1480.9835 (path HLT_DiPFJetAve80_v10)
+1167.4667 (path HLT_DiPFJetAve140_v10)
+ 562.0679 (path HLT_DiPFJetAve200_v10)
+ 241.1842 (path HLT_DiPFJetAve260_v10)
+  95.4149 (path HLT_DiPFJetAve320_v10)
+  52.0780 (path HLT_DiPFJetAve400_v10)
+ 258.0651 (path HLT_FatDiPFJetMass750_DR1p1_Deta1p5_v10)
+  41.0060 (path HLT_DoubleJet20_ForwardBackward_v4)
+  68.3454 (path HLT_DiJet80_DiJet60_DiJet20_v6)
+ 436.9459 (path HLT_DiPFJet40_PFMETnoMu65_MJJ800VBF_AllJets_v9)
+ 436.9581 (path HLT_DiPFJet40_PFMETnoMu65_MJJ600VBF_LeadingJets_v9)
+ 159.0862 (path HLT_DiJet40Eta2p6_BTagIP3DFastPV_v7)
+ 135.9915 (path HLT_DiJet80Eta2p6_BTagIP3DFastPVLoose_v7)
+ 102.8677 (path HLT_Jet60Eta1p7_Jet53Eta1p7_DiBTagIP3DFastPV_v7)
+  89.8758 (path HLT_Jet80Eta1p7_Jet70Eta1p7_DiBTagIP3DFastPV_v7)
+  58.3408 (path HLT_Jet160Eta2p4_Jet120Eta2p4_DiBTagIP3DFastPVLoose_v7)
+  68.3270 (path HLT_QuadJet45_v1)
+  68.3270 (path HLT_QuadJet50_v5)
+  68.3454 (path HLT_QuadJet60_DiJet20_v6)
+  53.2741 (path HLT_QuadJet70_v6)
+  53.2680 (path HLT_QuadJet80_v6)
+  53.2741 (path HLT_QuadJet90_v6)
+  93.5317 (path HLT_QuadJet75_55_35_20_BTagIP_VBF_v7)
+  93.5255 (path HLT_QuadJet75_55_38_20_BTagIP_VBF_v7)
+  64.0576 (path HLT_QuadJet75_55_35_20_VBF_v1)
+ 110.6028 (path HLT_QuadPFJet78_61_44_31_BTagCSV_VBF_v6)
+ 358.4975 (path HLT_QuadPFJet78_61_44_31_VBF_v1)
+ 108.6767 (path HLT_QuadPFJet82_65_48_35_BTagCSV_VBF_v6)
+  53.2680 (path HLT_SixJet35_v6)
+  53.2680 (path HLT_SixJet45_v6)
+  53.2680 (path HLT_SixJet50_v6)
+  53.2680 (path HLT_EightJet30_eta3p0_v5)
+  53.2618 (path HLT_EightJet35_eta3p0_v5)
+  59.6903 (path HLT_ExclDiJet35_HFOR_v4)
+  30.6763 (path HLT_ExclDiJet35_HFAND_v4)
+  53.9550 (path HLT_ExclDiJet80_HFAND_v4)
+  28.8423 (path HLT_JetE30_NoBPTX_v14)
+  28.8423 (path HLT_JetE30_NoBPTX3BX_NoHalo_v16)
+  28.8362 (path HLT_JetE50_NoBPTX3BX_NoHalo_v13)
+  28.8362 (path HLT_JetE70_NoBPTX3BX_NoHalo_v5)
+  64.7876 (path HLT_HT200_AlphaT0p57_v8)
+  64.8428 (path HLT_HT200_v6)
+  63.2357 (path HLT_HT250_AlphaT0p55_v8)
+  63.2235 (path HLT_HT250_AlphaT0p57_v8)
+  63.2787 (path HLT_HT250_v7)
+  63.2173 (path HLT_HT300_AlphaT0p53_v8)
+  63.2235 (path HLT_HT300_AlphaT0p54_v14)
+  63.2910 (path HLT_HT300_v7)
+ 134.8813 (path HLT_HT300_DoubleDisplacedPFJet60_v10)
+ 134.8752 (path HLT_HT300_DoubleDisplacedPFJet60_ChgFraction10_v10)
+ 318.1295 (path HLT_HT300_SingleDisplacedPFJet60_v10)
+ 318.1234 (path HLT_HT300_SingleDisplacedPFJet60_ChgFraction10_v10)
+  63.2725 (path HLT_HT350_v7)
+  63.2173 (path HLT_HT350_AlphaT0p52_v8)
+  63.2235 (path HLT_HT350_AlphaT0p53_v19)
+  63.2664 (path HLT_HT400_v7)
+  63.2357 (path HLT_HT400_AlphaT0p51_v19)
+  63.2235 (path HLT_HT400_AlphaT0p52_v14)
+  63.2173 (path HLT_HT450_AlphaT0p51_v14)
+  63.2910 (path HLT_HT450_v7)
+  53.3048 (path HLT_HT500_v7)
+  53.3293 (path HLT_HT550_v7)
+  53.3416 (path HLT_HT650_v7)
+ 116.5835 (path HLT_HT650_Track50_dEdx3p6_v10)
+ 116.5835 (path HLT_HT650_Track60_dEdx3p7_v10)
+  53.3170 (path HLT_HT750_v7)
+ 775.4895 (path HLT_PFNoPUHT350_v4)
+ 269.9467 (path HLT_PFNoPUHT650_v4)
+ 269.9405 (path HLT_PFNoPUHT650_DiCentralPFNoPUJet80_CenPFNoPUJet40_v4)
+ 191.2776 (path HLT_PFNoPUHT700_v4)
+ 161.1472 (path HLT_PFNoPUHT750_v4)
+ 324.6991 (path HLT_PFMET150_v7)
+ 324.6991 (path HLT_PFMET180_v7)
+ 266.7938 (path HLT_DiCentralJetSumpT100_dPhi05_DiCentralPFJet60_25_PFMET100_HBHENoiseCleaned_v5)
+ 448.6067 (path HLT_DiCentralPFJet30_PFMET80_v6)
+ 344.7758 (path HLT_DiCentralPFNoPUJet50_PFMETORPFMETNoMu80_v4)
+ 323.6870 (path HLT_DiCentralPFJet30_PFMET80_BTagCSV07_v5)
+ 186.8120 (path HLT_DiPFJet80_DiPFJet30_BTagCSVd07d05d03_v5)
+ 155.3383 (path HLT_DiPFJet80_DiPFJet30_BTagCSVd07d05d05_v5)
+ 416.4090 (path HLT_DiPFJet80_DiPFJet30_BTagCSVd07d05_v5)
+  39.5952 (path HLT_MET80_v5)
+  39.5891 (path HLT_MET80_Parked_v5)
+ 214.1209 (path HLT_MET80_Track50_dEdx3p6_v6)
+ 214.1270 (path HLT_MET80_Track60_dEdx3p7_v6)
+  40.5828 (path HLT_MET100_HBHENoiseCleaned_v1)
+  39.6075 (path HLT_MET120_v13)
+  40.3007 (path HLT_MET120_HBHENoiseCleaned_v6)
+  33.2772 (path HLT_MET200_v12)
+  33.2833 (path HLT_MET200_HBHENoiseCleaned_v5)
+  31.0383 (path HLT_MET300_v4)
+  31.0383 (path HLT_MET300_HBHENoiseCleaned_v5)
+  31.0383 (path HLT_MET400_v7)
+  31.0383 (path HLT_MET400_HBHENoiseCleaned_v5)
+  28.8668 (path HLT_L1SingleMuOpen_v7)
+  28.8975 (path HLT_L1SingleMu12_v2)
+ 102.2422 (path HLT_L2Mu70_2Cha_eta2p1_PFMET55_v2)
+ 102.2483 (path HLT_L2Mu70_2Cha_eta2p1_PFMET60_v2)
+  31.4431 (path HLT_L2Mu20_eta2p1_NoVertex_v2)
+  28.8607 (path HLT_L2Mu10_NoVertex_NoBPTX3BX_NoHalo_v4)
+  28.8607 (path HLT_L2Mu20_NoVertex_2Cha_NoBPTX3BX_NoHalo_v1)
+  28.8607 (path HLT_L2Mu30_NoVertex_2Cha_NoBPTX3BX_NoHalo_v1)
+  54.4458 (path HLT_L2TripleMu10_0_0_NoVertex_PFJet40Neutral_v8)
+  46.1034 (path HLT_DoubleDisplacedMu4_DiPFJet40Neutral_v8)
+  52.0351 (path HLT_Mu5_v20)
+  52.0351 (path HLT_Mu8_v18)
+  45.9133 (path HLT_Mu12_v18)
+  41.4355 (path HLT_Mu17_v5)
+  42.8893 (path HLT_Mu12_eta2p1_L1Mu10erJetC12WdEtaPhi1DiJetsC_v7)
+  42.8893 (path HLT_Mu15_eta2p1_L1Mu10erJetC12WdEtaPhi1DiJetsC_v3)
+  45.4717 (path HLT_Mu15_eta2p1_v5)
+  40.3130 (path HLT_Mu24_v16)
+  40.0431 (path HLT_Mu24_eta2p1_v5)
+  40.3191 (path HLT_Mu30_v16)
+  40.0431 (path HLT_Mu30_eta2p1_v5)
+  40.3130 (path HLT_Mu40_v14)
+  40.0431 (path HLT_Mu40_eta2p1_v11)
+  40.0431 (path HLT_Mu50_eta2p1_v8)
+ 302.5246 (path HLT_RelIso1p0Mu5_v6)
+ 175.9549 (path HLT_RelIso1p0Mu20_v3)
+ 157.5160 (path HLT_IsoMu15_eta2p1_L1ETM20_v7)
+ 175.9242 (path HLT_IsoMu20_eta2p1_v7)
+ 166.2815 (path HLT_IsoMu24_v17)
+ 163.6868 (path HLT_IsoMu24_eta2p1_v15)
+ 115.9824 (path HLT_IsoMu30_v11)
+ 113.3816 (path HLT_IsoMu30_eta2p1_v15)
+ 106.8857 (path HLT_IsoMu34_eta2p1_v13)
+ 100.7271 (path HLT_IsoMu40_eta2p1_v10)
+  40.0492 (path HLT_Mu40_eta2p1_Track50_dEdx3p6_v5)
+  40.0615 (path HLT_Mu40_eta2p1_Track60_dEdx3p7_v5)
+  30.0384 (path HLT_L2DoubleMu23_NoVertex_v11)
+  30.0384 (path HLT_L2DoubleMu23_NoVertex_2Cha_Angle2p5_v3)
+  30.0446 (path HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5_v3)
+  30.7316 (path HLT_DoubleMu11_Acoplanarity03_v5)
+  34.4611 (path HLT_DoubleMu4_Jpsi_Displaced_v12)
+  34.4672 (path HLT_DoubleMu4_JpsiTk_Displaced_v6)
+  36.1479 (path HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5)
+  34.4672 (path HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5)
+  34.4611 (path HLT_DoubleMu4_Dimuon7_Bs_Forward_v5)
+  34.4672 (path HLT_DoubleMu3p5_LowMass_Displaced_v6)
+  34.4611 (path HLT_DoubleMu3p5_LowMassNonResonant_Displaced_v6)
+  36.1479 (path HLT_Dimuon0_Jpsi_v17)
+  36.1479 (path HLT_Dimuon0_Jpsi_NoVertexing_v14)
+  36.1479 (path HLT_Dimuon0_Upsilon_v17)
+  36.1541 (path HLT_Dimuon0_PsiPrime_v6)
+  36.1540 (path HLT_Dimuon5_Upsilon_v6)
+  36.1479 (path HLT_Dimuon5_PsiPrime_v6)
+  36.1602 (path HLT_Dimuon7_Upsilon_v7)
+  34.8598 (path HLT_Dimuon7_PsiPrime_v3)
+  36.1602 (path HLT_Dimuon8_Jpsi_v7)
+  34.8536 (path HLT_Dimuon8_Upsilon_v6)
+  34.8536 (path HLT_Dimuon10_Jpsi_v6)
+  34.8598 (path HLT_Dimuon11_Upsilon_v6)
+  30.7745 (path HLT_Dimuon0_Jpsi_Muon_v18)
+  30.7745 (path HLT_Dimuon0_Upsilon_Muon_v18)
+  36.1479 (path HLT_Dimuon3p5_SameSign_v6)
+  36.8411 (path HLT_DoubleMu4_Acoplanarity03_v5)
+  36.1418 (path HLT_Tau2Mu_ItTrack_v7)
+  34.8475 (path HLT_Mu13_Mu8_v22)
+  34.8414 (path HLT_Mu17_Mu8_v22)
+  34.8414 (path HLT_Mu13_Mu8_NoDZ_v1)
+  54.0348 (path HLT_Mu17_TkMu8_v14)
+  54.0348 (path HLT_Mu17_TkMu8_NoDZ_v1)
+  76.5590 (path HLT_Mu22_TkMu8_v9)
+  76.5528 (path HLT_Mu22_TkMu22_v9)
+  29.9893 (path HLT_TripleMu5_v19)
+  33.8722 (path HLT_DoubleMu5_IsoMu5_v20)
+  36.1540 (path HLT_Mu5_L2Mu3_Jpsi_v8)
+  80.5707 (path HLT_Mu5_Track2_Jpsi_v21)
+  80.5891 (path HLT_Mu5_Track3p5_Jpsi_v7)
+  71.0813 (path HLT_Mu7_Track7_Jpsi_v20)
+  64.6099 (path HLT_Mu15_TkMu5_Onia_v1)
+  58.0034 (path HLT_BTagMu_Jet20_Mu4_v2)
+  49.5630 (path HLT_BTagMu_Jet60_Mu4_v2)
+  34.3936 (path HLT_Photon20_CaloIdVL_v4)
+  52.9429 (path HLT_Photon20_CaloIdVL_IsoL_v16)
+  38.8898 (path HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_v5)
+  39.2701 (path HLT_Photon26_Photon18_v12)
+  85.7416 (path HLT_Photon26_R9Id85_OR_CaloId10_Iso50_Photon18_R9Id85_OR_CaloId10_Iso50_Mass70_v2)
+  36.3687 (path HLT_Photon26_R9Id85_OR_CaloId10_Iso50_Photon18_v5)
+  32.9889 (path HLT_Photon30_v1)
+  33.0134 (path HLT_Photon30_CaloIdVL_v14)
+  37.8041 (path HLT_Photon30_R9Id90_CaloId_HE10_Iso40_EBOnly_v1)
+  37.9513 (path HLT_Photon30_R9Id90_CaloId_HE10_Iso40_EBOnly_Met25_HBHENoiseCleaned_v1)
+  34.5285 (path HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_v5)
+  39.2272 (path HLT_Photon36_Photon22_v6)
+  35.4977 (path HLT_Photon36_R9Id85_Photon22_R9Id85_v4)
+  40.5767 (path HLT_Photon36_R9Id85_Photon22_CaloId10_Iso50_v6)
+  42.3187 (path HLT_Photon36_CaloId10_Iso50_Photon22_R9Id85_v6)
+  39.8406 (path HLT_Photon36_CaloId10_Iso50_Photon22_CaloId10_Iso50_v6)
+  59.8866 (path HLT_Photon36_R9Id85_OR_CaloId10_Iso50_Photon22_R9Id85_OR_CaloId10_Iso50_v6)
+  37.3256 (path HLT_Photon36_R9Id85_OR_CaloId10_Iso50_Photon22_v5)
+  96.1633 (path HLT_Photon36_R9Id85_OR_CaloId10_Iso50_Photon10_R9Id85_OR_CaloId10_Iso50_Mass80_v1)
+  32.1547 (path HLT_Photon50_CaloIdVL_v10)
+  40.6380 (path HLT_Photon50_CaloIdVL_IsoL_v17)
+  33.4367 (path HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_v5)
+  32.8723 (path HLT_Photon60_CaloIdL_MHT70_v11)
+  32.8723 (path HLT_Photon60_CaloIdL_HT300_v4)
+  82.0918 (path HLT_Photon70_CaloIdXL_PFNoPUHT400_v4)
+  82.0918 (path HLT_Photon70_CaloIdXL_PFNoPUHT500_v4)
+  39.7241 (path HLT_Photon70_CaloIdXL_PFMET100_v7)
+  31.5535 (path HLT_Photon75_CaloIdVL_v13)
+  31.4247 (path HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_v5)
+  31.2959 (path HLT_Photon90_CaloIdVL_v10)
+  31.0874 (path HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_v5)
+  36.6939 (path HLT_DisplacedPhoton65_CaloIdVL_IsoL_PFMET25_v4)
+  36.6939 (path HLT_DisplacedPhoton65EBOnly_CaloIdVL_IsoL_PFMET30_v4)
+  30.3451 (path HLT_Photon135_v7)
+  30.3451 (path HLT_Photon150_v4)
+  30.3451 (path HLT_Photon160_v4)
+  30.3574 (path HLT_Photon300_NoHE_v5)
+  36.5896 (path HLT_DoublePhoton48_HEVT_v8)
+  35.5407 (path HLT_DoublePhoton53_HEVT_v2)
+  33.3937 (path HLT_DoublePhoton70_v6)
+  30.5107 (path HLT_DoublePhoton80_v7)
+  28.8730 (path HLT_L1SingleEG5_v6)
+  28.8607 (path HLT_L1SingleEG12_v6)
+  28.8423 (path HLT_L1DoubleEG3_FwdVeto_v2)
+  28.8484 (path HLT_L1ETM30_v2)
+  28.8545 (path HLT_L1ETM40_v2)
+  28.8423 (path HLT_L1ETM70_v2)
+  28.8484 (path HLT_L1ETM100_v2)
+  65.5973 (path HLT_Ele8_CaloIdT_TrkIdVL_v5)
+  64.8306 (path HLT_Ele8_CaloIdT_TrkIdVL_EG7_v2)
+  70.1181 (path HLT_Ele8_CaloIdT_TrkIdVL_Jet30_v7)
+  49.5262 (path HLT_Ele8_CaloIdL_CaloIsoVL_v17)
+  63.2971 (path HLT_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v15)
+  46.9806 (path HLT_Ele17_CaloIdL_CaloIsoVL_v17)
+  62.5487 (path HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v6)
+  62.3954 (path HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v19)
+  36.8410 (path HLT_Ele17_CaloIdVT_CaloIsoVT_TrkIdT_TrkIsoVT_Ele8_Mass50_v6)
+  33.9335 (path HLT_Ele20_CaloIdVT_CaloIsoVT_TrkIdT_TrkIsoVT_SC4_Mass50_v7)
+  46.1280 (path HLT_Ele22_CaloIdL_CaloIsoVL_v6)
+  55.0469 (path HLT_Ele27_CaloIdL_CaloIsoVL_TrkIdVL_TrkIsoVL_v11)
+  51.5627 (path HLT_Ele27_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Ele15_CaloIdT_CaloIsoVL_trackless_v8)
+  48.9558 (path HLT_Ele27_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_HFT15_v8)
+  53.4275 (path HLT_Ele23_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_HFT30_v8)
+ 125.0423 (path HLT_Ele25_CaloIdVT_CaloIsoVL_TrkIdVL_TrkIsoT_TriCentralPFNoPUJet30_v4)
+ 125.0485 (path HLT_Ele25_CaloIdVT_CaloIsoVL_TrkIdVL_TrkIsoT_TriCentralPFNoPUJet45_35_25_v2)
+ 125.0485 (path HLT_Ele25_CaloIdVT_CaloIsoVL_TrkIdVL_TrkIsoT_TriCentralPFNoPUJet50_40_30_v4)
+  43.9320 (path HLT_Ele27_WP80_v11)
+ 100.2732 (path HLT_Ele27_WP80_PFMET_MT50_v7)
+  41.0367 (path HLT_Ele30_CaloIdVT_TrkIdT_v6)
+  53.9734 (path HLT_Ele32_CaloIdL_CaloIsoVL_TrkIdVL_TrkIsoVL_v11)
+  41.7973 (path HLT_Ele32_CaloIdT_CaloIsoT_TrkIdT_TrkIsoT_SC17_Mass50_v6)
+  31.2591 (path HLT_Ele80_CaloIdVT_GsfTrkIdT_v2)
+  31.2591 (path HLT_Ele90_CaloIdVT_GsfTrkIdT_v2)
+  36.6816 (path HLT_DoubleEle8_CaloIdT_TrkIdVL_v12)
+  48.9926 (path HLT_DoubleEle33_CaloIdL_v14)
+  48.9987 (path HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_v7)
+  44.7724 (path HLT_DoubleEle33_CaloIdT_v10)
+  41.4232 (path HLT_Ele15_Ele8_Ele5_CaloIdL_TrkIdVL_v6)
+1400.4680 (path HLT_LooseIsoPFTau35_Trk20_Prong1_v10)
+ 419.6909 (path HLT_LooseIsoPFTau35_Trk20_Prong1_MET70_v10)
+ 362.3560 (path HLT_LooseIsoPFTau35_Trk20_Prong1_MET75_v10)
+ 249.4529 (path HLT_IsoMu15_eta2p1_LooseIsoPFTau35_Trk20_Prong1_L1ETM20_v10)
+ 289.0604 (path HLT_IsoMu8_eta2p1_LooseIsoPFTau20_L1ETM26_v1)
+ 336.5685 (path HLT_IsoMu8_eta2p1_LooseIsoPFTau20_v1)
+ 361.1660 (path HLT_Mu8_eta2p1_LooseIsoPFTau20_L1ETM26_v1)
+  53.5133 (path HLT_Ele13_eta2p1_WP90Rho_LooseIsoPFTau20_L1ETM36_v1)
+  94.9733 (path HLT_Ele13_eta2p1_WP90NoIso_LooseIsoPFTau20_L1ETM36_v1)
+ 113.9888 (path HLT_Ele13_eta2p1_WP90Rho_LooseIsoPFTau20_v1)
+ 290.9557 (path HLT_DoubleMediumIsoPFTau30_Trk1_eta2p1_Jet30_v5)
+ 276.7186 (path HLT_DoubleMediumIsoPFTau30_Trk1_eta2p1_v4)
+ 241.7117 (path HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Prong1_v4)
+ 241.7178 (path HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_v4)
+ 237.3873 (path HLT_IsoMu18_eta2p1_MediumIsoPFTau25_Trk1_eta2p1_v4)
+ 193.3263 (path HLT_DoubleMediumIsoPFTau30_Trk1_eta2p1_Reg_Jet30_v1)
+ 177.0098 (path HLT_DoubleMediumIsoPFTau30_Trk1_eta2p1_Reg_v1)
+ 156.7245 (path HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Prong1_Reg_v1)
+ 156.7245 (path HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg_v1)
+ 209.2811 (path HLT_IsoMu18_eta2p1_MediumIsoPFTau25_Trk1_eta2p1_Reg_v1)
+  51.5443 (path HLT_DoubleIsoL2Tau30_eta2p1_v1)
+  58.0157 (path HLT_BTagMu_DiJet20_Mu5_v6)
+  57.5740 (path HLT_BTagMu_DiJet40_Mu5_v6)
+  48.3607 (path HLT_BTagMu_DiJet70_Mu5_v6)
+  42.1224 (path HLT_BTagMu_DiJet110_Mu5_v6)
+  44.2203 (path HLT_BTagMu_Jet300_Mu5_v6)
+  54.9364 (path HLT_Mu7_Ele7_CaloIdT_CaloIsoVL_v7)
+  42.5518 (path HLT_Mu8_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v9)
+  57.3287 (path HLT_Mu8_DiJet30_v7)
+  57.3226 (path HLT_Mu8_TriJet30_v7)
+  57.3165 (path HLT_Mu8_QuadJet30_v7)
+ 125.4349 (path HLT_IsoMu12_DoubleCentralJet65_v4)
+  38.7794 (path HLT_Mu15_eta2p1_L1ETM20_v5)
+ 294.7099 (path HLT_IsoMu18_CentralPFJet30_CentralPFJet25_v1)
+ 294.7160 (path HLT_IsoMu18_PFJet30_PFJet25_Deta3_v1)
+ 314.8908 (path HLT_Mu18_CentralPFJet30_CentralPFJet25_v1)
+ 314.8970 (path HLT_Mu18_PFJet30_PFJet25_Deta3_CentralPFJet25_v1)
+ 294.7221 (path HLT_IsoMu18_CentralPFJet30_CentralPFJet25_PFMET20_v1)
+ 294.7160 (path HLT_IsoMu18_PFJet30_PFJet25_Deta3_CentralPFJet25_v1)
+ 103.4322 (path HLT_Ele24_WP80_CentralPFJet35_CentralPFJet25_v1)
+ 103.4260 (path HLT_Ele24_WP80_PFJet30_PFJet25_Deta3_v1)
+ 103.4260 (path HLT_Ele24_WP80_PFJet30_PFJet25_Deta3_CentralPFJet30_v1)
+ 103.4260 (path HLT_Ele24_WP80_CentralPFJet35_CentralPFJet25_PFMET20_v1)
+ 292.8022 (path HLT_IsoMu17_eta2p1_CentralPFNoPUJet30_BTagIPIter_v4)
+ 292.7470 (path HLT_IsoMu17_eta2p1_CentralPFNoPUJet30_v4)
+ 292.7470 (path HLT_IsoMu17_eta2p1_DiCentralPFNoPUJet30_v4)
+ 292.7470 (path HLT_IsoMu17_eta2p1_TriCentralPFNoPUJet45_35_25_v2)
+ 292.7654 (path HLT_IsoMu17_eta2p1_TriCentralPFNoPUJet30_v4)
+ 324.5090 (path HLT_Mu17_eta2p1_CentralPFNoPUJet30_BTagIPIter_v4)
+ 324.3618 (path HLT_Mu17_eta2p1_TriCentralPFNoPUJet45_35_25_v2)
+ 294.6976 (path HLT_IsoMu20_WCandPt80_v4)
+  39.9571 (path HLT_Mu17_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_v9)
+  89.8821 (path HLT_Mu12_eta2p1_DiCentral_40_20_DiBTagIP3D1stTrack_v8)
+  94.5379 (path HLT_Mu12_eta2p1_DiCentral_40_20_BTagIP3D1stTrack_v8)
+  54.4519 (path HLT_Mu12_eta2p1_DiCentral_40_20_v8)
+  54.4458 (path HLT_Mu12_eta2p1_DiCentral_20_v8)
+  54.4519 (path HLT_Mu15_eta2p1_DiCentral_40_20_v1)
+  54.4458 (path HLT_Mu15_eta2p1_DiCentral_20_v1)
+  88.8700 (path HLT_Mu15_eta2p1_TriCentral_40_20_20_DiBTagIP3D1stTrack_v8)
+  93.3356 (path HLT_Mu15_eta2p1_TriCentral_40_20_20_BTagIP3D1stTrack_v8)
+  54.4580 (path HLT_Mu15_eta2p1_TriCentral_40_20_20_v8)
+  35.8473 (path HLT_Mu30_Ele30_CaloIdL_v8)
+ 173.9920 (path HLT_IsoMu17_eta2p1_DiCentralPFNoPUJet30_PFNoPUHT350_PFMHT40_v3)
+ 285.2021 (path HLT_IsoMu20_eta2p1_CentralPFJet80_v9)
+ 107.3150 (path HLT_DoubleRelIso1p0Mu5_Mass8_PFNoPUHT175_v4)
+  65.7508 (path HLT_DoubleRelIso1p0Mu5_Mass8_PFNoPUHT225_v4)
+  80.3989 (path HLT_DoubleMu8_Mass8_PFNoPUHT175_v4)
+  80.4050 (path HLT_DoubleMu8_Mass8_PFNoPUHT225_v4)
+ 121.6871 (path HLT_RelIso1p0Mu5_Ele8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT175_v4)
+ 102.1195 (path HLT_RelIso1p0Mu5_Ele8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT225_v4)
+ 115.0317 (path HLT_Mu8_Ele8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT175_v4)
+ 115.0378 (path HLT_Mu8_Ele8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT225_v4)
+ 221.6902 (path HLT_PFNoPUHT350_Mu15_PFMET45_v4)
+ 221.6964 (path HLT_PFNoPUHT350_Mu15_PFMET50_v4)
+ 338.3105 (path HLT_PFNoPUHT400_Mu5_PFMET45_v4)
+ 338.3044 (path HLT_PFNoPUHT400_Mu5_PFMET50_v4)
+ 137.2000 (path HLT_Mu40_PFNoPUHT350_v4)
+  88.1523 (path HLT_Mu60_PFNoPUHT350_v4)
+  35.9700 (path HLT_DoubleMu5_Ele8_CaloIdT_TrkIdVL_v16)
+  35.7308 (path HLT_DoubleMu8_Ele8_CaloIdT_TrkIdVL_v5)
+  65.5483 (path HLT_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Jet30_v7)
+  67.5234 (path HLT_Ele8_CaloIdT_TrkIdT_DiJet30_v18)
+  67.5296 (path HLT_Ele8_CaloIdT_TrkIdT_TriJet30_v18)
+  67.5296 (path HLT_Ele8_CaloIdT_TrkIdT_QuadJet30_v18)
+  64.9410 (path HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Jet30_v7)
+ 101.1687 (path HLT_Ele25_CaloIdVT_CaloIsoT_TrkIdT_TrkIsoT_CentralPFNoPUJet30_v8)
+ 125.0423 (path HLT_Ele25_CaloIdVT_CaloIsoVL_TrkIdVL_TrkIsoT_DiCentralPFNoPUJet30_v2)
+ 101.1810 (path HLT_Ele25_CaloIdVT_CaloIsoT_TrkIdT_TrkIsoT_CentralPFNoPUJet30_BTagIPIter_v9)
+ 100.2732 (path HLT_Ele27_WP80_CentralPFJet80_v9)
+ 100.2732 (path HLT_Ele27_WP80_WCandPt80_v9)
+ 118.2090 (path HLT_Ele30_CaloIdVT_TrkIdT_PFNoPUJet100_PFNoPUJet25_v8)
+ 118.2090 (path HLT_Ele30_CaloIdVT_TrkIdT_PFNoPUJet150_PFNoPUJet25_v8)
+  43.9934 (path HLT_DoubleEle8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT175_v4)
+  43.9934 (path HLT_DoubleEle8_CaloIdT_TrkIdVL_Mass8_PFNoPUHT225_v4)
+  35.5406 (path HLT_DoubleEle10_CaloIdL_TrkIdVL_Ele10_CaloIdT_TrkIdVL_v12)
+  35.5406 (path HLT_TripleEle10_CaloIdL_TrkIdVL_v18)
+  66.1494 (path HLT_RsqMR40_Rsq0p04_v6)
+  66.0513 (path HLT_RsqMR45_Rsq0p09_v5)
+  66.1065 (path HLT_RsqMR55_Rsq0p09_MR150_v6)
+  66.1433 (path HLT_RsqMR60_Rsq0p09_MR150_v6)
+  66.0758 (path HLT_RsqMR65_Rsq0p09_MR150_v5)
+ 100.7332 (path HLT_IsoMu12_RsqMR30_Rsq0p04_MR200_v4)
+  95.9977 (path HLT_IsoMu12_RsqMR40_Rsq0p04_MR200_v4)
+ 121.4478 (path HLT_Ele12_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_RsqMR30_Rsq0p04_MR200_v4)
+ 104.5301 (path HLT_Ele12_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_RsqMR40_Rsq0p04_MR200_v4)
+ 156.1112 (path HLT_Ele12_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_DoubleCentralJet65_v4)
+  35.6142 (path HLT_Photon40_CaloIdL_RsqMR40_Rsq0p09_MR150_v6)
+  35.6203 (path HLT_Photon40_CaloIdL_RsqMR45_Rsq0p09_MR150_v6)
+  35.6449 (path HLT_Photon40_CaloIdL_RsqMR50_Rsq0p09_MR150_v6)
+  36.9330 (path HLT_DoublePhoton40_CaloIdL_Rsq0p035_v6)
+  36.9330 (path HLT_DoublePhoton40_CaloIdL_Rsq0p06_v6)
+  35.1971 (path HLT_Mu22_Photon22_CaloIdL_v7)
+  44.0301 (path HLT_Mu8_DoubleEle8_CaloIdT_TrkIdVL_v7)
+  50.8512 (path HLT_Mu8_Ele8_CaloIdT_TrkIdVL_Ele8_CaloIdL_TrkIdVL_v7)
+  56.4516 (path HLT_DoubleMu14_Mass8_PFMET40_v8)
+  56.4516 (path HLT_DoubleMu14_Mass8_PFMET50_v8)
+  53.9121 (path HLT_DoubleEle14_CaloIdT_TrkIdVL_Mass8_PFMET40_v8)
+  53.8998 (path HLT_DoubleEle14_CaloIdT_TrkIdVL_Mass8_PFMET50_v8)
+  48.7717 (path HLT_Mu14_Ele14_CaloIdT_TrkIdVL_Mass8_PFMET40_v8)
+  48.7717 (path HLT_Mu14_Ele14_CaloIdT_TrkIdVL_Mass8_PFMET50_v8)
+ 422.4327 (path HLT_PFNoPUHT350_PFMET100_v4)
+ 349.9959 (path HLT_PFNoPUHT400_PFMET100_v4)
+ 176.1880 (path HLT_CleanPFNoPUHT350_Ele5_CaloIdT_CaloIsoVL_TrkIdT_TrkIsoVL_PFMET45_v3)
+ 176.1819 (path HLT_CleanPFNoPUHT350_Ele5_CaloIdT_CaloIsoVL_TrkIdT_TrkIsoVL_PFMET50_v3)
+ 173.2375 (path HLT_CleanPFNoPUHT300_Ele15_CaloIdT_CaloIsoVL_TrkIdT_TrkIsoVL_PFMET45_v3)
+ 173.2436 (path HLT_CleanPFNoPUHT300_Ele15_CaloIdT_CaloIsoVL_TrkIdT_TrkIsoVL_PFMET50_v3)
+ 120.8958 (path HLT_CleanPFNoPUHT300_Ele40_CaloIdVT_TrkIdT_v3)
+  80.6319 (path HLT_CleanPFNoPUHT300_Ele60_CaloIdVT_TrkIdT_v3)
+  78.9267 (path HLT_Ele5_SC5_Jpsi_Mass2to15_v4)
+  58.8131 (path HLT_DiJet20_MJJ650_AllJets_DEta3p5_HT120_VBF_v1)
+  58.7947 (path HLT_DiJet30_MJJ700_AllJets_DEta3p5_VBF_v1)
+  60.0460 (path HLT_DiJet35_MJJ650_AllJets_DEta3p5_VBF_v5)
+  58.7640 (path HLT_DiJet35_MJJ700_AllJets_DEta3p5_VBF_v5)
+  58.7763 (path HLT_DiJet35_MJJ750_AllJets_DEta3p5_VBF_v5)
+ 108.2842 (path HLT_Ele22_eta2p1_WP90Rho_LooseIsoPFTau20_v7)
+ 139.5187 (path HLT_Ele22_eta2p1_WP90NoIso_LooseIsoPFTau20_v7)
+ 284.6991 (path HLT_IsoMu17_eta2p1_LooseIsoPFTau20_v7)
+ 307.2294 (path HLT_Mu17_eta2p1_LooseIsoPFTau20_v7)
+ 233.8603 (path HLT_PixelTracks_Multiplicity70_v3)
+ 232.9279 (path HLT_PixelTracks_Multiplicity80_v12)
+ 232.9401 (path HLT_PixelTracks_Multiplicity90_v3)
+  73.7372 (path DST_HT250_v4)
+  67.9344 (path DST_L1HTT_Or_L1MultiJet_v4)
+ 266.3215 (path DST_Mu5_HT250_v4)
+ 184.5241 (path DST_Ele8_CaloIdL_CaloIsoVL_TrkIdVL_TrkIsoVL_HT250_v4)
+  28.8730 (path HLT_BeamGas_HF_Beam1_v5)
+  28.8668 (path HLT_BeamGas_HF_Beam2_v5)
+  28.8361 (path HLT_BeamHalo_v13)
+  28.8239 (path HLT_HcalUTCA_v1)
+ 169.0357 (path HLT_IsoTrackHE_v15)
+  74.5654 (path HLT_IsoTrackHB_v14)
+  28.8791 (path HLT_HcalPhiSym_v11)
+  28.8852 (path HLT_HcalNZS_v10)
+  28.8362 (path HLT_GlobalRunHPDNoise_v8)
+  28.8300 (path HLT_L1Tech_HBHEHO_totalOR_v6)
+  28.8791 (path HLT_L1Tech_HCAL_HF_single_channel_v4)
+  28.8668 (path HLT_ZeroBias_v7)
+  28.8729 (path HLT_ZeroBias_Parked_v1)
+  87.2629 (path HLT_ZeroBiasPixel_DoubleTrack_v2)
+  28.8239 (path HLT_Physics_v5)
+  28.8239 (path HLT_Physics_Parked_v1)
+  28.8362 (path DST_Physics_v5)
+  27.5357 (path HLT_DTCalibration_v2)
+  27.5664 (path HLT_EcalCalibration_v3)
+  27.4989 (path HLT_HcalCalibration_v3)
+  28.6767 (path HLT_TrackerCalibration_v3)
+  27.4867 (path HLT_Random_v2)
+  28.8730 (path HLT_L1SingleMuOpen_AntiBPTX_v7)
+  28.8484 (path HLT_L1TrackerCosmics_v7)
+  27.4867 (path HLT_DTErrors_v3)
+  28.8484 (path HLT_L1DoubleJet36Central_v7)
+  31.0751 (path AlCa_EcalPi0EBonly_v6)
+  31.0934 (path AlCa_EcalPi0EEonly_v6)
+  30.9647 (path AlCa_EcalEtaEBonly_v6)
+  31.0566 (path AlCa_EcalEtaEEonly_v6)
+  37.5771 (path AlCa_EcalPhiSym_v13)
+  29.0079 (path AlCa_RPCMuonNoTriggers_v9)
+  31.7805 (path AlCa_RPCMuonNoHits_v9)
+  31.2285 (path AlCa_RPCMuonNormalisation_v9)
+  28.9159 (path AlCa_LumiPixels_v8)
+  28.9404 (path AlCa_LumiPixels_ZeroBias_v4)
+  27.5603 (path AlCa_LumiPixels_Random_v1)
+  51.1395 (path DQM_FEDIntegrity_v11)
+  27.4805 (path HLT_LogMonitor_v4)
+  30.0936 (path HLTriggerFinalPath)
+
+The slowest event (152) took 11656.228 msec
+
+The three slowest modules (running in any path) are: 
+Module hltParticleFlowBlock, with average per event time:  313.9401 msec
+Module hltParticleFlowBlockForTaus, with average per event time:  246.8766 msec
+Module hltRegionalCandidatesForL3MuonIsolation, with average per event time:  235.3937 msec
+
+The three slowest modules (by path) are: 
+Module hltParticleFlowBlock in path HLT_PFJet40_v8, with average per event time:  313.9401 msec
+Module hltParticleFlowBlockForTaus in path HLT_LooseIsoPFTau35_Trk20_Prong1_v10, with average per event time:  238.3687 msec
+Module hltRegionalCandidatesForL3MuonIsolation in path HLT_RelIso1p0Mu5_v6, with average per event time:  226.5975 msec
+
+The three slowest RUNNING modules (by path) are: 
+Module hltEcalActivityEgammaRegionalCkfTrackCandidates in path HLT_Photon36_R9Id85_OR_CaloId10_Iso50_Photon22_R9Id85_OR_CaloId10_Iso50_v6, with average running time: 1693.7425 msec
+Module hltRegionalCandidatesForL3MuonIsolation in path HLT_DoubleRelIso1p0Mu5_Mass8_PFNoPUHT175_v4, with average running time: 1668.0800 msec
+Module hltEcalActivityEgammaRegionalCkfTrackCandidates in path HLT_Photon26_R9Id85_OR_CaloId10_Iso50_Photon18_R9Id85_OR_CaloId10_Iso50_Mass70_v2, with average running time: 1464.5774 msec
+
+A given module took the longest time to run in the following events:
+Module hltTriggerType was slowest in event 140, with time:    1.0000 msec
+Module csctfDigis was slowest in event 14, with time:    1.0000 msec
+Module dttfDigis was slowest in event 31, with time:    1.0000 msec
+Module gctDigis was slowest in event 20, with time:    1.0000 msec
+Module gtDigis was slowest in event 5, with time:    1.0000 msec
+Module gtEvmDigis was slowest in event 86, with time:    1.0000 msec
+Module siPixelDigis was slowest in event 51, with time:    7.9990 msec
+Module siStripDigis was slowest in event 51, with time:   23.9960 msec
+Module ecalDigis was slowest in event 180, with time:    6.0000 msec
+Module ecalPreshowerDigis was slowest in event 51, with time:    2.0000 msec
+Module hcalDigis was slowest in event 180, with time:    3.0000 msec
+Module muonCSCDigis was slowest in event 114, with time:   12.9980 msec
+Module muonDTDigis was slowest in event 27, with time:    1.0000 msec
+Module muonRPCDigis was slowest in event 30, with time:    1.0000 msec
+Module castorDigis was slowest in event 21, with time:    1.0000 msec
+Module scalersRawToDigi was slowest in event 14, with time:    1.0000 msec
+Module simBscDigis was slowest in event 19, with time:    1.0000 msec
+Module simRpcTechTrigDigis was slowest in event 20, with time:    1.0000 msec
+Module simHcalTechTrigDigis was slowest in event 54, with time:    1.0000 msec
+Module simGtDigis was slowest in event 147, with time:    3.0000 msec
+Module hltL1GtObjectMap was slowest in event 180, with time:    3.0000 msec
+Module hltL1extraParticles was slowest in event 24, with time:    1.0000 msec
+Module hltScalersRawToDigi was slowest in event 56, with time:    1.0000 msec
+Module hltOnlineBeamSpot was slowest in event 75, with time:    1.0000 msec
+Module hltL1sL1ZeroBias was slowest in event 46, with time:    1.0000 msec
+Module hltPreActivityEcalSC7 was slowest in event 20, with time:    1.0000 msec
+Module hltEcalRawToRecHitFacility was slowest in event 19, with time:    1.0000 msec
+Module hltESRawToRecHitFacility was slowest in event 27, with time:    1.0000 msec
+Module hltEcalRegionalRestFEDs was slowest in event 80, with time:    1.0000 msec
+Module hltEcalRegionalESRestFEDs was slowest in event 55, with time:    1.0000 msec
+Module hltEcalRecHitAll was slowest in event 147, with time:   16.9980 msec
+Module hltESRecHitAll was slowest in event 59, with time:    7.9990 msec
+Module hltHybridSuperClustersActivity was slowest in event 147, with time:    7.9980 msec
+Module hltCorrectedHybridSuperClustersActivity was slowest in event 24, with time:    1.0000 msec
+Module hltMulti5x5BasicClustersActivity was slowest in event 51, with time:   20.9970 msec
+Module hltMulti5x5SuperClustersActivity was slowest in event 152, with time:   11.9980 msec
+Module hltMulti5x5SuperClustersWithPreshowerActivity was slowest in event 51, with time:   47.9930 msec
+Module hltCorrectedMulti5x5SuperClustersWithPreshowerActivity was slowest in event 19, with time:    1.0000 msec
+Module hltRecoEcalSuperClusterActivityCandidate was slowest in event 28, with time:    1.0000 msec
+Module hltEcalActivitySuperClusterWrapper was slowest in event 72, with time:    1.0000 msec
+Module hltEgammaSelectEcalSuperClustersActivityFilterSC7 was slowest in event 109, with time:    1.0000 msec
+Module hltL1sL1SingleJet16 was slowest in event 38, with time:    1.0000 msec
+Module hltL1sL1SingleJet36 was slowest in event 100, with time:    1.0000 msec
+Module hltHcalDigis was slowest in event 147, with time:    2.9990 msec
+Module hltHbhereco was slowest in event 114, with time:    3.0000 msec
+Module hltHfreco was slowest in event 51, with time:    3.0000 msec
+Module hltHoreco was slowest in event 19, with time:    1.0000 msec
+Module hltTowerMakerForPF was slowest in event 51, with time:   20.9960 msec
+Module hltAntiKT5CaloJetsPF was slowest in event 180, with time:   11.9980 msec
+Module hltAntiKT5CaloJetsPFEt5 was slowest in event 11, with time:    1.0000 msec
+Module hltMuonDTDigis was slowest in event 36, with time:    1.0000 msec
+Module hltDt1DRecHits was slowest in event 19, with time:    1.0000 msec
+Module hltDt4DSegments was slowest in event 176, with time:   25.9960 msec
+Module hltMuonCSCDigis was slowest in event 114, with time:   12.9980 msec
+Module hltCsc2DRecHits was slowest in event 51, with time:    7.9990 msec
+Module hltCscSegments was slowest in event 83, with time:    8.9990 msec
+Module hltMuonRPCDigis was slowest in event 19, with time:    1.0000 msec
+Module hltRpcRecHits was slowest in event 35, with time:    1.0000 msec
+Module hltL2OfflineMuonSeeds was slowest in event 5, with time:    1.0000 msec
+Module hltL2MuonSeeds was slowest in event 154, with time:    2.0000 msec
+Module hltL2Muons was slowest in event 152, with time:    6.0000 msec
+Module hltL2MuonCandidates was slowest in event 19, with time:    1.0000 msec
+Module hltSiPixelDigis was slowest in event 51, with time:    7.9980 msec
+Module hltSiPixelClusters was slowest in event 51, with time:   13.9980 msec
+Module hltSiPixelRecHits was slowest in event 51, with time:   15.9980 msec
+Module hltSiStripExcludedFEDListProducer was slowest in event 33, with time:    1.0000 msec
+Module hltSiStripRawToClustersFacility was slowest in event 19, with time:    1.0000 msec
+Module hltSiStripClusters was slowest in event 5, with time:    1.0000 msec
+Module hltL3TrajSeedOIState was slowest in event 124, with time:    3.0000 msec
+Module hltL3TrackCandidateFromL2OIState was slowest in event 152, with time:   21.9970 msec
+Module hltL3TkTracksFromL2OIState was slowest in event 47, with time:    1.0000 msec
+Module hltL3MuonsOIState was slowest in event 152, with time:    6.9990 msec
+Module hltL3TrajSeedOIHit was slowest in event 114, with time:    2.0000 msec
+Module hltL3TrackCandidateFromL2OIHit was slowest in event 114, with time:   33.9950 msec
+Module hltL3TkTracksFromL2OIHit was slowest in event 36, with time:    2.0000 msec
+Module hltL3MuonsOIHit was slowest in event 114, with time:    4.9990 msec
+Module hltL3TkFromL2OICombination was slowest in event 128, with time:    1.0000 msec
+Module hltL3TrajSeedIOHit was slowest in event 131, with time:    4.9990 msec
+Module hltL3TrackCandidateFromL2IOHit was slowest in event 131, with time:   10.9990 msec
+Module hltL3TkTracksFromL2IOHit was slowest in event 26, with time:    1.0000 msec
+Module hltL3MuonsIOHit was slowest in event 131, with time:    1.9990 msec
+Module hltL3TrajectorySeed was slowest in event 125, with time:    1.0000 msec
+Module hltL3TrackCandidateFromL2 was slowest in event 178, with time:    1.0000 msec
+Module hltL3TkTracksFromL2 was slowest in event 115, with time:    1.0000 msec
+Module hltL3MuonsLinksCombination was slowest in event 119, with time:    1.0000 msec
+Module hltL3Muons was slowest in event 63, with time:    1.0000 msec
+Module hltL3MuonCandidates was slowest in event 103, with time:    1.0000 msec
+Module hltPixelTracks was slowest in event 20, with time:  228.9650 msec
+Module hltPixelVertices was slowest in event 20, with time:    2.9990 msec
+Module hltPFJetPixelSeedsFromPixelTracks was slowest in event 20, with time:   26.9960 msec
+Module hltPFJetCkfTrackCandidates was slowest in event 20, with time:  446.9320 msec
+Module hltPFJetCtfWithMaterialTracks was slowest in event 197, with time:  137.9790 msec
+Module hltPFlowTrackSelectionHighPurity was slowest in event 124, with time:    6.9990 msec
+Module hltTrackRefsForJetsIter0 was slowest in event 19, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter0 was slowest in event 21, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter0 was slowest in event 5, with time:    1.0000 msec
+Module hltIter1ClustersRefRemoval was slowest in event 19, with time:    1.0000 msec
+Module hltIter1SiStripClusters was slowest in event 11, with time:    1.0000 msec
+Module hltIter1PFJetPixelSeeds was slowest in event 91, with time:   87.9870 msec
+Module hltIter1PFJetCkfTrackCandidates was slowest in event 175, with time:   76.9890 msec
+Module hltIter1PFJetCtfWithMaterialTracks was slowest in event 184, with time:   18.9970 msec
+Module hltIter1PFlowTrackSelectionHighPurityLoose was slowest in event 11, with time:    1.0000 msec
+Module hltIter1PFlowTrackSelectionHighPurityTight was slowest in event 5, with time:    1.0000 msec
+Module hltIter1PFlowTrackSelectionHighPurity was slowest in event 173, with time:    1.9990 msec
+Module hltIter1Merged was slowest in event 46, with time:   17.9970 msec
+Module hltTrackRefsForJetsIter1 was slowest in event 5, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter1 was slowest in event 11, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter1 was slowest in event 20, with time:    1.0000 msec
+Module hltIter2ClustersRefRemoval was slowest in event 5, with time:    1.0000 msec
+Module hltIter2SiStripClusters was slowest in event 14, with time:    1.0000 msec
+Module hltIter2PFJetPixelSeeds was slowest in event 91, with time:  122.9820 msec
+Module hltIter2PFJetCkfTrackCandidates was slowest in event 91, with time:  282.9570 msec
+Module hltIter2PFJetCtfWithMaterialTracks was slowest in event 91, with time:   31.9960 msec
+Module hltIter2PFlowTrackSelectionHighPurity was slowest in event 5, with time:    1.0000 msec
+Module hltIter2Merged was slowest in event 186, with time:    9.9990 msec
+Module hltTrackRefsForJetsIter2 was slowest in event 19, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter2 was slowest in event 5, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter2 was slowest in event 14, with time:    1.0000 msec
+Module hltIter3ClustersRefRemoval was slowest in event 21, with time:    1.0000 msec
+Module hltIter3SiStripClusters was slowest in event 5, with time:    1.0000 msec
+Module hltIter3PFJetMixedSeeds was slowest in event 91, with time:   87.9870 msec
+Module hltIter3PFJetCkfTrackCandidates was slowest in event 91, with time:   26.9960 msec
+Module hltIter3PFJetCtfWithMaterialTracks was slowest in event 91, with time:   12.9980 msec
+Module hltIter3PFlowTrackSelectionHighPurityLoose was slowest in event 27, with time:    1.0000 msec
+Module hltIter3PFlowTrackSelectionHighPurityTight was slowest in event 14, with time:    1.0000 msec
+Module hltIter3PFlowTrackSelectionHighPurity was slowest in event 5, with time:    1.0000 msec
+Module hltIter3Merged was slowest in event 20, with time:    7.9990 msec
+Module hltTrackRefsForJetsIter3 was slowest in event 5, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter3 was slowest in event 14, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter3 was slowest in event 34, with time:    1.0000 msec
+Module hltIter4ClustersRefRemoval was slowest in event 56, with time:    1.0000 msec
+Module hltIter4SiStripClusters was slowest in event 11, with time:    1.0000 msec
+Module hltIter4PFJetPixelLessSeeds was slowest in event 60, with time:  163.9750 msec
+Module hltIter4PFJetCkfTrackCandidates was slowest in event 60, with time:  569.9140 msec
+Module hltIter4PFJetCtfWithMaterialTracks was slowest in event 152, with time:   27.9950 msec
+Module hltIter4PFlowTrackSelectionHighPurity was slowest in event 46, with time:    1.0000 msec
+Module hltIter4Merged was slowest in event 46, with time:   11.9980 msec
+Module hltPFMuonMerging was slowest in event 124, with time:    6.9990 msec
+Module hltMuonLinks was slowest in event 152, with time:    2.9990 msec
+Module hltMuons was slowest in event 152, with time:   84.9870 msec
+Module hltParticleFlowRecHitECAL was slowest in event 46, with time:   14.9980 msec
+Module hltParticleFlowRecHitHCAL was slowest in event 19, with time:   11.9990 msec
+Module hltParticleFlowRecHitPS was slowest in event 152, with time:   46.9930 msec
+Module hltParticleFlowClusterECAL was slowest in event 71, with time:   79.9880 msec
+Module hltParticleFlowClusterHCAL was slowest in event 147, with time:  109.9830 msec
+Module hltParticleFlowClusterHFEM was slowest in event 157, with time:   82.9880 msec
+Module hltParticleFlowClusterHFHAD was slowest in event 65, with time:   20.9960 msec
+Module hltParticleFlowClusterPS was slowest in event 47, with time:   33.9950 msec
+Module hltLightPFTracks was slowest in event 186, with time:    3.0000 msec
+Module hltParticleFlowBlock was slowest in event 47, with time:  646.9020 msec
+Module hltParticleFlow was slowest in event 46, with time:   48.9920 msec
+Module hltKT6PFJets was slowest in event 152, with time:   15.9980 msec
+Module hltAntiKT5PFJets was slowest in event 46, with time:   11.9980 msec
+Module hltAK5PFJetL1FastL2L3Corrected was slowest in event 28, with time:    2.0000 msec
+Module hltPFJetsL1Matched was slowest in event 65, with time:    1.0000 msec
+Module hlt1PFJet40 was slowest in event 88, with time:    1.0000 msec
+Module hltTowerMakerForAll was slowest in event 71, with time:   11.9990 msec
+Module hltAntiKT5CaloJets was slowest in event 65, with time:   10.9990 msec
+Module hltCaloJetIDPassed was slowest in event 24, with time:    2.0000 msec
+Module hltCaloJetCorrected was slowest in event 5, with time:    1.0000 msec
+Module hltSingleJet50 was slowest in event 60, with time:    1.0000 msec
+Module hltPFJetsMatchedToCaloJets50 was slowest in event 50, with time:    1.0000 msec
+Module hlt1PFJet80 was slowest in event 14, with time:    1.0000 msec
+Module hltL1sL1SingleJet68 was slowest in event 72, with time:    1.0000 msec
+Module hltEcalRegionalJetsFEDs was slowest in event 24, with time:    1.0000 msec
+Module hltEcalRegionalJetsRecHit was slowest in event 46, with time:    1.9990 msec
+Module hltTowerMakerForJets was slowest in event 152, with time:   10.9990 msec
+Module hltAntiKT5CaloJetsRegional was slowest in event 65, with time:   10.9980 msec
+Module hltCaloJetL1MatchedRegional was slowest in event 69, with time:    1.0000 msec
+Module hltCaloJetIDPassedRegional was slowest in event 19, with time:    1.0000 msec
+Module hltCaloJetCorrectedRegional was slowest in event 48, with time:    1.0000 msec
+Module hltSingleJet100Regional was slowest in event 57, with time:    1.0000 msec
+Module hltPFJetsMatchedToCaloJets100Regional was slowest in event 21, with time:    1.0000 msec
+Module hltL1sL1SingleJet92 was slowest in event 38, with time:    1.0000 msec
+Module hltPFJetsMatchedToCaloJets140Regional was slowest in event 43, with time:    1.0000 msec
+Module hlt1PFJet200 was slowest in event 176, with time:    1.0000 msec
+Module hltL1sL1SingleJet128 was slowest in event 59, with time:    1.0000 msec
+Module hltPFJetsMatchedToCaloJets200Regional was slowest in event 171, with time:    1.0000 msec
+Module hlt1PFJet260 was slowest in event 108, with time:    1.0000 msec
+Module hltSingleJet260Regional was slowest in event 95, with time:    1.0000 msec
+Module hltPFJetsMatchedToCaloJets260Regional was slowest in event 100, with time:    0.9990 msec
+Module hltCaloJetCorrectedRegionalNoJetID was slowest in event 46, with time:    1.0000 msec
+Module hltSingleJet370RegionalNoJetID was slowest in event 97, with time:    1.0000 msec
+Module hltL1sL1ETM40 was slowest in event 54, with time:    1.0000 msec
+Module hltKT6CaloJets was slowest in event 65, with time:   13.9980 msec
+Module hltCaloJetL1FastJetCorrected was slowest in event 14, with time:    1.0000 msec
+Module hltCentralJet65L1FastJet was slowest in event 165, with time:    1.0000 msec
+Module hltMet was slowest in event 5, with time:    2.0000 msec
+Module hltMET65 was slowest in event 38, with time:    1.0000 msec
+Module hltPFNHEF95Filter was slowest in event 54, with time:    1.0000 msec
+Module hltCentralPFJet80 was slowest in event 140, with time:    1.0000 msec
+Module hltPFMETnoMu was slowest in event 21, with time:    1.0000 msec
+Module hltPFMETnoMu105 was slowest in event 115, with time:    1.0000 msec
+Module hltL1sL1SingleForJet16 was slowest in event 20, with time:    1.0000 msec
+Module hltSingleForJet25 was slowest in event 194, with time:    1.0000 msec
+Module hltSingleForJet15 was slowest in event 168, with time:    1.0000 msec
+Module hltDiPFJetAve40 was slowest in event 60, with time:    1.0000 msec
+Module hltPreDiPFJetAve80 was slowest in event 86, with time:    1.0000 msec
+Module hltDiPFJetAve80 was slowest in event 64, with time:    1.0000 msec
+Module hltPreDiPFJetAve140 was slowest in event 101, with time:    1.0000 msec
+Module hltDiPFJetAve140 was slowest in event 42, with time:    1.0000 msec
+Module hltDiPFJetAve200 was slowest in event 43, with time:    1.0000 msec
+Module hltDiPFJetAve260 was slowest in event 199, with time:    1.0000 msec
+Module hltL1sL1HTT150OrHTT175OrHTT200 was slowest in event 57, with time:    1.0000 msec
+Module hltPreFatDiPFJetMass750DR1p1Deta1p5 was slowest in event 180, with time:    1.0000 msec
+Module hltHtMht was slowest in event 47, with time:    1.0000 msec
+Module hltHt550 was slowest in event 21, with time:    1.0000 msec
+Module hltFatDiPFJetMass750DR1p1Deta1p5 was slowest in event 171, with time:    1.0000 msec
+Module hltL1sL1DoubleForJet16EtaOpp was slowest in event 38, with time:    1.0000 msec
+Module hltDoubleJet20ForwardBackward was slowest in event 60, with time:    1.0000 msec
+Module hltL1sL1QuadJetC32ORL1QuadJetC36ORQuadJetC40ORL1HTT125ORL1HTT150ORL1HTT175ORL1DoubleJetC52ORL1DoubleJetC56ORL1DoubleJetC64 was slowest in event 97, with time:    1.0000 msec
+Module hltDiCenJet80L1FastJet was slowest in event 125, with time:    1.0000 msec
+Module hltQuadCenJet60L1FastJet was slowest in event 83, with time:    1.0000 msec
+Module hltDiPFJet40MJJ600VBFLeadingJetsFilter was slowest in event 80, with time:    1.0000 msec
+Module hltL1sL1DoubleJet36Central was slowest in event 159, with time:    1.0000 msec
+Module hltDoubleBJet40Eta2p6L1FastJet was slowest in event 11, with time:    1.0000 msec
+Module hltSelector4JetsL1FastJet was slowest in event 78, with time:    1.0000 msec
+Module hltSelectorJets20L1FastJet was slowest in event 65, with time:    1.0000 msec
+Module hltFastPrimaryVertex was slowest in event 20, with time:    4.0000 msec
+Module hltFastPVPixelTracks was slowest in event 75, with time:  114.9820 msec
+Module hltFastPVJetTracksAssociator was slowest in event 5, with time:    1.0000 msec
+Module hltFastPVJetVertexChecker was slowest in event 85, with time:    1.0000 msec
+Module hltFastPVPixelTracksRecover was slowest in event 170, with time:   11.9980 msec
+Module hltFastPVPixelTracksMerger was slowest in event 14, with time:    1.0000 msec
+Module hltFastPVPixelVertices3D was slowest in event 75, with time:   25.9960 msec
+Module hltBLifetimeL25AssociatorbbPhiL1FastJetFastPV was slowest in event 51, with time:    1.0000 msec
+Module hltBLifetimeL25TagInfosbbPhiL1FastJetFastPV was slowest in event 14, with time:    1.0000 msec
+Module hltBLifetimeL25BJetTagsbbPhiL1FastJetFastPV was slowest in event 30, with time:    1.0000 msec
+Module hltBLifetimeL25FilterbbPhi1BL1FastJetFastPV was slowest in event 35, with time:    1.0000 msec
+Module hltBLifetimeRegionalPixelSeedGeneratorbbPhiL1FastJetFastPV was slowest in event 46, with time:   19.9970 msec
+Module hltBLifetimeRegionalCkfTrackCandidatesbbPhiL1FastJetFastPV was slowest in event 46, with time:  195.9700 msec
+Module hltBLifetimeRegionalCtfWithMaterialTracksbbPhiL1FastJetFastPV was slowest in event 199, with time:   23.9960 msec
+Module hltBLifetimeL3AssociatorbbPhiL1FastJetFastPV was slowest in event 31, with time:    1.0000 msec
+Module hltBLifetimeL3TagInfosbbPhiL1FastJetFastPV was slowest in event 49, with time:    1.0000 msec
+Module hltBLifetimeL3BJetTagsbbPhiL1FastJetFastPV was slowest in event 25, with time:    1.0000 msec
+Module hltBLifetimeL3FilterbbPhi1BL1FastJetFastPV was slowest in event 35, with time:    1.0000 msec
+Module hltDoubleBJet80Eta2p6L1FastJet was slowest in event 27, with time:    1.0000 msec
+Module hltBLifetimeL25BJetTagsbbPhi1stTrackL1FastJetFastPV was slowest in event 154, with time:    1.0000 msec
+Module hltBLifetimeL25FilterbbPhi1B1stTrackL1FastJetFastPV was slowest in event 28, with time:    1.0000 msec
+Module hltBLifetimeL3FilterbbPhi1BLooseL1FastJetFastPV was slowest in event 30, with time:    1.0000 msec
+Module hltL1sL1DoubleJetC44Eta1p74WdEta4 was slowest in event 53, with time:    1.0000 msec
+Module hltSingleBJet60Eta1p7L1FastJet was slowest in event 51, with time:    1.0000 msec
+Module hltDoubleBJet53Eta1p7L1FastJet was slowest in event 56, with time:    1.0000 msec
+Module hltBLifetimeL25FilterbbPhiL1FastJetFastPV was slowest in event 68, with time:    1.0000 msec
+Module hltL1sL1DoubleJetC56Eta1p74WdEta4 was slowest in event 166, with time:    1.0000 msec
+Module hltPreJet80Eta1p7Jet70Eta1p7DiBTagIP3DFastPV was slowest in event 64, with time:    0.9990 msec
+Module hltSingleBJet80Eta1p7L1FastJet was slowest in event 95, with time:    0.9990 msec
+Module hltDoubleBJet120Eta2p4L1FastJet was slowest in event 106, with time:    1.0000 msec
+Module hltBLifetimeL25FilterbbPhi1stTrackL1FastJetFastPV was slowest in event 118, with time:    1.0000 msec
+Module hltQuadCenJet45L1FastJet was slowest in event 178, with time:    1.0000 msec
+Module hltQuadCenJet50L1FastJet was slowest in event 110, with time:    1.0000 msec
+Module hltQuadJet70L1FastJet was slowest in event 19, with time:    1.0000 msec
+Module hltPreQuadJet80 was slowest in event 104, with time:    1.0000 msec
+Module hltQuadJet90L1FastJet was slowest in event 150, with time:    1.0000 msec
+Module hltL1sL1TripleJet644424VBFORTripleJet644828VBFORTripleJet684832VBF was slowest in event 53, with time:    1.0000 msec
+Module hltPreQuadJet75553520BTagIPVBF was slowest in event 95, with time:    1.0000 msec
+Module hltL1FastJetSingle75HbbVBF was slowest in event 68, with time:    1.0000 msec
+Module hltL1FastJetQuad20HbbVBF was slowest in event 26, with time:    1.0000 msec
+Module hltCaloL1FastJetEtaSortedVBF was slowest in event 42, with time:    1.0000 msec
+Module hltGetJetsfromBJetHbbVBF was slowest in event 46, with time:    1.0000 msec
+Module hltSelectorJetsHbbVBF was slowest in event 31, with time:    1.0000 msec
+Module hltBLifetimeL25JetsHbbVBF was slowest in event 134, with time:    1.0000 msec
+Module hltBLifetimeL25AssociatorHbbVBF was slowest in event 24, with time:    1.0000 msec
+Module hltBLifetimeL25TagInfosHbbVBF was slowest in event 27, with time:    1.0000 msec
+Module hltBLifetime2p5L25FilterHbbVBF was slowest in event 108, with time:    1.0000 msec
+Module hltBLifetimeRegionalPixelSeedGeneratorHbbVBF was slowest in event 46, with time:   25.9960 msec
+Module hltBLifetimeRegionalCkfTrackCandidatesHbbVBF was slowest in event 46, with time:  214.9680 msec
+Module hltBLifetimeRegionalCtfWithMaterialTracksHbbVBF was slowest in event 46, with time:   20.9970 msec
+Module hltBLifetimeL3AssociatorbbHbbVBF was slowest in event 24, with time:    1.0000 msec
+Module hltBLifetimeL3TagInfosHbbVBF was slowest in event 68, with time:    1.0000 msec
+Module hltBLifetime6p8L3FilterHbbVBF was slowest in event 27, with time:    1.0000 msec
+Module hltL1FastJetTriple38HbbVBF was slowest in event 184, with time:    1.0000 msec
+Module hltBLifetime7p9L3FilterHbbVBF was slowest in event 142, with time:    1.0000 msec
+Module hltL1FastJetSingle64HbbVBF was slowest in event 64, with time:    1.0000 msec
+Module hltL1FastJetDouble44HbbVBF was slowest in event 168, with time:    1.0000 msec
+Module hltL1FastJetTriple24HbbVBF was slowest in event 193, with time:    1.0000 msec
+Module hltL1FastJetQuad18HbbVBF was slowest in event 94, with time:    1.0000 msec
+Module hltCaloL1FastJetEtaSortedM180VBF was slowest in event 48, with time:    1.0000 msec
+Module hltFastPVPixelVertices was slowest in event 5, with time:    1.0000 msec
+Module hltFastPVPixelVertexSelector was slowest in event 49, with time:    1.0000 msec
+Module hltBLifetimeFastL25AssociatorHbbVBF was slowest in event 26, with time:    1.0000 msec
+Module hltBLifetimeFastL25TagInfosHbbVBF was slowest in event 34, with time:    1.0000 msec
+Module hltSecondaryVertexL25TagInfosHbbVBF was slowest in event 140, with time:    6.9990 msec
+Module hltCombinedSecondaryVertexL25BJetTagsHbbVBF was slowest in event 68, with time:    1.0000 msec
+Module hltCSV0p6L25FilterHbbVBF was slowest in event 42, with time:    1.0000 msec
+Module hltBLifetimeFastRegionalPixelSeedGeneratorHbbVBF was slowest in event 46, with time:   24.9960 msec
+Module hltBLifetimeFastRegionalCkfTrackCandidatesHbbVBF was slowest in event 46, with time:  213.9670 msec
+Module hltBLifetimeFastRegionalCtfWithMaterialTracksHbbVBF was slowest in event 46, with time:   20.9970 msec
+Module hltBLifetimeFastL3AssociatorbbHbbVBF was slowest in event 142, with time:    1.0000 msec
+Module hltBLifetimeFastL3TagInfosHbbVBF was slowest in event 27, with time:    1.0000 msec
+Module hltSecondaryVertexL3TagInfosHbbVBF was slowest in event 68, with time:    5.9990 msec
+Module hltCombinedSecondaryVertexL3BJetTagsHbbVBF was slowest in event 27, with time:    1.0000 msec
+Module hltCaloL1FastJetBTagCSVSortedVBF was slowest in event 68, with time:    1.0000 msec
+Module hltPFJetSingle78HbbVBF was slowest in event 182, with time:    1.0000 msec
+Module hltPreQuadPFJet82654835BTagCSVVBF was slowest in event 175, with time:    1.0000 msec
+Module hltL1FastJetSingle66HbbVBF was slowest in event 48, with time:    0.9990 msec
+Module hltL1FastJetDouble50HbbVBF was slowest in event 50, with time:    1.0000 msec
+Module hltL1FastJetTriple30HbbVBF was slowest in event 143, with time:    1.0000 msec
+Module hltL1FastJetQuad22HbbVBF was slowest in event 78, with time:    1.0000 msec
+Module hltCaloL1FastJetEtaSortedM200VBF was slowest in event 84, with time:    1.0000 msec
+Module hltExaJet35L1FastJet was slowest in event 95, with time:    1.0000 msec
+Module hltExaJet45L1FastJet was slowest in event 41, with time:    1.0000 msec
+Module hltExaJet50L1FastJet was slowest in event 166, with time:    1.0000 msec
+Module hltEightJet30eta3p0L1FastJet was slowest in event 184, with time:    1.0000 msec
+Module hltPreExclDiJet35HFOR was slowest in event 138, with time:    1.0000 msec
+Module hltExclDiJet35HFOR was slowest in event 20, with time:    1.0000 msec
+Module hltL1sL1SingleJet16FwdVeto5 was slowest in event 127, with time:    1.0000 msec
+Module hltL1sL1DoubleJetC56orL1DoubleJetC64 was slowest in event 102, with time:    1.0000 msec
+Module hltExclDiJet80HFAND was slowest in event 25, with time:    1.0000 msec
+Module hltL1sL1SingleJet20CentralNoBPTX was slowest in event 36, with time:    1.0000 msec
+Module hltBPTXAntiCoincidence was slowest in event 120, with time:    1.0000 msec
+Module hltL1sL1SingleJet20CentralNoBPTXNoHalo was slowest in event 164, with time:    1.0000 msec
+Module hltL1sL1SingleJet32NoBPTXNoHalo was slowest in event 76, with time:    1.0000 msec
+Module hltL1sL1DoubleJetC64ORDoubleJetC56ORDoubleJetC52 was slowest in event 14, with time:    1.0000 msec
+Module hltHT200AlphaT0p57 was slowest in event 40, with time:    1.0000 msec
+Module hltPreHT200 was slowest in event 112, with time:    1.0000 msec
+Module hltHt200 was slowest in event 93, with time:    1.0000 msec
+Module hltL1sL1HTT150OrHTT175OrHTT200OrDoubleJetC56OrSingleJet128 was slowest in event 43, with time:    1.0000 msec
+Module hltHT250AlphaT0p55 was slowest in event 34, with time:    1.0000 msec
+Module hltHT250AlphaT0p57 was slowest in event 21, with time:    1.0000 msec
+Module hltHt250 was slowest in event 117, with time:    1.0000 msec
+Module hltHT300AlphaT0p53 was slowest in event 164, with time:    1.0000 msec
+Module hltHT300AlphaT0p54 was slowest in event 14, with time:    1.0000 msec
+Module hltHt300 was slowest in event 75, with time:    1.0000 msec
+Module hltPreHT300DoubleDisplacedPFJet60 was slowest in event 54, with time:    1.0000 msec
+Module hltAntiKT5L2L3CorrCaloJetsL1FastJetPt60Eta2 was slowest in event 43, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetL25Associator was slowest in event 61, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetL25TagInfos was slowest in event 41, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetL25JetTags was slowest in event 46, with time:    1.0000 msec
+Module hlt2DisplacedHT300L1FastJetL25Filter was slowest in event 57, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetRegionalPixelSeedGenerator was slowest in event 199, with time:   16.9970 msec
+Module hltDisplacedHT300L1FastJetRegionalCkfTrackCandidates was slowest in event 175, with time:  119.9820 msec
+Module hltDisplacedHT300L1FastJetRegionalCtfWithMaterialTracks was slowest in event 199, with time:   16.9980 msec
+Module hltDisplacedHT300L1FastJetL3Associator was slowest in event 51, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetL3TagInfos was slowest in event 28, with time:    1.0000 msec
+Module hltDisplacedHT300L1FastJetL3JetTags was slowest in event 39, with time:    1.0000 msec
+Module hlt2DisplacedHT300L1FastJetL3Filter was slowest in event 20, with time:    1.0000 msec
+Module hltPFMuonMergingPromptTracks was slowest in event 46, with time:    2.0000 msec
+Module hltLightPFPromptTracks was slowest in event 24, with time:    1.0000 msec
+Module hltParticleFlowBlockPromptTracks was slowest in event 46, with time:  381.9420 msec
+Module hltParticleFlowPromptTracks was slowest in event 46, with time:   27.9960 msec
+Module hltAntiKT5PFJetsPromptTracks was slowest in event 66, with time:    5.9990 msec
+Module hltAK5PFJetPromptTrackL1FastL2L3Corrected was slowest in event 46, with time:    2.0000 msec
+Module hltPFDisplacedJets was slowest in event 115, with time:    1.0000 msec
+Module hltPFDisplacedJetsChgFraction10 was slowest in event 199, with time:    1.0000 msec
+Module hlt1DisplacedHT300L1FastJetL25Filter was slowest in event 125, with time:    1.0000 msec
+Module hlt1DisplacedHT300L1FastJetL3Filter was slowest in event 66, with time:    1.0000 msec
+Module hltHt350 was slowest in event 178, with time:    1.0000 msec
+Module hltPreHT350AlphaT0p52 was slowest in event 21, with time:    1.0000 msec
+Module hltHT350AlphaT0p52 was slowest in event 82, with time:    1.0000 msec
+Module hltPreHT350AlphaT0p53 was slowest in event 132, with time:    0.9990 msec
+Module hltHT350AlphaT0p53 was slowest in event 34, with time:    1.0000 msec
+Module hltHt400 was slowest in event 117, with time:    0.9990 msec
+Module hltPreHT400AlphaT0p51 was slowest in event 87, with time:    1.0000 msec
+Module hltHT400AlphaT0p51 was slowest in event 76, with time:    1.0000 msec
+Module hltHT400AlphaT0p52 was slowest in event 118, with time:    1.0000 msec
+Module hltHT450AlphaT0p51 was slowest in event 99, with time:    1.0000 msec
+Module hltHt450 was slowest in event 33, with time:    1.0000 msec
+Module hltPreHT550 was slowest in event 79, with time:    1.0000 msec
+Module hltHt650 was slowest in event 134, with time:    1.0000 msec
+Module hltDeDxEstimatorProducer was slowest in event 58, with time:    4.9990 msec
+Module hltDeDxFilter50DEDX3p6 was slowest in event 47, with time:    1.0000 msec
+Module hltDeDxFilter60DEDX3p7 was slowest in event 21, with time:    1.0000 msec
+Module hltHt750 was slowest in event 55, with time:    1.0000 msec
+Module hltL1sL1HTT150OrHTT175 was slowest in event 93, with time:    1.0000 msec
+Module hltOnlinePrimaryVertices was slowest in event 19, with time:  203.9690 msec
+Module hltGoodOnlinePVs was slowest in event 21, with time:    1.0000 msec
+Module hltPFPileUp was slowest in event 46, with time:    3.9990 msec
+Module hltPFNoPileUp was slowest in event 34, with time:    2.0000 msec
+Module hltAntiKT5PFJetsNoPU was slowest in event 20, with time:   10.9990 msec
+Module hltAK5PFJetL1FastL2L3CorrectedNoPU was slowest in event 35, with time:    2.0000 msec
+Module hltPFHTNoPU was slowest in event 54, with time:    1.0000 msec
+Module hltPFHT350NoPU was slowest in event 41, with time:    1.0000 msec
+Module hltPFHTTriCentralJet40 was slowest in event 24, with time:    1.0000 msec
+Module hltHt600 was slowest in event 75, with time:    1.0000 msec
+Module hltL1sL1ETM36ORETM40 was slowest in event 11, with time:    1.0000 msec
+Module hltPFMETProducer was slowest in event 47, with time:    1.0000 msec
+Module hltHcalNoiseInfoProducer was slowest in event 71, with time:    8.9990 msec
+Module hltHcalTowerNoiseCleaner was slowest in event 19, with time:    2.0000 msec
+Module hltMetClean was slowest in event 20, with time:    2.0000 msec
+Module hltCentralJet50 was slowest in event 47, with time:    1.0000 msec
+Module hltDiCentralJet15 was slowest in event 21, with time:    1.0000 msec
+Module hlt2CaloJetCaloJetSumpt100 was slowest in event 53, with time:    0.9990 msec
+Module hltCentralPFJet60 was slowest in event 48, with time:    1.0000 msec
+Module hltDiCentralPFJet25 was slowest in event 166, with time:    1.0000 msec
+Module hltDiCentralJet20L1FastJetCorrected was slowest in event 134, with time:    1.0000 msec
+Module hltL1sL1DoubleJetC36ETM30ORL1DoubleJetC44ETM30 was slowest in event 96, with time:    1.0000 msec
+Module hltDiCentralPFJet50NoPU was slowest in event 139, with time:    1.0000 msec
+Module hltPFHTMETNoMu was slowest in event 54, with time:    1.0000 msec
+Module hltPFMET80MuORNoMu was slowest in event 97, with time:    1.0000 msec
+Module hltBJetHbb was slowest in event 101, with time:    1.0000 msec
+Module hltFastPixelBLifetimeRegionalPixelSeedGeneratorHbb was slowest in event 46, with time:   20.9970 msec
+Module hltFastPixelBLifetimeRegionalCkfTrackCandidatesHbb was slowest in event 46, with time:  191.9710 msec
+Module hltFastPixelBLifetimeRegionalCtfWithMaterialTracksHbb was slowest in event 199, with time:   20.9960 msec
+Module hltFastPixelBLifetimeL3AssociatorHbb was slowest in event 39, with time:    1.0000 msec
+Module hltFastPixelBLifetimeL3TagInfosHbb was slowest in event 5, with time:    1.0000 msec
+Module hltL3SecondaryVertexTagInfos was slowest in event 147, with time:    6.9990 msec
+Module hltL3CombinedSecondaryVertexBJetTags was slowest in event 5, with time:    1.0000 msec
+Module hltBLifetimeL3FilterHbbCSV was slowest in event 61, with time:    1.0000 msec
+Module hltQuadJet25HbbZbb was slowest in event 168, with time:    0.9990 msec
+Module hltDiJet75HbbZbb was slowest in event 117, with time:    1.0000 msec
+Module hltSingleJetBLifetimeL3FilterHbbZbbCSV was slowest in event 48, with time:    1.0000 msec
+Module hltDiJetBLifetimeL3FilterHbbZbbCSV was slowest in event 78, with time:    1.0000 msec
+Module hltTriJetBLifetimeL3FilterHbbZbbCSV was slowest in event 59, with time:    1.0000 msec
+Module hltPreDiPFJet80DiPFJet30BTagCSVd07d05d05 was slowest in event 40, with time:    1.0000 msec
+Module hltTriJetBLifetimeL3FilterHbbZbbCSV05 was slowest in event 39, with time:    1.0000 msec
+Module hltPreMET80 was slowest in event 194, with time:    1.0000 msec
+Module hltL1sL1ETM36ORETM40ORETM50 was slowest in event 46, with time:    1.0000 msec
+Module hltMETClean50 was slowest in event 134, with time:    1.0000 msec
+Module hltMET120 was slowest in event 59, with time:    1.0000 msec
+Module hltL1sL1ETM70 was slowest in event 76, with time:    1.0000 msec
+Module hltPreMET200HBHENoiseCleaned was slowest in event 42, with time:    1.0000 msec
+Module hltL1sL1ETM100 was slowest in event 83, with time:    1.0000 msec
+Module hltL1sL1SingleMuOpen was slowest in event 36, with time:    1.0000 msec
+Module hltL1MuOpenL1Filtered0 was slowest in event 80, with time:    1.0000 msec
+Module hltL1sL1SingleMu12 was slowest in event 35, with time:    1.0000 msec
+Module hltPreL1SingleMu12 was slowest in event 104, with time:    1.0000 msec
+Module hltL1fL1sMu12L1Filtered0 was slowest in event 183, with time:    1.0000 msec
+Module hltL1sMu16Eta2p1 was slowest in event 40, with time:    1.0000 msec
+Module hltL1fL1sMu16Eta2p1L1Filtered0 was slowest in event 88, with time:    1.0000 msec
+Module hltL2fL1sMu70Eta2p1L1f0L2Filtered70QCha2 was slowest in event 141, with time:    1.0000 msec
+Module hltPFMHT60Filter was slowest in event 115, with time:    1.0000 msec
+Module hltL1sL1SingleMu6NotBptxOR was slowest in event 48, with time:    1.0000 msec
+Module hltL1sL1TripleMu0ORTripleMu0HighQ was slowest in event 106, with time:    1.0000 msec
+Module hltPFNeutralHadronsAndPartons was slowest in event 199, with time:    2.0000 msec
+Module hltAntiKT5PFJetsNeutral was slowest in event 152, with time:    3.0000 msec
+Module hltAK5PFJetNeutralL1FastL2L3Corrected was slowest in event 96, with time:    1.0000 msec
+Module hltL1sL1DoubleMu0erOR3erHighQ was slowest in event 59, with time:    1.0000 msec
+Module hltDoubleMu4L2PreFiltered was slowest in event 103, with time:    1.0000 msec
+Module hltDoubleDisplacedMu4L3PreFiltered was slowest in event 152, with time:    0.9990 msec
+Module hltL1sL1SingleMu3 was slowest in event 42, with time:    1.0000 msec
+Module hltL1fL1sMu3L1Filtered0 was slowest in event 124, with time:    1.0000 msec
+Module hltL2fL1sMu3L2Filtered3 was slowest in event 96, with time:    1.0000 msec
+Module hltL3fL1sMu3L3Filtered5 was slowest in event 89, with time:    1.0000 msec
+Module hltL3fL1sMu3L3Filtered8 was slowest in event 118, with time:    1.0000 msec
+Module hltL1sL1SingleMu7 was slowest in event 160, with time:    1.0000 msec
+Module hltL3fL1sMu7L3Filtered12 was slowest in event 69, with time:    1.0000 msec
+Module hltL2fL1sMu12L2Filtered12 was slowest in event 71, with time:    1.0000 msec
+Module hltL1sL1Mu10erJetC20JetC12Corr1OrL1Mu10erJetC32OrMu10erJetC32JetC12Corr1OrMu12erOrMu14er was slowest in event 150, with time:    1.0000 msec
+Module hltL1Mu10erJetC20JetC12Corr1OrL1Mu10erJetC32OrMu10erJetC32JetC12Corr1OrMu12erOrMu14erL1MuFiltered0Eta2p1 was slowest in event 105, with time:    1.0000 msec
+Module hltL2L1Mu10erJetC20JetC12Corr1OrL1Mu10erJetC32OrMu10erJetC32JetC12Corr1OrMu12erOrMu14erL2MuFiltered10Eta2p1 was slowest in event 115, with time:    1.0000 msec
+Module hltL1fL1sMu7L1FilteredEta2p1Filtered0 was slowest in event 145, with time:    1.0000 msec
+Module hltL2fL1sMu7L1fEta2p1L2FilteredEta2p1Filtered7 was slowest in event 28, with time:    1.0000 msec
+Module hltL3fL1sMu7L1fEta2p1L2fEta2p1f7L3FilteredEta2p1Filtered15 was slowest in event 142, with time:    1.0000 msec
+Module hltL1sMu16 was slowest in event 94, with time:    1.0000 msec
+Module hltL2fL1sMu16Eta2p1L1f0L2Filtered16Q was slowest in event 119, with time:    1.0000 msec
+Module hltL3fL1sMu16L1f0L2f16QL3Filtered30Q was slowest in event 19, with time:    1.0000 msec
+Module hltEcalRegionalMuonsFEDs was slowest in event 24, with time:    1.0000 msec
+Module hltEcalRegionalMuonsRecHit was slowest in event 19, with time:    1.0000 msec
+Module hltTowerMakerForMuons was slowest in event 71, with time:    5.9990 msec
+Module hltKT6CaloJetsForMuons was slowest in event 19, with time:    8.9990 msec
+Module hltL3CaloMuonCorrectedIsolations was slowest in event 152, with time:    1.9990 msec
+Module hltRegionalSeedsForL3MuonIsolation was slowest in event 152, with time:  152.9770 msec
+Module hltRegionalCandidatesForL3MuonIsolation was slowest in event 152, with time: 5603.1490 msec
+Module hltRegionalTracksForL3MuonIsolation was slowest in event 152, with time:  138.9790 msec
+Module hltL3MuonCombRelIsolationsIso1p0 was slowest in event 124, with time:    1.9990 msec
+Module hltL1sL1SingleMu16er was slowest in event 99, with time:    1.0000 msec
+Module hltL1fL1sMu16erL1Filtered0 was slowest in event 47, with time:    1.0000 msec
+Module hltL2fL1sMu16erL2Filtered16 was slowest in event 119, with time:    1.0000 msec
+Module hltL1sMu12Eta2p1ETM20 was slowest in event 146, with time:    1.0000 msec
+Module hltPreIsoMu15eta2p1L1ETM20 was slowest in event 112, with time:    1.0000 msec
+Module hltL3MuonCombRelIsolations was slowest in event 24, with time:    1.0000 msec
+Module hltL3crIsoL1sMu12Eta2p1L1f0L2f12QL3f15QL3crIsoRhoFiltered0p15 was slowest in event 96, with time:    1.0000 msec
+Module hltL3fL1sMu16Eta2p1L1f0L2f16QL3Filtered20 was slowest in event 47, with time:    1.0000 msec
+Module hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f20L3crIsoRhoFiltered0p15 was slowest in event 152, with time:    1.0000 msec
+Module hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f24QL3crIsoRhoFiltered0p15 was slowest in event 112, with time:    0.9990 msec
+Module hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f30QL3crIsoRhoFiltered0p15 was slowest in event 19, with time:    1.0000 msec
+Module hltL3fL1sMu16Eta2p1L1f0L2f16QL3Filtered34Q was slowest in event 71, with time:    1.0000 msec
+Module hltL3fL1sMu16Eta2p1L1f0L2f16QL3Filtered40 was slowest in event 199, with time:    0.9990 msec
+Module hltDeDxFilter60DEDX3p7Mu was slowest in event 119, with time:    1.0000 msec
+Module hltL1sL1DoubleMu103p5 was slowest in event 138, with time:    1.0000 msec
+Module hltPreL2DoubleMu38NoVertex2ChaAngle2p5 was slowest in event 146, with time:    1.0000 msec
+Module hltL1sL1DoubleMu10Mu3p5 was slowest in event 26, with time:    1.0000 msec
+Module hltL1fL1sDiMu10Mu3p5L1f103p5 was slowest in event 152, with time:    1.0000 msec
+Module hltL2fL1sDiMu10Mu3p5L1f103p5L2f10 was slowest in event 96, with time:    1.0000 msec
+Module hltL1sL1DoubleMu33HighQ was slowest in event 55, with time:    1.0000 msec
+Module hltDimuon33L1Filtered0 was slowest in event 47, with time:    1.0000 msec
+Module hltDoubleMu4JpsiTkDisplacedL3Filtered was slowest in event 146, with time:    1.0000 msec
+Module hltL1sL1DoubleMu0erHighQ was slowest in event 20, with time:    1.0000 msec
+Module hltDoubleMu3p54Dimuon5CentralBsL3Filtered was slowest in event 143, with time:    1.0000 msec
+Module hltDisplacedmumuVtxProducerDoubleMu3p5LowMass was slowest in event 124, with time:    1.0000 msec
+Module hltDimuon0PsiPrimeL3Filtered was slowest in event 193, with time:    1.0000 msec
+Module hltDimuon5UpsilonL3Filtered was slowest in event 169, with time:    0.9990 msec
+Module hltDimuon7UpsilonL3Filtered was slowest in event 142, with time:    1.0000 msec
+Module hltPreDimuon7PsiPrime was slowest in event 82, with time:    0.9990 msec
+Module hltPreDimuon8Jpsi was slowest in event 121, with time:    0.9990 msec
+Module hltDimuon8JpsiL3Filtered was slowest in event 146, with time:    1.0000 msec
+Module hltDimuon11UpsilonL3Filtered was slowest in event 124, with time:    1.0000 msec
+Module hltL1sL1TripleMu0HighQ was slowest in event 85, with time:    1.0000 msec
+Module hltL1sL1DoubleMu0 was slowest in event 28, with time:    1.0000 msec
+Module hltL1sL1DoubleMu0or33HighQ was slowest in event 132, with time:    1.0000 msec
+Module hltDimuon0or33L2PreFiltered0 was slowest in event 143, with time:    1.0000 msec
+Module hltL1sL1DoubleMu10MuOpenORDoubleMu103p5 was slowest in event 11, with time:    1.0000 msec
+Module hltL3fL1DoubleMu10MuOpenOR3p5L1f0L2f10L3Filtered13 was slowest in event 152, with time:    1.0000 msec
+Module hltDiMuonGlb13Glb8DzFiltered0p2 was slowest in event 131, with time:    1.0000 msec
+Module hltDiMuonGlb17Glb8DzFiltered0p2 was slowest in event 119, with time:    1.0000 msec
+Module hltL3fL1sMu10MuOpenOR3p5L1f0L2f10L3Filtered17 was slowest in event 146, with time:    1.0000 msec
+Module hltMuTrackSeeds was slowest in event 19, with time:   17.9970 msec
+Module hltMuCkfTrackCandidates was slowest in event 19, with time:  142.9790 msec
+Module hltMuCtfTracks was slowest in event 152, with time:   46.9930 msec
+Module hltDiMuonMerging was slowest in event 152, with time:    3.0000 msec
+Module hltDiMuonLinks was slowest in event 96, with time:    1.0000 msec
+Module hltGlbTrkMuons was slowest in event 199, with time:   34.9940 msec
+Module hltGlbTrkMuonCands was slowest in event 80, with time:    1.0000 msec
+Module hltDiMuonGlbFiltered17TrkFiltered8 was slowest in event 82, with time:    1.0000 msec
+Module hltL3fL1sMu16L1f0L2f16QL3Filtered22 was slowest in event 112, with time:    1.0000 msec
+Module hltDiMuonGlb22Trk8DzFiltered0p2 was slowest in event 96, with time:    1.0000 msec
+Module hltL1sL1TripleMu0ORTripleMu0HQ was slowest in event 88, with time:    1.0000 msec
+Module hltL1sL1DoubleMu0erHighQORDoubleMu3er0erHighQWdEta22 was slowest in event 50, with time:    1.0000 msec
+Module hltMu5L2Mu3JpsiTrackMassFiltered was slowest in event 193, with time:    0.9990 msec
+Module hltMu5TrackJpsiL2Filtered3 was slowest in event 99, with time:    1.0000 msec
+Module hltMu5TrackJpsiL3Filtered3 was slowest in event 114, with time:    1.0000 msec
+Module hltMuTrackJpsiPixelTrackSelector was slowest in event 34, with time:    1.0000 msec
+Module hltMuTrackJpsiPixelTrackCands was slowest in event 35, with time:    1.0000 msec
+Module hltMu5Track1JpsiPixelMassFiltered was slowest in event 87, with time:    1.0000 msec
+Module hltMuTrackJpsiTrackSeeds was slowest in event 124, with time:    4.9990 msec
+Module hltMuTrackJpsiEffCkfTrackCandidates was slowest in event 124, with time:   46.9930 msec
+Module hltMuTrackJpsiEffCtfTracks was slowest in event 124, with time:   14.9970 msec
+Module hltMuTrackJpsiEffCtfTrackCands was slowest in event 72, with time:    1.0000 msec
+Module hltPreMu5Track3p5Jpsi was slowest in event 154, with time:    1.0000 msec
+Module hltMu5Track3p5JpsiTrackMassFiltered was slowest in event 34, with time:    1.0000 msec
+Module hltPreMu7Track7Jpsi was slowest in event 104, with time:    1.0000 msec
+Module hltMu7TrackJpsiL1Filtered0 was slowest in event 146, with time:    1.0000 msec
+Module hltMu7TrackJpsiL2Filtered3 was slowest in event 30, with time:    1.0000 msec
+Module hltMu7TrackJpsiL3Filtered3 was slowest in event 124, with time:    1.0000 msec
+Module hltMu7Track6JpsiPixelMassFiltered was slowest in event 99, with time:    1.0000 msec
+Module hltMuTrackJpsiCkfTrackCandidates was slowest in event 124, with time:   42.9940 msec
+Module hltMuTrackJpsiCtfTracks was slowest in event 124, with time:   12.9980 msec
+Module hltMuTrackJpsiCtfTrackCands was slowest in event 33, with time:    1.0000 msec
+Module hltMu7Track7JpsiTrackMassFiltered was slowest in event 147, with time:    1.0000 msec
+Module hltL1sL1SingleMu12erORSingleMu14er was slowest in event 65, with time:    1.0000 msec
+Module hltMuTrackPixelTrackSelectorOnia was slowest in event 36, with time:    1.0000 msec
+Module hltMuTrackPixelTrackCandsOnia was slowest in event 118, with time:    1.0000 msec
+Module hltMu15Track5PixelMassFilteredOnia was slowest in event 99, with time:    1.0000 msec
+Module hltMuTrackTrackSeedsOnia was slowest in event 199, with time:    3.0000 msec
+Module hltMuTrackCkfTrackCandidatesOnia was slowest in event 118, with time:   23.9960 msec
+Module hltMuTrackCtfTracksOnia was slowest in event 199, with time:   10.9990 msec
+Module hltMuTkMuMuonLinksOnia was slowest in event 152, with time:    3.0000 msec
+Module hltMuTkMuMuonsOnia was slowest in event 199, with time:   34.9950 msec
+Module hltMu15TkMu5TkMuMassFilteredOnia was slowest in event 115, with time:    1.0000 msec
+Module hltL1sL1Mu3JetC16WdEtaPhi2 was slowest in event 57, with time:    1.0000 msec
+Module hltPreBTagMuJet20Mu4 was slowest in event 152, with time:    1.0000 msec
+Module hltBJet20L1FastJetCentralBPH was slowest in event 99, with time:    1.0000 msec
+Module hltBSoftMuonGetJetsFromJet20L1FastJetBPH was slowest in event 30, with time:    1.0000 msec
+Module hltSelector4JetsJet20L1FastJetBPH was slowest in event 24, with time:    0.9990 msec
+Module hltBSoftMuonJet20L1FastJetL25JetsBPH was slowest in event 121, with time:    1.0000 msec
+Module hltBSoftMuonJet20L1FastJetL25TagInfosBPH was slowest in event 33, with time:    1.0000 msec
+Module hltBSoftMuonJet20L1FastJetL25BJetTagsByDRBPH was slowest in event 68, with time:    1.0000 msec
+Module hltBSoftMuonJet20L1FastJetL25FilterByDRBPH was slowest in event 36, with time:    1.0000 msec
+Module hltBSoftMuonJet20L1FastJetMu5SelL3TagInfosBPH was slowest in event 28, with time:    1.0000 msec
+Module hltBSoftMuonJet20L1FastJetMu5L3FilterByDRBPH was slowest in event 72, with time:    1.0000 msec
+Module hltL1sL1Mu3JetC52WdEtaPhi2 was slowest in event 135, with time:    1.0000 msec
+Module hltBJet60L1FastJetCentralBPH was slowest in event 131, with time:    1.0000 msec
+Module hltBSoftMuonGetJetsFromJet60L1FastJetBPH was slowest in event 36, with time:    1.0000 msec
+Module hltBSoftMuonJet60L1FastJetL25JetsBPH was slowest in event 146, with time:    1.0000 msec
+Module hltBSoftMuonJet60L1FastJetL25TagInfosBPH was slowest in event 49, with time:    1.0000 msec
+Module hltBSoftMuonJet60L1FastJetL25BJetTagsByDRBPH was slowest in event 24, with time:    1.0000 msec
+Module hltBSoftMuonJet60L1FastJetL25FilterByDRBPH was slowest in event 39, with time:    1.0000 msec
+Module hltBSoftMuonJet60L1FastJetMu5SelL3TagInfosBPH was slowest in event 55, with time:    0.9990 msec
+Module hltBSoftMuonJet60L1FastJetMu5SelL3BJetTagsByDRBPH was slowest in event 131, with time:    1.0000 msec
+Module hltL1sL1SingleEG12 was slowest in event 28, with time:    1.0000 msec
+Module hltEcalRegionalEgammaFEDs was slowest in event 42, with time:    1.0000 msec
+Module hltEcalRegionalEgammaRecHit was slowest in event 19, with time:    1.0000 msec
+Module hltESRegionalEgammaRecHit was slowest in event 43, with time:    1.0000 msec
+Module hltHybridSuperClustersL1Seeded was slowest in event 68, with time:    5.0000 msec
+Module hltCorrectedHybridSuperClustersL1Seeded was slowest in event 27, with time:    1.0000 msec
+Module hltMulti5x5BasicClustersL1Seeded was slowest in event 70, with time:    3.9990 msec
+Module hltMulti5x5SuperClustersL1Seeded was slowest in event 41, with time:    1.0000 msec
+Module hltMulti5x5EndcapSuperClustersWithPreshowerL1Seeded was slowest in event 170, with time:   11.9980 msec
+Module hltCorrectedMulti5x5EndcapSuperClustersWithPreshowerL1Seeded was slowest in event 25, with time:    1.0000 msec
+Module hltL1SeededRecoEcalCandidate was slowest in event 21, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG12 was slowest in event 198, with time:    0.9990 msec
+Module hltEG20EtFilter was slowest in event 117, with time:    1.0000 msec
+Module hltL1SeededHLTClusterShape was slowest in event 19, with time:    1.0000 msec
+Module hltL1SeededPhotonHcalForHE was slowest in event 49, with time:    4.0000 msec
+Module hltEG20CaloIdVLHEFilter was slowest in event 54, with time:    1.0000 msec
+Module hltL1SeededPhotonEcalIso was slowest in event 49, with time:   12.9980 msec
+Module hltPhoton20CaloIdVLIsoLEcalIsoFilter was slowest in event 170, with time:    1.0000 msec
+Module hltL1SeededPhotonHcalIso was slowest in event 117, with time:    3.0000 msec
+Module hltL1SeededEgammaRegionalPixelSeedGenerator was slowest in event 186, with time:   47.9930 msec
+Module hltL1SeededEgammaRegionalCkfTrackCandidates was slowest in event 186, with time:  683.8960 msec
+Module hltL1SeededEgammaRegionalCTFFinalFitWithMaterial was slowest in event 186, with time:   18.9970 msec
+Module hltL1SeededPhotonHollowTrackIso was slowest in event 123, with time:    1.0000 msec
+Module hltL1sL1SingleEG22 was slowest in event 72, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG22 was slowest in event 189, with time:    1.0000 msec
+Module hltPhoton22R9Id90HE10Iso40EBOnlyEtFilter was slowest in event 54, with time:    1.0000 msec
+Module hltL1SeededR9ID was slowest in event 41, with time:    1.0000 msec
+Module hltL1SeededEgammaRegionalAnalyticalTrackSelectorHighPurity was slowest in event 189, with time:    1.0000 msec
+Module hltPhoton22R9Id90HE10Iso40EBOnlyTrackIsoLastFilter was slowest in event 97, with time:    1.0000 msec
+Module hltL1sL1DoubleEG137 was slowest in event 143, with time:    1.0000 msec
+Module hltPrePhoton26Photon18 was slowest in event 49, with time:    1.0000 msec
+Module hltEGRegionalL1DoubleEG137 was slowest in event 183, with time:    1.0000 msec
+Module hltActivityPhotonHcalForHE was slowest in event 46, with time:    9.9980 msec
+Module hltEG26HE10Filter was slowest in event 140, with time:    1.0000 msec
+Module hltActivityR9ID was slowest in event 178, with time:    1.0000 msec
+Module hltActivityPhotonClusterShape was slowest in event 19, with time:    2.0000 msec
+Module hltActivityPhotonEcalIso was slowest in event 152, with time:   28.9960 msec
+Module hltActivityPhotonHcalIso was slowest in event 28, with time:    6.9990 msec
+Module hltEcalActivityEgammaRegionalPixelSeedGenerator was slowest in event 186, with time:  121.9810 msec
+Module hltEcalActivityEgammaRegionalCkfTrackCandidates was slowest in event 170, with time: 2684.5920 msec
+Module hltEcalActivityEgammaRegionalCTFFinalFitWithMaterial was slowest in event 186, with time:   47.9920 msec
+Module hltEcalActivityEgammaRegionalAnalyticalTrackSelectorHighPurity was slowest in event 186, with time:    2.0000 msec
+Module hltActivityPhotonHollowTrackIsoWithId was slowest in event 140, with time:    1.0000 msec
+Module hltPhoton26R9Id85ORCaloId10Iso50Photon18R9Id85ORCaloId10Iso50Mass70EgammaAllCombMassLastFilter was slowest in event 170, with time:    1.0000 msec
+Module hltL1sL1SingleEG20ORL1SingleEG22 was slowest in event 69, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG20ORL1SingleEG22 was slowest in event 48, with time:    1.0000 msec
+Module hltEG30EtFilter was slowest in event 149, with time:    1.0000 msec
+Module hltPhoton30R9Id90CaloIdHE10Iso40EBOnlyEtFilter was slowest in event 42, with time:    1.0000 msec
+Module hltEG30EBOnlyCaloIdVLClusterShapeFilter was slowest in event 184, with time:    1.0000 msec
+Module hltPhoton36R9Id90HE10Iso40EBOnlyEtFilter was slowest in event 69, with time:    1.0000 msec
+Module hltEG36EtFilter was slowest in event 54, with time:    1.0000 msec
+Module hltEG36HE10LastFilter was slowest in event 147, with time:    0.9990 msec
+Module hltEG36R9Id85LastFilter was slowest in event 125, with time:    1.0000 msec
+Module hltEG36R9Id85ORCaloId10Iso50LegCombLastFilter was slowest in event 59, with time:    1.0000 msec
+Module hltPrePhoton36R9Id85ORCaloId10Iso50Photon10R9Id85ORCaloId10Iso50Mass80 was slowest in event 46, with time:    1.0000 msec
+Module hltPhoton50R9Id90HE10Iso40EBOnlyEtFilter was slowest in event 171, with time:    1.0000 msec
+Module hltL1sL1SingleEG24 was slowest in event 105, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG24 was slowest in event 185, with time:    1.0000 msec
+Module hltEG60EtFilter was slowest in event 148, with time:    0.9990 msec
+Module hltEG70EtFilter was slowest in event 183, with time:    1.0000 msec
+Module hltEG75EtFilter was slowest in event 73, with time:    1.0000 msec
+Module hltPhoton75CaloIdVLHEFilter was slowest in event 154, with time:    1.0000 msec
+Module hltPhoton75R9Id90HE10Iso40EBOnlyEtFilter was slowest in event 177, with time:    1.0000 msec
+Module hltPhoton75R9Id90HE10Iso40EBOnlyHEFilter was slowest in event 140, with time:    1.0000 msec
+Module hltEG90EtFilter was slowest in event 70, with time:    1.0000 msec
+Module hltEG65EtFilter was slowest in event 20, with time:    1.0000 msec
+Module hltEG65CaloIdVLClusterShapeFilter was slowest in event 175, with time:    1.0000 msec
+Module hltL1sL1SingleEG30 was slowest in event 14, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG30 was slowest in event 51, with time:    1.0000 msec
+Module hltPrePhoton300NoHE was slowest in event 159, with time:    0.9990 msec
+Module hltEG300EtFilter was slowest in event 165, with time:    1.0000 msec
+Module hltL1sL1SingleEG20orL1SingleEG22 was slowest in event 5, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG20orL1SingleEG22 was slowest in event 54, with time:    1.0000 msec
+Module hltEG48EtFilter was slowest in event 186, with time:    1.0000 msec
+Module hltDoubleEG48EtDoubleFilter was slowest in event 199, with time:    1.0000 msec
+Module hltDoubleEG70HEDoubleFilter was slowest in event 186, with time:    1.0000 msec
+Module hltPreDoublePhoton80 was slowest in event 154, with time:    1.0000 msec
+Module hltEG80HEFilter was slowest in event 140, with time:    1.0000 msec
+Module hltL1sL1SingleEG5 was slowest in event 30, with time:    1.0000 msec
+Module hltL1sL1DoubleEG3FwdVeto was slowest in event 25, with time:    1.0000 msec
+Module hltL1sL1ETM30 was slowest in event 46, with time:    1.0000 msec
+Module hltPreL1ETM40 was slowest in event 47, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG5 was slowest in event 49, with time:    1.0000 msec
+Module hltEG8EtFilter was slowest in event 40, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLClusterShapeFilter was slowest in event 176, with time:    0.9990 msec
+Module hltEle8CaloIdTTrkIdVLHEFilter was slowest in event 55, with time:    1.0000 msec
+Module hltL1SeededStartUpElectronPixelSeeds was slowest in event 140, with time:  362.9450 msec
+Module hltEle8CaloIdTTrkIdVLPixelMatchFilter was slowest in event 73, with time:    1.0000 msec
+Module hltCkfL1SeededTrackCandidates was slowest in event 140, with time:   67.9890 msec
+Module hltCtfL1SeededWithMaterialTracks was slowest in event 140, with time:    3.0000 msec
+Module hltPixelMatchElectronsL1Seeded was slowest in event 59, with time:    1.0000 msec
+Module hltElectronL1SeededDetaDphi was slowest in event 178, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLDetaFilter was slowest in event 198, with time:    1.0000 msec
+Module hltL1sL1SingleEG7 was slowest in event 11, with time:    1.0000 msec
+Module hltPreEle8CaloIdTTrkIdVLEG7 was slowest in event 68, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG7 was slowest in event 96, with time:    1.0000 msec
+Module hltEG8EG7EtFilter was slowest in event 59, with time:    0.9990 msec
+Module hltEle8CaloIdTTrkIdVLEG7ClusterShapeFilter was slowest in event 5, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLEG7HEFilter was slowest in event 178, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLEG7PixelMatchFilter was slowest in event 143, with time:    0.9990 msec
+Module hltEle8CaloIdTTrkIdVLEG7DetaFilter was slowest in event 57, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLEG7DphiFilter was slowest in event 142, with time:    1.0000 msec
+Module hltPreEle8CaloIdLCaloIsoVL was slowest in event 162, with time:    1.0000 msec
+Module hltEle8CaloIdLCaloIsoVLClusterShapeFilter was slowest in event 102, with time:    1.0000 msec
+Module hltEle8CaloIdLCaloIsoVLEcalIsoFilter was slowest in event 121, with time:    1.0000 msec
+Module hltEle8CaloIdLCaloIsoVLHEFilter was slowest in event 127, with time:    1.0000 msec
+Module hltPreEle8CaloIdTCaloIsoVLTrkIdVLTrkIsoVL was slowest in event 72, with time:    1.0000 msec
+Module hltEG8EtFilterSpecial was slowest in event 169, with time:    1.0000 msec
+Module hltEle8TightIdLooseIsoClusterShapeFilter was slowest in event 134, with time:    1.0000 msec
+Module hltEle8TightIdLooseIsoEcalIsoFilter was slowest in event 57, with time:    1.0000 msec
+Module hltCkf3HitL1SeededTrackCandidates was slowest in event 140, with time:   60.9900 msec
+Module hltCtf3HitL1SeededWithMaterialTracks was slowest in event 140, with time:    4.0000 msec
+Module hltPixelMatch3HitElectronsL1Seeded was slowest in event 135, with time:    1.0000 msec
+Module hlt3HitElectronL1SeededDetaDphi was slowest in event 57, with time:    1.0000 msec
+Module hltL1Seeded3HitElectronTrackIso was slowest in event 178, with time:    0.9990 msec
+Module hltEG17EtFilter was slowest in event 102, with time:    1.0000 msec
+Module hltEG17CaloIdLClusterShapeFilter was slowest in event 39, with time:    1.0000 msec
+Module hltEG17CaloIdLCaloIsoVLEcalIsoFilter was slowest in event 121, with time:    1.0000 msec
+Module hltEle17CaloIdTClusterShapeFilter was slowest in event 194, with time:    1.0000 msec
+Module hltEle17CaloIdTCaloIsoVLTrkIdVLTrkIsoVLTrackIsoFilter was slowest in event 186, with time:    1.0000 msec
+Module hltEG17EtFilterDoubleEG137 was slowest in event 93, with time:    0.9990 msec
+Module hltActivityStartUpElectronPixelSeeds was slowest in event 186, with time:  497.9250 msec
+Module hltCkf3HitActivityTrackCandidates was slowest in event 189, with time:   15.9980 msec
+Module hltCtf3HitActivityWithMaterialTracks was slowest in event 189, with time:    1.0000 msec
+Module hltEle17CaloIdVTCaloIsoVTTrkIdTTrkIsoVTEle8ClusterShapeFilter was slowest in event 154, with time:    1.0000 msec
+Module hltL1sL1SingleIsoEG18erORL1SingleIsoEG20er was slowest in event 21, with time:    1.0000 msec
+Module hltEle20CaloIdVTCaloIsoVTTrkIdTTrkIsoVTSC4Mass50EtFilter was slowest in event 142, with time:    1.0000 msec
+Module hltCorrectedMulti5x5SuperClustersWithPreshowerActivitySC4 was slowest in event 189, with time:    0.9990 msec
+Module hltActivityPhotonSC4HcalForHE was slowest in event 189, with time:    5.0000 msec
+Module hltEle20CaloIdVTCaloIsoVTTrkIdTTrkIsoVTSC4PMMassFilter was slowest in event 189, with time:    1.0000 msec
+Module hltPreEle22CaloIdLCaloIsoVL was slowest in event 185, with time:    1.0000 msec
+Module hltEG22CaloIdLCaloIsoVLEcalIsoFilter was slowest in event 42, with time:    1.0000 msec
+Module hltEG22CaloIdLCaloIsoVLHcalIsoFilter was slowest in event 177, with time:    1.0000 msec
+Module hltPreEle27CaloIdLCaloIsoVLTrkIdVLTrkIsoVL was slowest in event 154, with time:    1.0000 msec
+Module hltEG27EtFilter was slowest in event 93, with time:    1.0000 msec
+Module hltEle27CaloIdLClusterShapeFilter was slowest in event 59, with time:    1.0000 msec
+Module hltEle27CaloIdLCaloIsoVLEcalIsoFilter was slowest in event 185, with time:    1.0000 msec
+Module hltDoubleEG15EtFilterUnseeded was slowest in event 189, with time:    1.0000 msec
+Module hltHFEMClusters was slowest in event 142, with time:    1.0000 msec
+Module hltEG23EtFilter was slowest in event 20, with time:    1.0000 msec
+Module hltEle23TightIdLooseIsoEcalIsoFilter was slowest in event 199, with time:    1.0000 msec
+Module hltEle23TightIdLooseIsoHEFilter was slowest in event 178, with time:    1.0000 msec
+Module hltEle23TightIdLooseIsoHcalIsoFilter was slowest in event 148, with time:    0.9990 msec
+Module hltHFEMPt30TightFilter was slowest in event 137, with time:    1.0000 msec
+Module hltEG25EtFilter was slowest in event 85, with time:    0.9990 msec
+Module hltEG25CaloIdVTClusterShapeFilter was slowest in event 149, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoVLHEFilter was slowest in event 175, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoVLHcalIsoFilter was slowest in event 189, with time:    1.0000 msec
+Module hltEle25CaloIdVTTrkIdVLCaloIsoVLTrkIsoTTrackIsoFilter was slowest in event 93, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoVLTrkIdVLTrkIsoTDiCentralPFNoPUJet35EleCleaned was slowest in event 93, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoVLTrkIdVLTrkIsoTDiCentralPFNoPUJet40EleCleaned was slowest in event 59, with time:    1.0000 msec
+Module hltEle27WP80CleanMergedTracks was slowest in event 94, with time:    1.0000 msec
+Module hltEle27WP80L1SeededDetaDphi was slowest in event 59, with time:    0.9990 msec
+Module hltEle27WP80DphiFilter was slowest in event 143, with time:    1.0000 msec
+Module hltEG30CaloIdVTHEFilterL1EG22 was slowest in event 94, with time:    0.9990 msec
+Module hltEle32CaloIdLCaloIsoVLEcalIsoFilter was slowest in event 142, with time:    1.0000 msec
+Module hltEle32CaloIdLCaloIsoVLOneOEMinusOneOPFilter was slowest in event 143, with time:    1.0000 msec
+Module hltEle32CaloIdLCaloIsoVLTrkIdVLTrkIsoVLTrackIsoFilter was slowest in event 94, with time:    1.0000 msec
+Module hltEle32CaloIdTCaloIsoTTrkIdTTrkIsoTSC17L1MatchFilterRegional was slowest in event 64, with time:    0.9990 msec
+Module hltEle32CaloIdTCaloIsoTTrkIdTTrkIsoTSC17EtFilter was slowest in event 189, with time:    0.9990 msec
+Module hltPreDoubleEle8CaloIdTTrkIdVL was slowest in event 110, with time:    0.9990 msec
+Module hltDoubleEle8CaloIdTTrlIdVLClusterShapeFilter was slowest in event 43, with time:    1.0000 msec
+Module hltDoubleEle8CaloIdTHEFilter was slowest in event 127, with time:    1.0000 msec
+Module hltEG33EtFilter was slowest in event 184, with time:    1.0000 msec
+Module hltDoubleEG33EtDoubleFilter was slowest in event 59, with time:    1.0000 msec
+Module hltPreDoubleEle33CaloIdLGsfTrkIdVL was slowest in event 69, with time:    1.0000 msec
+Module hltL1sL1EG12EG7EG5 was slowest in event 93, with time:    1.0000 msec
+Module hltL1NonIsoHLTNonIsoTripleElectronEt5HEFilter was slowest in event 128, with time:    1.0000 msec
+Module hltL1NonIsoHLTNonIsoTripleElectronEt5PixelMatchFilter was slowest in event 147, with time:    1.0000 msec
+Module hltL1sL1TripleJetC522828 was slowest in event 21, with time:    1.0000 msec
+Module hltCaloTowersTau1Regional was slowest in event 5, with time:    1.0000 msec
+Module hltIconeTau1Regional was slowest in event 21, with time:    1.0000 msec
+Module hltCaloTowersTau2Regional was slowest in event 5, with time:    1.0000 msec
+Module hltIconeTau2Regional was slowest in event 24, with time:    1.0000 msec
+Module hltCaloTowersTau3Regional was slowest in event 5, with time:    1.0000 msec
+Module hltIconeTau3Regional was slowest in event 24, with time:    1.0000 msec
+Module hltCaloTowersTau4Regional was slowest in event 26, with time:    1.0000 msec
+Module hltIconeTau4Regional was slowest in event 5, with time:    1.0000 msec
+Module hltCaloTowersCentral1Regional was slowest in event 14, with time:    1.0000 msec
+Module hltIconeCentral1Regional was slowest in event 5, with time:    1.0000 msec
+Module hltCaloTowersCentral2Regional was slowest in event 5, with time:    1.0000 msec
+Module hltIconeCentral2Regional was slowest in event 11, with time:    1.0000 msec
+Module hltCaloTowersCentral3Regional was slowest in event 5, with time:    1.0000 msec
+Module hltIconeCentral3Regional was slowest in event 5, with time:    1.0000 msec
+Module hltCaloTowersCentral4Regional was slowest in event 24, with time:    1.0000 msec
+Module hltIconeCentral4Regional was slowest in event 26, with time:    1.0000 msec
+Module hltL2TauJets was slowest in event 30, with time:    1.0000 msec
+Module hltFilterL2EtCutSingleIsoPFTau35Trk20 was slowest in event 57, with time:    1.0000 msec
+Module hltParticleFlowBlockForTaus was slowest in event 76, with time:  623.9050 msec
+Module hltParticleFlowForTaus was slowest in event 152, with time:   49.9930 msec
+Module hltAntiKT5PFJetsForTaus was slowest in event 118, with time:   12.9980 msec
+Module hltPFTauJetTracksAssociator was slowest in event 5, with time:    1.0000 msec
+Module hltPFTauTagInfo was slowest in event 65, with time:  103.9840 msec
+Module hltPFTaus was slowest in event 152, with time:   10.9990 msec
+Module hltPFTauTrackFindingDiscriminator was slowest in event 53, with time:    1.0000 msec
+Module hltPFTauLooseIsolationDiscriminator was slowest in event 57, with time:    1.0000 msec
+Module hltSelectedPFTausTrackFinding was slowest in event 24, with time:    1.0000 msec
+Module hltSelectedPFTausTrackFindingLooseIsolation was slowest in event 34, with time:    1.0000 msec
+Module hltPFTau35 was slowest in event 69, with time:    1.0000 msec
+Module hltPFTau35Track was slowest in event 47, with time:    1.0000 msec
+Module hltPFTauTrackPt20Discriminator was slowest in event 105, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt20 was slowest in event 77, with time:    1.0000 msec
+Module hltPFTau35TrackPt20 was slowest in event 88, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt20Isolation was slowest in event 147, with time:    1.0000 msec
+Module hltPFTau35TrackPt20LooseIso was slowest in event 82, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt20IsolationProng2 was slowest in event 159, with time:    1.0000 msec
+Module hltPFTau35TrackPt20LooseIsoProng2 was slowest in event 20, with time:    1.0000 msec
+Module hltL1sL1ETM36or40 was slowest in event 25, with time:    1.0000 msec
+Module hltMET70 was slowest in event 115, with time:    1.0000 msec
+Module hltL1sL1Mu7erETM26 was slowest in event 46, with time:    1.0000 msec
+Module hltL2fL1sMu7Eta2p1L1f0L2Filtered7Q was slowest in event 183, with time:    1.0000 msec
+Module hltL3fL1sMu7Eta2p1L1f0L2f7QL3Filtered8Q was slowest in event 120, with time:    1.0000 msec
+Module hltTauJet5 was slowest in event 19, with time:    1.0000 msec
+Module hltIsoMuon8Vertex was slowest in event 134, with time:    1.0000 msec
+Module hltIsoMu8PFTauTagInfo was slowest in event 58, with time:   88.9870 msec
+Module hltIsoMu8PFTaus was slowest in event 58, with time:    8.9980 msec
+Module hltIsoMu8PFTau20 was slowest in event 158, with time:    1.0000 msec
+Module hltSelectedIsoMu8PFTausTrackFinding was slowest in event 80, with time:    1.0000 msec
+Module hltSelectedIsoMu8PFTausTrackFindingLooseIsolation was slowest in event 58, with time:    1.0000 msec
+Module hltIsoMu8PFTau20TrackLooseIso was slowest in event 69, with time:    0.9990 msec
+Module hltOverlapFilterIsoMu8LooseIsoPFTau20 was slowest in event 96, with time:    1.0000 msec
+Module hltL2fL1sSingleMu7Eta2p1L1f0L2Filtered7Q was slowest in event 97, with time:    1.0000 msec
+Module hltL3fL1sSingleMu7Eta2p1L1f0L2f7QL3Filtered8Q was slowest in event 28, with time:    0.9990 msec
+Module hltL3crIsoL1sSingleMu7Eta2p1L1f0L2f7QL3f8QL3crIsoRhoFiltered0p15 was slowest in event 115, with time:    1.0000 msec
+Module hltSingleIsoMuon8Vertex was slowest in event 96, with time:    1.0000 msec
+Module hltSingleIsoMu8PFTauTagInfo was slowest in event 19, with time:   89.9860 msec
+Module hltSingleIsoMu8PFTaus was slowest in event 19, with time:    9.9990 msec
+Module hltSingleIsoMu8PFTauTrackFindingDiscriminator was slowest in event 187, with time:    1.0000 msec
+Module hltSelectedSingleIsoMu8PFTausTrackFinding was slowest in event 96, with time:    1.0000 msec
+Module hltSingleIsoMu8PFTauLooseIsolationDiscriminator was slowest in event 120, with time:    1.0000 msec
+Module hltSingleIsoMu8PFTau20TrackLooseIso was slowest in event 169, with time:    1.0000 msec
+Module hltOverlapFilterSingleIsoMu8LooseIsoPFTau20 was slowest in event 88, with time:    1.0000 msec
+Module hltPreMu8eta2p1LooseIsoPFTau20L1ETM26 was slowest in event 35, with time:    1.0000 msec
+Module hltMu8PFTauTagInfo was slowest in event 152, with time:  101.9840 msec
+Module hltMu8PFTaus was slowest in event 152, with time:   10.9990 msec
+Module hltMu8PFTau20 was slowest in event 47, with time:    1.0000 msec
+Module hltSelectedMu8PFTausTrackFinding was slowest in event 58, with time:    1.0000 msec
+Module hltMu8PFTau20Track was slowest in event 69, with time:    1.0000 msec
+Module hltMu8PFTauLooseIsolationDiscriminator was slowest in event 112, with time:    1.0000 msec
+Module hltSelectedMu8PFTausTrackFindingLooseIsolation was slowest in event 36, with time:    1.0000 msec
+Module hltOverlapFilterMu8LooseIsoPFTau20 was slowest in event 82, with time:    1.0000 msec
+Module hltL1sL1IsoEG12erETM36 was slowest in event 59, with time:    1.0000 msec
+Module hltEGRegionalL1SingleIsoEG12er was slowest in event 189, with time:    1.0000 msec
+Module hltL1SeededPhotonEcalIsoRhoCorr was slowest in event 68, with time:    9.9980 msec
+Module hltL1SeededPhotonHcalIsoRhoCorr was slowest in event 59, with time:    3.0000 msec
+Module hltIsoEle13PFTauTagInfo was slowest in event 189, with time:   66.9890 msec
+Module hltIsoEle13PFTaus was slowest in event 189, with time:    6.9990 msec
+Module hltEle13WP90NoIsoHEFilter was slowest in event 140, with time:    0.9990 msec
+Module hltEle13WP90NoIsoPixelMatchFilter was slowest in event 119, with time:    1.0000 msec
+Module hltOverlapFilterEle13CaloJet5 was slowest in event 140, with time:    1.0000 msec
+Module hltEle13PFTauTagInfo was slowest in event 176, with time:   80.9880 msec
+Module hltEle13PFTaus was slowest in event 140, with time:    7.9990 msec
+Module hltEle13PFTauTrackFindingDiscriminator was slowest in event 189, with time:    1.0000 msec
+Module hltEGRegionalL1SingleEG12eta2p1 was slowest in event 48, with time:    1.0000 msec
+Module hltEG13L1sSingleEG12eta2p1EtFilter was slowest in event 148, with time:    1.0000 msec
+Module hltSingleEle13WP90RhoClusterShapeFilter was slowest in event 20, with time:    1.0000 msec
+Module hltSingleEle13WP90RhoEcalIsoFilter was slowest in event 170, with time:    0.9990 msec
+Module hltSingleEle13PFTauTagInfo was slowest in event 59, with time:   79.9870 msec
+Module hltSingleEle13PFTaus was slowest in event 59, with time:    8.9990 msec
+Module hltSelectedSingleEle13PFTausTrackFinding was slowest in event 148, with time:    1.0000 msec
+Module hltSingleEle13PFTauLooseIsolationDiscriminator was slowest in event 59, with time:    1.0000 msec
+Module hltSelectedSingleEle13PFTausTrackFindingLooseIsolation was slowest in event 94, with time:    1.0000 msec
+Module hltL1sDoubleTauJet44erorDoubleJetC64 was slowest in event 72, with time:    1.0000 msec
+Module hltPreDoubleMediumIsoPFTau30Trk1eta2p1Jet30 was slowest in event 92, with time:    1.0000 msec
+Module hltDoubleL2Tau30eta2p1 was slowest in event 24, with time:    1.0000 msec
+Module hltDoubleL2Jets30eta2p1 was slowest in event 54, with time:    1.0000 msec
+Module hltSiPixelDigisReg was slowest in event 24, with time:    3.0000 msec
+Module hltSiPixelClustersReg was slowest in event 46, with time:    4.0000 msec
+Module hltSiPixelRecHitsReg was slowest in event 65, with time:    4.0000 msec
+Module hltPixelTracksReg was slowest in event 46, with time:   22.9970 msec
+Module hltPixelVerticesReg was slowest in event 24, with time:    1.0000 msec
+Module hltL2TauPixelIsoTagProducer was slowest in event 50, with time:    1.0000 msec
+Module hltL2DiTauIsoFilter was slowest in event 78, with time:    1.0000 msec
+Module hltMediumPFTaus was slowest in event 46, with time:   10.9990 msec
+Module hltPFTauMediumIsolationDiscriminator was slowest in event 56, with time:    1.0000 msec
+Module hltMediumPFTauTrackPt1Discriminator was slowest in event 177, with time:    1.0000 msec
+Module hltSelectedMediumPFTausTrackPt1 was slowest in event 49, with time:    1.0000 msec
+Module hltDoublePFTau30TrackPt1 was slowest in event 85, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1MediumIsolation was slowest in event 84, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1MediumIsolationProng4 was slowest in event 54, with time:    1.0000 msec
+Module hltDoubleL2Tau35eta2p1 was slowest in event 64, with time:    1.0000 msec
+Module hltDoubleL2IsoTau35eta2p1 was slowest in event 158, with time:    1.0000 msec
+Module hltDoublePFTau35 was slowest in event 46, with time:    1.0000 msec
+Module hltDoublePFTau35TrackPt1MediumIsolation was slowest in event 97, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1MediumIsolationProng2 was slowest in event 117, with time:    1.0000 msec
+Module hltIsoMuPFTauTrackPt1MediumIsolationProng4VertexFinder was slowest in event 69, with time:    1.0000 msec
+Module hltSiStripClustersReg was slowest in event 24, with time:    1.0000 msec
+Module hltPFJetPixelSeedsFromPixelTracksReg was slowest in event 66, with time:    3.0000 msec
+Module hltPFJetCkfTrackCandidatesReg was slowest in event 46, with time:   53.9910 msec
+Module hltPFJetCtfWithMaterialTracksReg was slowest in event 66, with time:   22.9970 msec
+Module hltPFlowTrackSelectionHighPurityReg was slowest in event 24, with time:    1.0000 msec
+Module hltTrackRefsForJetsIter0Reg was slowest in event 28, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter0Reg was slowest in event 54, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter0Reg was slowest in event 117, with time:    1.0000 msec
+Module hltIter1ClustersRefRemovalReg was slowest in event 134, with time:    1.0000 msec
+Module hltIter1SiStripClustersReg was slowest in event 28, with time:    1.0000 msec
+Module hltIter1PFJetPixelSeedsReg was slowest in event 46, with time:   11.9980 msec
+Module hltIter1PFJetCkfTrackCandidatesReg was slowest in event 46, with time:   26.9960 msec
+Module hltIter1PFJetCtfWithMaterialTracksReg was slowest in event 24, with time:    7.9990 msec
+Module hltIter1PFlowTrackSelectionHighPurityLooseReg was slowest in event 28, with time:    1.0000 msec
+Module hltIter1PFlowTrackSelectionHighPurityTightReg was slowest in event 46, with time:    1.0000 msec
+Module hltIter1PFlowTrackSelectionHighPurityReg was slowest in event 54, with time:    1.0000 msec
+Module hltIter1MergedReg was slowest in event 43, with time:    2.0000 msec
+Module hltAntiKT5TrackJetsIter1Reg was slowest in event 53, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter1Reg was slowest in event 43, with time:    1.0000 msec
+Module hltIter2ClustersRefRemovalReg was slowest in event 88, with time:    1.0000 msec
+Module hltIter2SiStripClustersReg was slowest in event 24, with time:    1.0000 msec
+Module hltIter2PFJetPixelSeedsReg was slowest in event 59, with time:   15.9980 msec
+Module hltIter2PFJetCkfTrackCandidatesReg was slowest in event 46, with time:   40.9940 msec
+Module hltIter2PFJetCtfWithMaterialTracksReg was slowest in event 46, with time:    7.9980 msec
+Module hltIter2PFlowTrackSelectionHighPurityReg was slowest in event 43, with time:    1.0000 msec
+Module hltIter2MergedReg was slowest in event 28, with time:    1.9990 msec
+Module hltTrackRefsForJetsIter2Reg was slowest in event 24, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter2Reg was slowest in event 30, with time:    1.0000 msec
+Module hltIter3ClustersRefRemovalReg was slowest in event 53, with time:    1.0000 msec
+Module hltIter3SiStripClustersReg was slowest in event 30, with time:    1.0000 msec
+Module hltIter3PFJetMixedSeedsReg was slowest in event 46, with time:   25.9960 msec
+Module hltIter3PFJetCkfTrackCandidatesReg was slowest in event 46, with time:   11.9980 msec
+Module hltIter3PFJetCtfWithMaterialTracksReg was slowest in event 46, with time:    4.9990 msec
+Module hltIter3PFlowTrackSelectionHighPurityLooseReg was slowest in event 56, with time:    1.0000 msec
+Module hltIter3PFlowTrackSelectionHighPurityTightReg was slowest in event 85, with time:    1.0000 msec
+Module hltIter3PFlowTrackSelectionHighPurityReg was slowest in event 66, with time:    1.0000 msec
+Module hltIter3MergedReg was slowest in event 28, with time:    1.0000 msec
+Module hltTrackRefsForJetsIter3Reg was slowest in event 24, with time:    1.0000 msec
+Module hltAntiKT5TrackJetsIter3Reg was slowest in event 80, with time:    1.0000 msec
+Module hltTrackAndTauJetsIter3Reg was slowest in event 117, with time:    1.0000 msec
+Module hltIter4ClustersRefRemovalReg was slowest in event 69, with time:    0.9990 msec
+Module hltIter4SiStripClustersReg was slowest in event 30, with time:    1.0000 msec
+Module hltIter4PFJetPixelLessSeedsReg was slowest in event 46, with time:   68.9890 msec
+Module hltIter4PFJetCkfTrackCandidatesReg was slowest in event 46, with time:  264.9600 msec
+Module hltIter4PFJetCtfWithMaterialTracksReg was slowest in event 46, with time:   10.9980 msec
+Module hltIter4PFlowTrackSelectionHighPurityReg was slowest in event 54, with time:    1.0000 msec
+Module hltIter4MergedReg was slowest in event 24, with time:    2.0000 msec
+Module hltPFMuonMergingReg was slowest in event 28, with time:    1.0000 msec
+Module hltMuonLinksReg was slowest in event 24, with time:    1.0000 msec
+Module hltMuonsReg was slowest in event 96, with time:   69.9900 msec
+Module hltLightPFTracksReg was slowest in event 28, with time:    1.0000 msec
+Module hltParticleFlowBlockReg was slowest in event 46, with time:  350.9470 msec
+Module hltParticleFlowReg was slowest in event 46, with time:   17.9980 msec
+Module hltAntiKT5PFJetsReg was slowest in event 46, with time:    5.9990 msec
+Module hltPFTauJetTracksAssociatorReg was slowest in event 28, with time:    1.0000 msec
+Module hltPFTauTagInfoReg was slowest in event 28, with time:   83.9870 msec
+Module hltMediumPFTausReg was slowest in event 59, with time:    4.0000 msec
+Module hltMediumPFTauTrackFindingDiscriminatorReg was slowest in event 55, with time:    1.0000 msec
+Module hltDoublePFTau30Reg was slowest in event 125, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1Reg was slowest in event 56, with time:    1.0000 msec
+Module hltDoublePFTau30TrackPt1Reg was slowest in event 189, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1MediumIsolationReg was slowest in event 66, with time:    1.0000 msec
+Module hltDoublePFTau30TrackPt1MediumIsolationProng4Reg was slowest in event 85, with time:    1.0000 msec
+Module hltL1JetsHLTDoublePFTauTrackPt1MediumIsolationProng4MatchReg was slowest in event 53, with time:    1.0000 msec
+Module hltSelectedPFTausTrackPt1MediumIsolationProng2Reg was slowest in event 158, with time:    0.9990 msec
+Module hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f18QL3crIsoFiltered10 was slowest in event 199, with time:    1.0000 msec
+Module hltPFTau25Reg was slowest in event 80, with time:    1.0000 msec
+Module hltBDiJet20L1FastJetCentral was slowest in event 55, with time:    1.0000 msec
+Module hltBSoftMuonGetJetsFromDiJet20L1FastJet was slowest in event 123, with time:    1.0000 msec
+Module hltSelector4JetsDiJet20L1FastJet was slowest in event 34, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetL25TagInfos was slowest in event 36, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetL25BJetTagsByDR was slowest in event 33, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetL25FilterByDR was slowest in event 19, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetMu5SelL3TagInfos was slowest in event 36, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetMu5SelL3BJetTagsByDR was slowest in event 55, with time:    1.0000 msec
+Module hltBSoftMuonDiJet20L1FastJetMu5L3FilterByDR was slowest in event 147, with time:    1.0000 msec
+Module hltBDiJet40L1FastJetCentral was slowest in event 35, with time:    0.9990 msec
+Module hltBSoftMuonDiJet40L1FastJetL25TagInfos was slowest in event 51, with time:    1.0000 msec
+Module hltBSoftMuonDiJet40L1FastJetL25FilterByDR was slowest in event 128, with time:    1.0000 msec
+Module hltBSoftMuonDiJet40L1FastJetMu5SelL3TagInfos was slowest in event 124, with time:    1.0000 msec
+Module hltBSoftMuonDiJet40L1FastJetMu5SelL3BJetTagsByDR was slowest in event 71, with time:    1.0000 msec
+Module hltBSoftMuonDiJet40L1FastJetMu5L3FilterByDR was slowest in event 24, with time:    1.0000 msec
+Module hltBSoftMuonDiJet70L1FastJetL25Jets was slowest in event 51, with time:    1.0000 msec
+Module hltBSoftMuonDiJet70L1FastJetL25TagInfos was slowest in event 89, with time:    1.0000 msec
+Module hltBSoftMuonDiJet70L1FastJetL25FilterByDR was slowest in event 57, with time:    1.0000 msec
+Module hltBSoftMuonDiJet70L1FastJetMu5SelL3TagInfos was slowest in event 71, with time:    1.0000 msec
+Module hltBSoftMuonDiJet70L1FastJetMu5L3FilterByDR was slowest in event 80, with time:    1.0000 msec
+Module hltBDiJet110L1FastJetCentral was slowest in event 55, with time:    1.0000 msec
+Module hltBSoftMuonDiJet110L1FastJetL25TagInfos was slowest in event 118, with time:    1.0000 msec
+Module hltBJet300L1FastJetCentral was slowest in event 66, with time:    1.0000 msec
+Module hltL1sL1Mu0EG5 was slowest in event 5, with time:    1.0000 msec
+Module hltPreMu7Ele7CaloIdTCaloIsoVL was slowest in event 158, with time:    1.0000 msec
+Module hltL1Mu0EG5L1MuFiltered0 was slowest in event 124, with time:    1.0000 msec
+Module hltL1Mu0EG5L2MuFiltered0 was slowest in event 76, with time:    1.0000 msec
+Module hltL1Mu0EG5L3MuFiltered7 was slowest in event 35, with time:    1.0000 msec
+Module hltEGRegionalL1Mu0EG5 was slowest in event 199, with time:    0.9990 msec
+Module hltL1sL1Mu3p5EG12ORL1MuOpenEG12 was slowest in event 59, with time:    1.0000 msec
+Module hltPreMu8Ele17CaloIdTCaloIsoVLTrkIdVLTrkIsoVL was slowest in event 154, with time:    0.9990 msec
+Module hltL1sL1Mu3p5EG12ORL1MuOpenEG12L2Filtered5 was slowest in event 183, with time:    1.0000 msec
+Module hltMu8Ele17CaloIdTCaloIsoVLHcalIsoFilter was slowest in event 199, with time:    1.0000 msec
+Module hltL1sL1Mu8DoubleJetC20 was slowest in event 40, with time:    1.0000 msec
+Module hltL1Mu8DoubleJetC20L1Filtered0 was slowest in event 193, with time:    1.0000 msec
+Module hltL2Mu8DoubleJetC20L2Filtered8 was slowest in event 24, with time:    1.0000 msec
+Module hltL3Mu8DoubleJetC20L3Filtered8 was slowest in event 105, with time:    1.0000 msec
+Module hltDiJet30 was slowest in event 128, with time:    1.0000 msec
+Module hltTriJet30 was slowest in event 47, with time:    1.0000 msec
+Module hltQuadJet30 was slowest in event 118, with time:    1.0000 msec
+Module hltSingleMuOpenCandidateL1Filtered0 was slowest in event 98, with time:    1.0000 msec
+Module hltSingleMuOpenCandidateL3Filtered12 was slowest in event 118, with time:    1.0000 msec
+Module hltDoubleCentralJet65L1FastJet was slowest in event 19, with time:    1.0000 msec
+Module hltL1fL1sMu16Eta2p4L1Filtered0 was slowest in event 96, with time:    1.0000 msec
+Module hltL2fL1sMu16Eta2p4L1f0L2Filtered16Q was slowest in event 69, with time:    1.0000 msec
+Module hltL3fL1sMu16Eta2p4L1f0L2f16QL3Filtered18Q was slowest in event 58, with time:    1.0000 msec
+Module hltL3crIsoL1sMu16Eta2p4L1f0L2f16QL3f18QL3crIsoFiltered10 was slowest in event 146, with time:    1.0000 msec
+Module hltIsoMu18PFJet30PFJet25Deta3PFJetCollectionsVBFFilter was slowest in event 19, with time:    1.0000 msec
+Module hltMu18eta2p4JetCollectionsForLeptonPlusPFJets was slowest in event 152, with time:    1.0000 msec
+Module hltMu18eta2p4PFJet30PFJet25Deta3CentralPFJet25PFJetCollectionsVBFFilter was slowest in event 80, with time:    1.0000 msec
+Module hltPreIsoMu18PFJet30PFJet25Deta3CentralPFJet25 was slowest in event 146, with time:    1.0000 msec
+Module hltPreEle24WP80CentralPFJet35CentralPFJet25 was slowest in event 170, with time:    1.0000 msec
+Module hltEG24EtFilter was slowest in event 102, with time:    1.0000 msec
+Module hltEle24WP80ClusterShapeFilter was slowest in event 86, with time:    1.0000 msec
+Module hltEle24WP80HEFilter was slowest in event 75, with time:    1.0000 msec
+Module hltEle24WP80BarrelTracks was slowest in event 94, with time:    1.0000 msec
+Module hltEle24WP80CleanMergedTracks was slowest in event 143, with time:    1.0000 msec
+Module hltEle24WP80DphiFilter was slowest in event 72, with time:    1.0000 msec
+Module hltL1sMu14Eta2p1 was slowest in event 31, with time:    1.0000 msec
+Module hltL2fL1sMu14Eta2p1L1f0L2Filtered14Q was slowest in event 35, with time:    1.0000 msec
+Module hltMu17SelectorPFNoPUJetsSingleTop was slowest in event 96, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUAssociatorSingleTop was slowest in event 19, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUTagInfosSingleTop was slowest in event 69, with time:    1.0000 msec
+Module hltMu17BLifetimeL3BPFNoPUJetTagsSingleTop was slowest in event 158, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUFilterSingleTop was slowest in event 115, with time:    1.0000 msec
+Module hltIsoMu172p1TriCentralPFNoPUJet30MuCleaned was slowest in event 115, with time:    1.0000 msec
+Module hltMu172p1JetCollectionsForLeptonPlusPFJetsNoPU was slowest in event 88, with time:    1.0000 msec
+Module hltMu172p1CentralBPFNoPUJet30MuCleaned was slowest in event 96, with time:    1.0000 msec
+Module hltMu17GetJetsfromBPFNoPUJet30CentralNoIso was slowest in event 19, with time:    1.0000 msec
+Module hltMu17SelectorPFNoPUJetsSingleTopNoIso was slowest in event 187, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUAssociatorSingleTopNoIso was slowest in event 69, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUTagInfosSingleTopNoIso was slowest in event 19, with time:    1.0000 msec
+Module hltMu17BLifetimeL3BPFNoPUJetTagsSingleTopNoIso was slowest in event 36, with time:    1.0000 msec
+Module hltMu17BLifetimeL3PFNoPUFilterSingleTopNoIso was slowest in event 119, with time:    0.9990 msec
+Module hltMu172p1TriCentralPFNoPUJet25MuCleaned was slowest in event 120, with time:    1.0000 msec
+Module hltMu172p1DiCentralPFNoPUJet35MuCleaned was slowest in event 115, with time:    1.0000 msec
+Module hltL3fL1sMu16L1f0L2f16QL3Filtered20Q was slowest in event 34, with time:    1.0000 msec
+Module hltL3crIsoL1sMu16L1f0L2f16QL3f20QL3crIsoRhoFiltered0p15 was slowest in event 199, with time:    1.0000 msec
+Module hltPFMHT0 was slowest in event 115, with time:    0.9990 msec
+Module hltL1sL1Mu12EG7 was slowest in event 48, with time:    1.0000 msec
+Module hltPreMu17Ele8CaloIdTCaloIsoVLTrkIdVLTrkIsoVL was slowest in event 183, with time:    1.0000 msec
+Module hltL1Mu12EG7L2MuFiltered0 was slowest in event 141, with time:    1.0000 msec
+Module hltL1Mu12EG7L3MuFiltered17 was slowest in event 199, with time:    1.0000 msec
+Module hltEG8EtFilterL1Mu12EG7 was slowest in event 134, with time:    0.9990 msec
+Module hltMu17Ele8CaloIdTCaloIsoVLTrkIdVLTrkIsoVLClusterShapeFilter was slowest in event 88, with time:    1.0000 msec
+Module hltPreMu12eta2p1DiCentral4020DiBTagIP3D1stTrack was slowest in event 82, with time:    1.0000 msec
+Module hltBJet40CentralL1FastJet was slowest in event 104, with time:    1.0000 msec
+Module hltPixelVertices3DbbPhi was slowest in event 118, with time:   55.9910 msec
+Module hltSelector4CaloJetL1FastJet was slowest in event 34, with time:    1.0000 msec
+Module hltBLifetimeL25AssociatorJet20HbbL1FastJet was slowest in event 39, with time:    1.0000 msec
+Module hltBLifetime3DL25TagInfosJet20HbbL1FastJet was slowest in event 34, with time:    1.0000 msec
+Module hltBLifetime3D1stTrkL25BJetTagsJet20HbbL1FastJet was slowest in event 33, with time:    1.0000 msec
+Module hltDiBLifetime3D1stTrkL25FilterJet20HbbL1FastJet was slowest in event 195, with time:    1.0000 msec
+Module hltBLifetimeDiBTagIP3D1stTrkRegionalPixelSeedGeneratorJet20HbbL1FastJet was slowest in event 58, with time:   11.9980 msec
+Module hltBLifetimeDiBTagIP3D1stTrkRegionalCkfTrackCandidatesJet20HbbL1FastJet was slowest in event 134, with time:   86.9870 msec
+Module hltBLifetimeDiBTagIP3D1stTrkRegionalCtfWithMaterialTracksJet20HbbL1FastJet was slowest in event 147, with time:   14.9980 msec
+Module hltBLifetimeDiBTagIP3D1stTrkL3AssociatorJet20HbbL1FastJet was slowest in event 158, with time:    1.0000 msec
+Module hltBLifetimeDiBTagIP3D1stTrkL3TagInfosJet20HbbL1FastJet was slowest in event 134, with time:    1.0000 msec
+Module hltBLifetime3D1stTrkL25FilterJet20HbbL1FastJet was slowest in event 71, with time:    0.9990 msec
+Module hltBLifetimeBTagIP3D1stTrkRegionalPixelSeedGeneratorJet20HbbL1FastJet was slowest in event 134, with time:   11.9990 msec
+Module hltBLifetimeBTagIP3D1stTrkRegionalCkfTrackCandidatesJet20HbbL1FastJet was slowest in event 134, with time:   87.9860 msec
+Module hltBLifetimeBTagIP3D1stTrkRegionalCtfWithMaterialTracksJet20HbbL1FastJet was slowest in event 147, with time:   14.9980 msec
+Module hltBLifetimeBTagIP3D1stTrkL3TagInfosJet20HbbL1FastJet was slowest in event 112, with time:    1.0000 msec
+Module hltBLifetimeBTagIP3D1stTrkL3BJetTagsJet20HbbL1FastJet was slowest in event 39, with time:    1.0000 msec
+Module hltTriBJet20CentralL1FastJet was slowest in event 101, with time:    1.0000 msec
+Module hltL1sL1Mu3p5EG12 was slowest in event 20, with time:    1.0000 msec
+Module hltL1Mu3p5EG12L3Filtered30 was slowest in event 39, with time:    1.0000 msec
+Module hltPreIsoMu17eta2p1DiCentralPFNoPUJet30PFNoPUHT350PFMHT40 was slowest in event 161, with time:    1.0000 msec
+Module hltSingleMuOpenCenJetL1Filtered0 was slowest in event 21, with time:    1.0000 msec
+Module hltL2SingleMuOpenCenJetL2QFiltered14 was slowest in event 123, with time:    1.0000 msec
+Module hltPFMHT was slowest in event 134, with time:    1.0000 msec
+Module hltPFMHT40HT350 was slowest in event 19, with time:    1.0000 msec
+Module hltL3crIsoL1sMu16Eta2p1L1f0L2f16QL3f20QL3crIsoRhoFiltered0p15 was slowest in event 128, with time:    1.0000 msec
+Module hltL1sL1Mu0HTT100 was slowest in event 55, with time:    1.0000 msec
+Module hltPreDoubleRelIso1p0Mu5Mass8PFNoPUHT175 was slowest in event 183, with time:    1.0000 msec
+Module hltIgnoredL1SingleMuOpenL1DiMuFiltered0 was slowest in event 35, with time:    1.0000 msec
+Module hltL3doublereliso1p0mufilter5 was slowest in event 199, with time:    1.0000 msec
+Module hltHt100 was slowest in event 159, with time:    1.0000 msec
+Module hltL1sL1Mu4HTT125 was slowest in event 88, with time:    0.9990 msec
+Module hltHt125 was slowest in event 76, with time:    1.0000 msec
+Module hltPFHT225NoPU was slowest in event 131, with time:    0.9990 msec
+Module hltL1sL1Mu0HTT100ORL1Mu4HTT125 was slowest in event 55, with time:    1.0000 msec
+Module hltL1Mu0HTT100L1MuFiltered0 was slowest in event 19, with time:    1.0000 msec
+Module hltL1Mu0HTT100L2Filtered0 was slowest in event 89, with time:    1.0000 msec
+Module hltSingleEle8NoCandEtFilter was slowest in event 131, with time:    1.0000 msec
+Module hltSingleEle8CaloIdTNoCandHEFilter was slowest in event 147, with time:    0.9990 msec
+Module hltSingleEle8CaloIdTNoCandPixelMatchFilter was slowest in event 115, with time:    1.0000 msec
+Module hltCkfActivityTrackCandidates was slowest in event 140, with time:   86.9860 msec
+Module hltCtfActivityWithMaterialTracks was slowest in event 51, with time:    4.0000 msec
+Module hltPixelMatchElectronsActivity was slowest in event 199, with time:    1.0000 msec
+Module hltSingleElectronEt8CaloIdTTrkIdVLNoCandOneOEMinusOneOPFilter was slowest in event 137, with time:    1.0000 msec
+Module hltElectronActivityDetaDphi was slowest in event 178, with time:    1.0000 msec
+Module hltL1Mu4HTT125L2Filtered0 was slowest in event 158, with time:    0.9990 msec
+Module hltL1Mu0HTT100ORMu4HTT125L3Filtered8 was slowest in event 154, with time:    1.0000 msec
+Module hltPreMu8Ele8CaloIdTTrkIdVLMass8PFNoPUHT225 was slowest in event 180, with time:    1.0000 msec
+Module hltHTT150L1MuFiltered0 was slowest in event 99, with time:    1.0000 msec
+Module hltL1HTT150singleMuL2PreFiltered10 was slowest in event 199, with time:    0.9990 msec
+Module hltL1HTT150singleMuL3PreFiltered15 was slowest in event 69, with time:    1.0000 msec
+Module hltPrePFNoPUHT350Mu15PFMET50 was slowest in event 39, with time:    0.9990 msec
+Module hltPrePFNoPUHT400Mu5PFMET45 was slowest in event 134, with time:    1.0000 msec
+Module hltL1HTT150singleMuL3PreFiltered5 was slowest in event 28, with time:    1.0000 msec
+Module hltPFHT400PFMET45 was slowest in event 35, with time:    1.0000 msec
+Module hltPFHT400PFMET50 was slowest in event 118, with time:    1.0000 msec
+Module hltL1Mu0HTT100ORL1Mu4HTT125L1MuFiltered0 was slowest in event 51, with time:    1.0000 msec
+Module hltL1Mu0HTT100ORL1Mu4HTT125L2QualMuFiltered16 was slowest in event 35, with time:    1.0000 msec
+Module hltL1Mu0HTT100ORL1Mu4HTT125L2QualL3MuFiltered60 was slowest in event 105, with time:    1.0000 msec
+Module hltL1sL1DoubleMu3p5EG5 was slowest in event 96, with time:    1.0000 msec
+Module hltL1DoubleMu3p5EG5L1DiMuFiltered0 was slowest in event 158, with time:    1.0000 msec
+Module hltL1DoubleMu3p5EG5L3DiMuFiltered5 was slowest in event 169, with time:    0.9990 msec
+Module hltEGRegionalL1DoubleMuOpenEG5 was slowest in event 96, with time:    1.0000 msec
+Module hltL1sL1DoubleMu5EG5 was slowest in event 63, with time:    1.0000 msec
+Module hltL1DoubleMu5EG5L2DiMuFiltered5 was slowest in event 124, with time:    1.0000 msec
+Module hltCleanEle8CaloIdTTrkIdVLCaloIsoVLTrkIsoVLFromAK5CorrJetsJet30 was slowest in event 85, with time:    1.0000 msec
+Module hltJet30Ele8CaloIdTTrkIdVLCaloIsoVLTrkIsoVLRemoved was slowest in event 59, with time:    0.9990 msec
+Module hltL1sL1EG8DoubleJet20Central was slowest in event 108, with time:    1.0000 msec
+Module hltEGRegionalL1EG8DoubleJet20Central was slowest in event 14, with time:    1.0000 msec
+Module hltEG8L1EG8DoubleJet20CentralEtFilter was slowest in event 70, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdTL1EG8DoubleJet20CentralClusterShapeFilter was slowest in event 30, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdTL1EG8DoubleJet20CentralPixelMatchFilter was slowest in event 84, with time:    1.0000 msec
+Module hltTripleJet30Central was slowest in event 176, with time:    1.0000 msec
+Module hltQuadJet30Central was slowest in event 178, with time:    1.0000 msec
+Module hltCleanEle17CaloIdTTrkIdVLCaloIsoVLTrkIsoVLFromAK5CorrJetsJet30 was slowest in event 94, with time:    1.0000 msec
+Module hltPreEle25CaloIdVTCaloIsoTTrkIdTTrkIsoTCentralPFNoPUJet30 was slowest in event 179, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoTEcalIsoFilter was slowest in event 121, with time:    1.0000 msec
+Module hltEle25CaloIdVCaloIsoTPixelMatchFilter was slowest in event 143, with time:    1.0000 msec
+Module hltEle25CaloIdVTCaloIsoTTrkIdTTrkIsoTJetCollectionsForLeptonPlusPFJetsNoPU was slowest in event 189, with time:    1.0000 msec
+Module hltEleBLifetimeL3PFNoPUAssociatorSingleTop was slowest in event 177, with time:    1.0000 msec
+Module hltEleBLifetimeL3PFNoPUTagInfosSingleTop was slowest in event 72, with time:    1.0000 msec
+Module hltL1sL1DoubleEG6HTT100ORHTT125 was slowest in event 25, with time:    1.0000 msec
+Module hltEGRegionalL1DoubleEG6HTT100ORHTT125 was slowest in event 154, with time:    1.0000 msec
+Module hltL1sL1TripleEG7 was slowest in event 30, with time:    1.0000 msec
+Module hltEGRegionalL1TripleEG7 was slowest in event 108, with time:    1.0000 msec
+Module hltTripleEG10EtFilter was slowest in event 186, with time:    1.0000 msec
+Module hltL1NonIsoHLTNonIsoTripleElectronEt10HEFilter was slowest in event 189, with time:    0.9990 msec
+Module hltL1NonIsoHLTNonIsoTripleElectronEt10PixelMatchFilter was slowest in event 178, with time:    1.0000 msec
+Module hltRHemisphere was slowest in event 85, with time:    1.0000 msec
+Module hltRsqMR40Rsq0p04 was slowest in event 30, with time:    1.0000 msec
+Module hltPreRsqMR45Rsq0p09 was slowest in event 169, with time:    1.0000 msec
+Module hltRsqMR45Rsq0p09 was slowest in event 20, with time:    1.0000 msec
+Module hltRsqMR55Rsq0p09MR150 was slowest in event 21, with time:    1.0000 msec
+Module hltRsqMR60Rsq0p09MR150 was slowest in event 27, with time:    1.0000 msec
+Module hltPreRsqMR65Rsq0p09MR150 was slowest in event 154, with time:    1.0000 msec
+Module hltRsqMR65Rsq0p09MR150 was slowest in event 20, with time:    1.0000 msec
+Module hltPreIsoMu12RsqMR30Rsq0p04MR200 was slowest in event 19, with time:    1.0000 msec
+Module hltRHemisphereMuCorr was slowest in event 183, with time:    0.9990 msec
+Module hltRsqMR30Rsq0p04MR200MuCorr was slowest in event 112, with time:    1.0000 msec
+Module hltRsqMR40Rsq0p04MR200MuCorr was slowest in event 35, with time:    1.0000 msec
+Module hltRsqMR30Rsq0p04MR200 was slowest in event 30, with time:    1.0000 msec
+Module hltEG12EtFilterUnseeded was slowest in event 21, with time:    1.0000 msec
+Module hltEle12CaloIdTClusterShapeFilterUnseeded was slowest in event 173, with time:    1.0000 msec
+Module hltEle12CaloIdTCaloIsoVLEcalIsoFilterUnseeded was slowest in event 36, with time:    1.0000 msec
+Module hltEle12CaloIdTTrkIdVLCaloIsoVLDphiFilterUnseeded was slowest in event 143, with time:    1.0000 msec
+Module hltHitElectronActivityTrackIso was slowest in event 59, with time:    0.9990 msec
+Module hltPreEle12CaloIdTCaloIsoVLTrkIdVLTrkIsoVLRsqMR40Rsq0p04MR200 was slowest in event 79, with time:    1.0000 msec
+Module hltRsqMR40Rsq0p04MR200 was slowest in event 25, with time:    1.0000 msec
+Module hltPreEle12CaloIdTCaloIsoVLTrkIdVLTrkIsoVLDoubleCentralJet65 was slowest in event 91, with time:    0.9990 msec
+Module hltRsqMR40Rsq0p09MR150 was slowest in event 59, with time:    1.0000 msec
+Module hltRsqMR45Rsq0p09MR150 was slowest in event 54, with time:    1.0000 msec
+Module hltRsqMR50Rsq0p09MR150 was slowest in event 20, with time:    1.0000 msec
+Module hltEG22EtFilterL1Mu3p5EG12 was slowest in event 134, with time:    1.0000 msec
+Module hltL1sL1Mu5DoubleEG5ORMu5DoubleEG6 was slowest in event 54, with time:    1.0000 msec
+Module hltEGRegionalL1Mu5DoubleEG5 was slowest in event 33, with time:    1.0000 msec
+Module hltMu5DoubleEG8CaloIdTClusterShapeFilter was slowest in event 42, with time:    1.0000 msec
+Module hltPreMu8Ele8CaloIdTTrkIdVLEle8CaloIdLTrkIdVL was slowest in event 35, with time:    1.0000 msec
+Module hltEG8EtFilterL1Mu5DoubleEG5 was slowest in event 96, with time:    1.0000 msec
+Module hltEG8CaloIdTHEFilterL1Mu5DoubleEG5 was slowest in event 176, with time:    1.0000 msec
+Module hltEle8CaloIdTTrkIdVLDetaFilterL1Mu5DoubleEG5 was slowest in event 72, with time:    1.0000 msec
+Module hltL1DoubleMu10MuOpenORDoubleMu103p5L2DiMuFiltered0 was slowest in event 82, with time:    0.9990 msec
+Module hltPFMET40Filter was slowest in event 189, with time:    1.0000 msec
+Module hltL1sL1DoubleEG137ORL1DoubleEG155 was slowest in event 38, with time:    1.0000 msec
+Module hltPreDoubleEle14CaloIdTTrkIdVLMass8PFMET40 was slowest in event 162, with time:    1.0000 msec
+Module hltEGRegionalL1DoubleEG137ORL1DoubleEG155 was slowest in event 154, with time:    1.0000 msec
+Module hltL1sL1Mu12EG7ORL1MuOpenEG12 was slowest in event 33, with time:    1.0000 msec
+Module hltL1Mu12EG7ORL1MuOpenEG12L1MuFiltered0 was slowest in event 68, with time:    1.0000 msec
+Module hltL1Mu12EG7ORL1MuOpenEG12L2MuFiltered0 was slowest in event 125, with time:    1.0000 msec
+Module hltL1Mu12EG7ORL1MuOpenEG12L3MuFiltered14 was slowest in event 147, with time:    1.0000 msec
+Module hltEle14CaloIdTClusterShapeFilter was slowest in event 96, with time:    1.0000 msec
+Module hltPrePFNoPUHT350PFMET100 was slowest in event 72, with time:    1.0000 msec
+Module hltHt300Mht75 was slowest in event 30, with time:    1.0000 msec
+Module hltPFHT350MET100orMHT150 was slowest in event 71, with time:    1.0000 msec
+Module hltPrePFNoPUHT400PFMET100 was slowest in event 99, with time:    0.9990 msec
+Module hltHt350Mht75 was slowest in event 94, with time:    1.0000 msec
+Module hltEG5EtFilterUnseeded was slowest in event 123, with time:    1.0000 msec
+Module hltEle5CaloIdTCaloIsoVLEcalIsoFilterUnseeded was slowest in event 41, with time:    0.9990 msec
+Module hltEle5CaloIdTTrkIdTCaloIsoVLTrkIsoVLFilterUnseeded was slowest in event 178, with time:    1.0000 msec
+Module hltEle5CaloIdTTrkIdTCaloIsoVLTrkIsoVLPFJetCollForElePlusJetsNoPU was slowest in event 59, with time:    1.0000 msec
+Module hltEle5CaloIdTCaloIsoVLTrkIdTTrkIsoVLCleanedPFHT350NoPUPFMET45 was slowest in event 178, with time:    1.0000 msec
+Module hltPreCleanPFNoPUHT300Ele15CaloIdTCaloIsoVLTrkIdTTrkIsoVLPFMET45 was slowest in event 180, with time:    1.0000 msec
+Module hltEG15EtFilterUnseeded was slowest in event 19, with time:    1.0000 msec
+Module hltEle15CaloIdTCaloIsoVLEcalIsoFilterUnseeded was slowest in event 94, with time:    1.0000 msec
+Module hltEle15CaloIdTTrkIdTCaloIsoVLDphiFilterUnseeded was slowest in event 178, with time:    1.0000 msec
+Module hltPreCleanPFNoPUHT300Ele15CaloIdTCaloIsoVLTrkIdTTrkIsoVLPFMET50 was slowest in event 39, with time:    1.0000 msec
+Module hltEG40EtFilterUnseeded was slowest in event 168, with time:    1.0000 msec
+Module hltEle40CaloIdVTClusterShapeFilterUnseeded was slowest in event 59, with time:    1.0000 msec
+Module hltEle40CaloIdVTPixelMatchFilterUnseeded was slowest in event 199, with time:    1.0000 msec
+Module hltElectron40CaloIdTTrkIdTCleanedPFHT300NoPU was slowest in event 59, with time:    1.0000 msec
+Module hltEG60EtFilterUnseeded was slowest in event 196, with time:    1.0000 msec
+Module hltEle60CaloIdVTClusterShapeFilterUnseeded was slowest in event 20, with time:    1.0000 msec
+Module hltL1sL1DoubleEG5 was slowest in event 58, with time:    1.0000 msec
+Module hltEGRegionalL1DoubleEG5 was slowest in event 191, with time:    1.0000 msec
+Module hltEle5SC5JpsiMass2to15EtFilter was slowest in event 103, with time:    1.0000 msec
+Module hltEle5SC5JpsiClusterShapeFilter was slowest in event 42, with time:    1.0000 msec
+Module hltL1SeededPhotonEcalIsol was slowest in event 49, with time:   12.9980 msec
+Module hltEle5SC5JpsiEcalIsolFilter was slowest in event 43, with time:    1.0000 msec
+Module hltEle5SC5JpsiHEFilter was slowest in event 127, with time:    1.0000 msec
+Module hltL1SeededPhotonHcalIsol was slowest in event 170, with time:    3.0000 msec
+Module hltCorrectedHybridSuperClustersActivitySC5 was slowest in event 85, with time:    1.0000 msec
+Module hltCorrectedMulti5x5SuperClustersWithPreshowerActivitySC5 was slowest in event 59, with time:    1.0000 msec
+Module hltRecoEcalSuperClusterActivityCandidateSC5 was slowest in event 72, with time:    1.0000 msec
+Module hltActivityPhotonSC5HcalForHE was slowest in event 59, with time:    7.9990 msec
+Module hltEle5SC5JpsiPMMassFilter was slowest in event 189, with time:    1.0000 msec
+Module hltL1sL1HTT200OrL1HTT175OrETM40OrETM50 was slowest in event 5, with time:    1.0000 msec
+Module hltDiCaloJet20NoEtaCut was slowest in event 48, with time:    1.0000 msec
+Module hltDiCaloJet20MJJ650AllJetsDEta3p5Filter was slowest in event 77, with time:    1.0000 msec
+Module hltDiCaloJet30NoEtaCut was slowest in event 181, with time:    1.0000 msec
+Module hltDiCaloJet30MJJ700AllJetsDEta3p5Filter was slowest in event 156, with time:    1.0000 msec
+Module hltL1sL1HTT200OrHTT175OrHTT150OrETM40 was slowest in event 49, with time:    1.0000 msec
+Module hltL1sL1HTT200OrL1HTT175OrETM40 was slowest in event 28, with time:    1.0000 msec
+Module hltPreDiJet35MJJ700AllJetsDEta3p5VBF was slowest in event 75, with time:    1.0000 msec
+Module hltPreDiJet35MJJ750AllJetsDEta3p5VBF was slowest in event 51, with time:    1.0000 msec
+Module hltDiCaloJet35MJJ750AllJetsDEta3p5Filter was slowest in event 68, with time:    1.0000 msec
+Module hltL1sL1SingleIsoEG18erORIsoEG20erOREG22 was slowest in event 75, with time:    1.0000 msec
+Module hltEGRegionalL1SingleIsoEG18erORIsoEG20erOREG22 was slowest in event 42, with time:    1.0000 msec
+Module hltEG22L1sIso18erOrIso20erOr22EtFilter was slowest in event 86, with time:    1.0000 msec
+Module hltEle22WP90RhoEcalIsoFilter was slowest in event 177, with time:    1.0000 msec
+Module hltEle22WP90RhoHEFilter was slowest in event 97, with time:    1.0000 msec
+Module hltEle22WP90RhoHcalIsoFilter was slowest in event 94, with time:    0.9990 msec
+Module hltOverlapFilterIsoEle20CaloJet5 was slowest in event 59, with time:    1.0000 msec
+Module hltIsoElePFTauTagInfo was slowest in event 59, with time:   79.9870 msec
+Module hltIsoElePFTaus was slowest in event 59, with time:    8.9990 msec
+Module hltSelectedIsoElePFTausTrackFinding was slowest in event 72, with time:    1.0000 msec
+Module hltIsoElePFTau20TrackLooseIso was slowest in event 59, with time:    1.0000 msec
+Module hltOverlapFilterIsoEle20WP90LooseIsoPFTau20 was slowest in event 148, with time:    1.0000 msec
+Module hltEle22WP90NoIsoPixelMatchFilter was slowest in event 59, with time:    1.0000 msec
+Module hltOverlapFilterEle18CaloJet5 was slowest in event 177, with time:    1.0000 msec
+Module hltEleVertex was slowest in event 148, with time:    1.0000 msec
+Module hltElePFTauTagInfo was slowest in event 59, with time:   78.9880 msec
+Module hltElePFTaus was slowest in event 59, with time:    7.9990 msec
+Module hltElePFTauTrackFindingDiscriminator was slowest in event 137, with time:    1.0000 msec
+Module hltSelectedElePFTausTrackFinding was slowest in event 72, with time:    0.9990 msec
+Module hltElePFTauLooseIsolationDiscriminator was slowest in event 148, with time:    0.9990 msec
+Module hltSelectedElePFTausTrackFindingLooseIsolation was slowest in event 137, with time:    1.0000 msec
+Module hltL1sMu14erORMu16er was slowest in event 70, with time:    1.0000 msec
+Module hltL1fL1sMu14erORMu16erL1Filtered0 was slowest in event 36, with time:    1.0000 msec
+Module hltL2fL1sMu14erORMu16erL1f0L2Filtered14Q was slowest in event 99, with time:    1.0000 msec
+Module hltL3fL1sMu14erORMu16erL1f0L2f14QL3Filtered17Q was slowest in event 158, with time:    1.0000 msec
+Module hltL3crIsoL1sMu14erORMu16erL1f0L2f14QL3f17QL3crIsoRhoFiltered0p15 was slowest in event 128, with time:    1.0000 msec
+Module hltIsoMuPFTauTagInfo was slowest in event 19, with time:   90.9860 msec
+Module hltIsoMuPFTaus was slowest in event 19, with time:    9.9980 msec
+Module hltIsoMuPFTau20 was slowest in event 158, with time:    1.0000 msec
+Module hltSelectedIsoMuPFTausTrackFinding was slowest in event 19, with time:    1.0000 msec
+Module hltIsoMuPFTau20Track was slowest in event 80, with time:    1.0000 msec
+Module hltIsoMuPFTauLooseIsolationDiscriminator was slowest in event 158, with time:    1.0000 msec
+Module hltSelectedIsoMuPFTausTrackFindingLooseIsolation was slowest in event 69, with time:    0.9990 msec
+Module hltMuonVertex was slowest in event 38, with time:    1.0000 msec
+Module hltMuPFTauTagInfo was slowest in event 152, with time:  101.9850 msec
+Module hltMuPFTaus was slowest in event 152, with time:   11.9980 msec
+Module hltSelectedMuPFTausTrackFinding was slowest in event 38, with time:    1.0000 msec
+Module hltMuPFTau20Track was slowest in event 118, with time:    1.0000 msec
+Module hltSelectedMuPFTausTrackFindingLooseIsolation was slowest in event 39, with time:    1.0000 msec
+Module hltOverlapFilterMu17LooseIsoPFTau20 was slowest in event 47, with time:    1.0000 msec
+Module hltL1sETT80 was slowest in event 85, with time:    1.0000 msec
+Module hltPrePixelTracksMultiplicity70 was slowest in event 173, with time:    1.0000 msec
+Module hltPixelTracksForHighMult was slowest in event 197, with time:  424.9360 msec
+Module hltPixelVerticesForHighMult was slowest in event 197, with time:  112.9820 msec
+Module hltGoodPixelTracksForHighMult was slowest in event 139, with time:    4.0000 msec
+Module hltPixelCandsForHighMult was slowest in event 21, with time:    1.0000 msec
+Module hlt1HighMult70 was slowest in event 53, with time:    1.0000 msec
+Module hltL1sETT140 was slowest in event 27, with time:    1.0000 msec
+Module hlt1HighMult80 was slowest in event 41, with time:    1.0000 msec
+Module hlt1HighMult90 was slowest in event 19, with time:    1.0000 msec
+Module hltL1sL1HTT150OrHTT175OrDoubleJetC56OrSingleJet128OrQuadJetC32OrQuadJetC36OrQuadJetC40 was slowest in event 20, with time:    1.0000 msec
+Module hltHtL1FastJet was slowest in event 11, with time:    1.0000 msec
+Module hltHt250L1FastJet was slowest in event 91, with time:    1.0000 msec
+Module hltSingleMuOpenCandidateL2Filtered0 was slowest in event 36, with time:    1.0000 msec
+Module hltEG8EtFilterUnseeded was slowest in event 60, with time:    1.0000 msec
+Module hltEle8CaloIdLClusterShapeFilterUnseeded was slowest in event 20, with time:    1.0000 msec
+Module hltEle8CaloIdLCaloIsoVLEcalIsoFilterUnseeded was slowest in event 56, with time:    1.0000 msec
+Module hltEle8CaloIdLCaloIsoVLPixelMatchFilterUnseeded was slowest in event 189, with time:    1.0000 msec
+Module hltL1sL1BeamGasHfBptxPlusPostQuiet was slowest in event 64, with time:    1.0000 msec
+Module hltL1sL1BeamGasHfBptxMinusPostQuiet was slowest in event 53, with time:    1.0000 msec
+Module hltL1sL1BeamHalo was slowest in event 54, with time:    1.0000 msec
+Module hltHITPixelTracksHB was slowest in event 197, with time:   67.9900 msec
+Module hltHITPixelTracksHE was slowest in event 139, with time:  279.9580 msec
+Module hltHITPixelVerticesHE was slowest in event 26, with time:    1.0000 msec
+Module hltIsolPixelTrackProdHE was slowest in event 139, with time:  109.9840 msec
+Module hltIsolPixelTrackL2FilterHE was slowest in event 46, with time:    1.0000 msec
+Module hltHITPixelTripletSeedGeneratorHE was slowest in event 129, with time:    5.9990 msec
+Module hltHITCkfTrackCandidatesHE was slowest in event 19, with time:   18.9970 msec
+Module hltHITCtfWithMaterialTracksHE was slowest in event 19, with time:    2.0000 msec
+Module hltHITIPTCorrectorHE was slowest in event 113, with time:    1.0000 msec
+Module hltIsolPixelTrackL3FilterHE was slowest in event 112, with time:    1.0000 msec
+Module hltPreIsoTrackHB was slowest in event 115, with time:    1.0000 msec
+Module hltHITPixelVerticesHB was slowest in event 19, with time:    1.0000 msec
+Module hltIsolPixelTrackProdHB was slowest in event 197, with time:   14.9970 msec
+Module hltIsolPixelTrackL2FilterHB was slowest in event 97, with time:    1.0000 msec
+Module hltHITPixelTripletSeedGeneratorHB was slowest in event 61, with time:    7.9990 msec
+Module hltHITCkfTrackCandidatesHB was slowest in event 61, with time:    8.9990 msec
+Module hltHITCtfWithMaterialTracksHB was slowest in event 34, with time:    1.0000 msec
+Module hltIsolPixelTrackL3FilterHB was slowest in event 68, with time:    1.0000 msec
+Module hltL1sHcalPhiSym was slowest in event 26, with time:    1.0000 msec
+Module hltL1sHcalNZS was slowest in event 25, with time:    1.0000 msec
+Module hltL1sTechTrigHCALNoise was slowest in event 143, with time:    1.0000 msec
+Module hltL1sL1TechHCALHFsinglechannel was slowest in event 33, with time:    1.0000 msec
+Module hltPreZeroBiasParked was slowest in event 149, with time:    1.0000 msec
+Module hltPixelTracksForMinBias was slowest in event 197, with time:  117.9820 msec
+Module hltPixelCandsForMinBias was slowest in event 25, with time:    1.0000 msec
+Module hltMinBiasPixelFilter2 was slowest in event 86, with time:    1.0000 msec
+Module hltPreDSTPhysics was slowest in event 78, with time:    1.0000 msec
+Module hltPreDTCalibration was slowest in event 87, with time:    1.0000 msec
+Module hltDTCalibrationRaw was slowest in event 72, with time:    1.0000 msec
+Module hltPreEcalCalibration was slowest in event 153, with time:    1.0000 msec
+Module hltEcalCalibrationRaw was slowest in event 38, with time:    1.0000 msec
+Module hltPreHcalCalibration was slowest in event 181, with time:    1.0000 msec
+Module hltLaserAlignmentEventFilter was slowest in event 5, with time:    2.0000 msec
+Module hltTrackerCalibrationRaw was slowest in event 34, with time:    1.0000 msec
+Module hltRandomEventsFilter was slowest in event 129, with time:    0.9990 msec
+Module hltL1sTrackerCosmics was slowest in event 106, with time:    1.0000 msec
+Module hltDTROMonitorFilter was slowest in event 25, with time:    1.0000 msec
+Module hltL1sAlCaEcalPi0Eta was slowest in event 24, with time:    1.0000 msec
+Module hltEcalRegionalPi0EtaFEDs was slowest in event 38, with time:    1.0000 msec
+Module hltESRegionalPi0EtaRecHit was slowest in event 11, with time:    1.0000 msec
+Module hltEcalRegionalPi0EtaRecHit was slowest in event 20, with time:    1.0000 msec
+Module hltSimple3x3Clusters was slowest in event 11, with time:    1.0000 msec
+Module hltAlCaPi0RecHitsFilterEBonly was slowest in event 175, with time:    2.0000 msec
+Module hltPreAlCaEcalPi0EEonly was slowest in event 145, with time:    1.0000 msec
+Module hltAlCaPi0RecHitsFilterEEonly was slowest in event 35, with time:    3.0000 msec
+Module hltAlCaPi0EEUncalibrator was slowest in event 87, with time:    1.0000 msec
+Module hltPreAlCaEcalEtaEBonly was slowest in event 187, with time:    0.9990 msec
+Module hltAlCaEtaRecHitsFilterEBonly was slowest in event 47, with time:    2.0000 msec
+Module hltAlCaEtaRecHitsFilterEEonly was slowest in event 35, with time:    2.0000 msec
+Module hltAlCaPhiSymStream was slowest in event 25, with time:    1.0000 msec
+Module hltAlCaPhiSymUncalibrator was slowest in event 19, with time:    2.0000 msec
+Module hltL1sAlCaRPC was slowest in event 82, with time:    1.0000 msec
+Module hltRPCMuonNoTriggersL1Filtered0 was slowest in event 96, with time:    1.0000 msec
+Module hltRPCPointProducer was slowest in event 30, with time:    1.0000 msec
+Module hltRPCMuonNormaL1Filtered0 was slowest in event 33, with time:    1.0000 msec
+Module hltL1sL1AlwaysTrue was slowest in event 82, with time:    1.0000 msec
+Module hltPreAlCaLumiPixels was slowest in event 108, with time:    1.0000 msec
+Module hltFEDSelectorLumiPixels was slowest in event 73, with time:    1.0000 msec
+Module hltPreAlCaLumiPixelsZeroBias was slowest in event 150, with time:    1.0000 msec
+Module hltPreAlCaLumiPixelsRandom was slowest in event 5, with time:    1.0000 msec
+Module hltPreDQMFEDIntegrity was slowest in event 38, with time:    1.0000 msec
+Module hltCSCMonitorModule was slowest in event 11, with time:   56.9910 msec
+Module hltDTDQMEvF was slowest in event 19, with time:    1.0000 msec
+Module hltEcalRawToRecHitByproductProducer was slowest in event 87, with time:    1.0000 msec
+Module hltEBHltTask was slowest in event 88, with time:    1.0000 msec
+Module hltEEHltTask was slowest in event 85, with time:    1.0000 msec
+Module hltESFEDIntegrityTask was slowest in event 31, with time:    1.0000 msec
+Module hltHcalDataIntegrityMonitor was slowest in event 36, with time:    1.0000 msec
+Module hltL1tfed was slowest in event 178, with time:    1.0000 msec
+Module hltSiPixelHLTSource was slowest in event 41, with time:    1.0000 msec
+Module hltSiStripFEDCheck was slowest in event 65, with time:    4.0000 msec
+Module hltRPCFEDIntegrity was slowest in event 144, with time:    1.0000 msec
+Module hltFEDSelector was slowest in event 31, with time:    1.0000 msec
+Module hltTriggerSummaryAOD was slowest in event 19, with time:    3.0000 msec
+Module hltTriggerSummaryRAW was slowest in event 142, with time:    2.0000 msec
+
+Timing histograms run from 0 to 10000 msec
+The bin width for the timing histograms is 100 msec
+0.613497% (1/163) of all events fall outside the timing range
+
+NOTE: The mean and rms values are calculated for all events (that INCLUDES overflows)

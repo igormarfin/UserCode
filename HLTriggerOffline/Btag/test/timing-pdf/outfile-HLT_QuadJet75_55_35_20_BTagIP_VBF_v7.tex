@@ -1,0 +1,89 @@
+\documentclass[10pt,a5paper,landscape]{report}
+\usepackage{graphicx}
+\usepackage[a5paper,vmargin={5mm,2mm},hmargin={5mm,5mm}]{geometry}
+\usepackage[linktocpage]{hyperref}
+\usepackage[titles]{tocloft}
+\hypersetup{backref, colorlinks=true}
+\setlength{\cftsubsecnumwidth}{4em}
+\title{ \textbf{\Huge{HLT Timing Summary}} \footnote{\large{Documentation at \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHLTTimingSummary}}} \\ Main Info + HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7 info }
+\author{\Large{CMS Experiment}}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents 
+\newpage
+ \chapter{Main Info} 
+\newpage \centering \section{Total time for all modules per event} \includegraphics[scale=0.6]{totalTimetemp.png}
+\chapter{HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7 Info} 
+\newpage \section{Average module in HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7 time} \centering \includegraphics[scale=0.35]{moduleInPathTimeSummaryHLTQuadJet75553520BTagIPVBFv7temp.png}
+\newpage \section{Average module in HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7 running time} \centering \includegraphics[scale=0.35]{moduleInPathScaledTimeSummaryHLTQuadJet75553520BTagIPVBFv7temp.png}
+\newpage \section{Per event time for HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7} \centering \includegraphics[scale=0.6]{pathTimeHLTQuadJet75553520BTagIPVBFv7temp.png}
+\newpage \section{Per event incremental time for HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7} \centering \includegraphics[scale=0.6]{incPathTimeHLTQuadJet75553520BTagIPVBFv7temp.png}
+\section{Running time per event for HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7}\subsection{hltTriggerType} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltTriggerTypetemp.png}
+\subsection{csctfDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7csctfDigistemp.png}
+\subsection{dttfDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7dttfDigistemp.png}
+\subsection{gctDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7gctDigistemp.png}
+\subsection{gtDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7gtDigistemp.png}
+\subsection{gtEvmDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7gtEvmDigistemp.png}
+\subsection{siPixelDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7siPixelDigistemp.png}
+\subsection{siStripDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7siStripDigistemp.png}
+\subsection{ecalDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7ecalDigistemp.png}
+\subsection{ecalPreshowerDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7ecalPreshowerDigistemp.png}
+\subsection{hcalDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hcalDigistemp.png}
+\subsection{muonCSCDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7muonCSCDigistemp.png}
+\subsection{muonDTDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7muonDTDigistemp.png}
+\subsection{muonRPCDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7muonRPCDigistemp.png}
+\subsection{castorDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7castorDigistemp.png}
+\subsection{scalersRawToDigi} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7scalersRawToDigitemp.png}
+\subsection{simBscDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7simBscDigistemp.png}
+\subsection{simRpcTechTrigDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7simRpcTechTrigDigistemp.png}
+\subsection{simHcalTechTrigDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7simHcalTechTrigDigistemp.png}
+\subsection{simGtDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7simGtDigistemp.png}
+\subsection{hltL1GtObjectMap} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1GtObjectMaptemp.png}
+\subsection{hltL1extraParticles} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1extraParticlestemp.png}
+\subsection{hltScalersRawToDigi} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltScalersRawToDigitemp.png}
+\subsection{hltOnlineBeamSpot} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltOnlineBeamSpottemp.png}
+\subsection{hltL1sL1TripleJet644424VBFORTripleJet644828VBFORTripleJet684832VBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1sL1TripleJet644424VBFORTripleJet644828VBFORTripleJet684832VBFtemp.png}
+\subsection{hltPreQuadJet75553520BTagIPVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltPreQuadJet75553520BTagIPVBFtemp.png}
+\subsection{hltEcalRawToRecHitFacility} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltEcalRawToRecHitFacilitytemp.png}
+\subsection{hltEcalRegionalRestFEDs} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltEcalRegionalRestFEDstemp.png}
+\subsection{hltEcalRecHitAll} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltEcalRecHitAlltemp.png}
+\subsection{hltHcalDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltHcalDigistemp.png}
+\subsection{hltHbhereco} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltHbherecotemp.png}
+\subsection{hltHfreco} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltHfrecotemp.png}
+\subsection{hltHoreco} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltHorecotemp.png}
+\subsection{hltTowerMakerForAll} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltTowerMakerForAlltemp.png}
+\subsection{hltKT6CaloJets} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltKT6CaloJetstemp.png}
+\subsection{hltAntiKT5CaloJets} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltAntiKT5CaloJetstemp.png}
+\subsection{hltCaloJetIDPassed} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltCaloJetIDPassedtemp.png}
+\subsection{hltCaloJetL1FastJetCorrected} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltCaloJetL1FastJetCorrectedtemp.png}
+\subsection{hltL1FastJetSingle75HbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1FastJetSingle75HbbVBFtemp.png}
+\subsection{hltL1FastJetDouble55HbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1FastJetDouble55HbbVBFtemp.png}
+\subsection{hltL1FastJetTriple35HbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1FastJetTriple35HbbVBFtemp.png}
+\subsection{hltL1FastJetQuad20HbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltL1FastJetQuad20HbbVBFtemp.png}
+\subsection{hltCaloL1FastJetEtaSortedVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltCaloL1FastJetEtaSortedVBFtemp.png}
+\subsection{hltBJetHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBJetHbbVBFtemp.png}
+\subsection{hltSiPixelDigis} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiPixelDigistemp.png}
+\subsection{hltSiPixelClusters} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiPixelClusterstemp.png}
+\subsection{hltSiPixelRecHits} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiPixelRecHitstemp.png}
+\subsection{hltGetJetsfromBJetHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltGetJetsfromBJetHbbVBFtemp.png}
+\subsection{hltSelectorJetsHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSelectorJetsHbbVBFtemp.png}
+\subsection{hltBLifetimeL25JetsHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL25JetsHbbVBFtemp.png}
+\subsection{hltPixelTracks} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltPixelTrackstemp.png}
+\subsection{hltPixelVertices} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltPixelVerticestemp.png}
+\subsection{hltBLifetimeL25AssociatorHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL25AssociatorHbbVBFtemp.png}
+\subsection{hltBLifetimeL25TagInfosHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL25TagInfosHbbVBFtemp.png}
+\subsection{hltBLifetimeL25BJetTagsHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL25BJetTagsHbbVBFtemp.png}
+\subsection{hltBLifetime2p5L25FilterHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetime2p5L25FilterHbbVBFtemp.png}
+\subsection{hltSiStripExcludedFEDListProducer} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiStripExcludedFEDListProducertemp.png}
+\subsection{hltSiStripRawToClustersFacility} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiStripRawToClustersFacilitytemp.png}
+\subsection{hltSiStripClusters} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltSiStripClusterstemp.png}
+\subsection{hltBLifetimeRegionalPixelSeedGeneratorHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeRegionalPixelSeedGeneratorHbbVBFtemp.png}
+\subsection{hltBLifetimeRegionalCkfTrackCandidatesHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeRegionalCkfTrackCandidatesHbbVBFtemp.png}
+\subsection{hltBLifetimeRegionalCtfWithMaterialTracksHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeRegionalCtfWithMaterialTracksHbbVBFtemp.png}
+\subsection{hltBLifetimeL3AssociatorbbHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL3AssociatorbbHbbVBFtemp.png}
+\subsection{hltBLifetimeL3TagInfosHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL3TagInfosHbbVBFtemp.png}
+\subsection{hltBLifetimeL3BJetTagsHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetimeL3BJetTagsHbbVBFtemp.png}
+\subsection{hltBLifetime6p8L3FilterHbbVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltBLifetime6p8L3FilterHbbVBFtemp.png}
+\subsection{hltCaloL1FastJetBTagSortedVBF} \centering \includegraphics[scale=0.6]{moduleInPathScaledTimeHLTQuadJet75553520BTagIPVBFv7hltCaloL1FastJetBTagSortedVBFtemp.png}
+\end{document}

@@ -1,0 +1,21 @@
+\documentclass[10pt,a5paper,landscape]{report}
+\usepackage{graphicx}
+\usepackage[a5paper,vmargin={5mm,2mm},hmargin={5mm,5mm}]{geometry}
+\usepackage[linktocpage]{hyperref}
+\hypersetup{backref, colorlinks=true}
+\title{ \textbf{\Huge{HLT Timing Summary}} \footnote{\large{Documentation at \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHLTTimingSummary}}} \\ Main Info }
+\author{\Large{CMS Experiment}}
+\date{\today}
+\begin{document}
+\maketitle
+\newpage
+\clearpage
+\tableofcontents
+\newpage
+\newpage \chapter{Total time for all modules per event} \newpage \centering \includegraphics[scale=0.6]{totalTimetemp.png}
+\newpage \chapter{10 Slowest Paths}
+\section{Average module (in path) time}
+\section{Average module (in path) running time}
+\section{Per event time for path}
+\section{Per event incremental time for path}
+\end{document}

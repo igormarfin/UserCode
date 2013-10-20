@@ -1,0 +1,57 @@
+[DEFAULT]
+basenamel25=hltBLifetimeL25
+basenamel3=hltBLifetimeL3
+suffix=HbbVBF
+hltpathname=HLT_QuadJet75_55_35_20_BTagIP_VBF_v7
+processname=HLTX
+hltjets=hltCaloJetL1FastJetCorrected
+cmsswver= CMSSW_5_3_11_13TeV_PU45v2
+#cmsswver= CMSSW_5_3_11_8TeVv2
+#cmsswver= CMSSW_5_3_11_13TeVv2
+#cmsswver= CMSSW_X_Y_Z
+#files=	file:output.root
+#files=/store/user/marfin/TT_CT10_TuneZ2star_8TeV-powheg-tauola/RelValTTbar_8TeV_AVE_25_BX_25ns_Redigi/d46eb89938699df3f6e2c66033ec45e8/output_18_1_fXB.root
+files=/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_11_1_cne.root
+      /store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_12_1_FTu.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_13_1_BRz.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_14_1_Zfz.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_15_1_AVH.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_16_1_aN1.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_17_1_Vql.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_18_1_UMs.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_19_1_Shk.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_20_1_2j3.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_2_1_XSN.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_3_1_4vM.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_4_1_T0C.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_5_1_TkV.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_6_1_XWn.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_7_1_qmg.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_8_1_hcO.root
+	/store/user/marfin/TTbar_TuneZ2star_13TeV-powheg-tauola/RelValTTbar_13TeV_AVE_45_BX_25ns_Redigi/27fc1b53fad303855266ad4d8892714e/output_9_1_rwu.root
+
+[l25]
+taginfo:%(basenamel25)sTagInfos%(suffix)s
+jettag:%(basenamel25)sBJetTags%(suffix)s
+
+[l3]
+taginfo:%(basenamel3)sTagInfos%(suffix)s
+jettag:%(basenamel3)sBJetTags%(suffix)s
+
+[additional]
+genparticles=SIM
+# needed collection:
+# L25
+# hltCaloJetL1FastJetCorrected
+# hltBLifetimeL25JetsHbbVBF 
+# hltBLifetimeL25TagInfosHbbVBF 
+# hltBLifetimeL25AssociatorHbbVBF
+# hltBLifetimeL25BJetTagsHbbVBF 
+# L3
+# hltBLifetimeRegionalCtfWithMaterialTracksHbbVBF
+# hltBLifetimeRegionalCkfTrackCandidatesHbbVBF
+# hltBLifetimeL3AssociatorbbHbbVBF
+# hltBLifetimeL3TagInfosHbbVBF
+# hltBLifetimeL3BJetTagsHbbVBF
+# 
+

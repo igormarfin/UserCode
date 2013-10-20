@@ -73,7 +73,8 @@ map<TString,TProfile*> efficsL25;
      label+=flavour;
 
 
-   GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0);
+    std::cout<<"Calculate Effl25 for "<<label<<std::endl;
+    GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0);
     efficsL25[flavour]=calculateEfficiency1D(num,den,(label+"_efficiency_vs_disc").Data());
 
    
@@ -184,6 +185,8 @@ if (type==0)
     ptrnum->SetBinContent(1,numH1->Integral());
     ptrden->SetBinContent(1,numH1->Integral());
     for  (int j=2;j<=numH1->GetNbinsX();j++) {
+//	std::cout<<"1Bin #"<<j<<" content "<<numH1->Integral()-numH1->Integral(1,j-1)<<std::endl;
+//	std::cout<<"2Bin #"<<j<<" content "<<numH1->Integral()<<std::endl;
          ptrnum->SetBinContent(j,numH1->Integral()-numH1->Integral(1,j-1));
          ptrden->SetBinContent(j,numH1->Integral());
         }
@@ -235,6 +238,8 @@ return;
 TProfile*  HLTBTagHarvestingAnalyzer::calculateEfficiency1D( TH1* num, TH1* den, string effName ){
   TProfile* eff;
 
+ std::cout<<"Efficiency name: "<<effName<<std::endl;
+
   if(num->GetXaxis()->GetXbins()->GetSize()==0){
     eff = new TProfile(effName.c_str(),effName.c_str(),num->GetXaxis()->GetNbins(),num->GetXaxis()->GetXmin(),num->GetXaxis()->GetXmax());
   }else{
@@ -260,9 +265,10 @@ TProfile*  HLTBTagHarvestingAnalyzer::calculateEfficiency1D( TH1* num, TH1* den,
 //    cout<<"bin "<<i<<" eff "<<e<<endl;
     low=TEfficiency::Wilson((double)den->GetBinContent(i),(double)num->GetBinContent(i),0.683,false);
     high=TEfficiency::Wilson((double)den->GetBinContent(i),(double)num->GetBinContent(i),0.683,true);
-#else
+#else    
     Efficiency( (double)num->GetBinContent(i), (double)den->GetBinContent(i), 0.683, e, low, high );
 #endif
+    
     double err = e-low>high-e ? e-low : high-e;
     //here is the trick to store info in TProfile:
     eff->SetBinContent( i, e );

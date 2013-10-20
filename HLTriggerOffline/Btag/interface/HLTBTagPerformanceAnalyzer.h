@@ -16,6 +16,9 @@
 #include "DataFormats/JetReco/interface/Jet.h"
 #include "DataFormats/BTauReco/interface/JetTag.h"
 #include "DataFormats/BTauReco/interface/TrackIPTagInfo.h"
+#include "DataFormats/BTauReco/interface/SecondaryVertexTagInfo.h"
+
+
 
 // Trigger
 #include "DataFormats/Common/interface/TriggerResults.h"

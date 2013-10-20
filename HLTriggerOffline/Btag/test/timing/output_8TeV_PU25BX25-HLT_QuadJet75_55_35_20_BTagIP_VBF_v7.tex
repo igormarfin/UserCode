@@ -1,0 +1,16 @@
+\documentclass[10pt,a5paper,landscape]{report}
+\usepackage{graphicx}
+\usepackage[a5paper,vmargin={5mm,2mm},hmargin={5mm,5mm}]{geometry}
+\usepackage[linktocpage]{hyperref}
+\usepackage[titles]{tocloft}
+\hypersetup{backref, colorlinks=true}
+\setlength{\cftsubsecnumwidth}{4em}
+\title{ \textbf{\Huge{HLT Timing Summary}} \footnote{\large{Documentation at \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHLTTimingSummary}}} \\ Main Info + HLT\_QuadJet75\_55\_35\_20\_BTagIP\_VBF\_v7 info }
+\author{\Large{CMS Experiment}}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents 
+\newpage
+ \chapter{Main Info} 
+\newpage \centering \section{Total time for all modules per event} \includegraphics[scale=0.6]{totalTimetemp.png}
