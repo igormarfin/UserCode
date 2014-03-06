@@ -1,5 +1,8 @@
 #include "HLTriggerOffline/Btag/interface/HLTBTagHarvestingAnalyzer.h"
 #include "TCutG.h"
+#include <cassert>
+
+
 //
 // constructors and destructor
 //
@@ -7,13 +10,13 @@ HLTBTagHarvestingAnalyzer::HLTBTagHarvestingAnalyzer(const edm::ParameterSet& iC
 
 {
    //now do what ever initialization is needed
-   hltPathName_        = iConfig.getParameter<std::string> ("HLTPathName");
+   hltPathNames_        = iConfig.getParameter< std::vector<std::string> > ("HLTPathNames");
 
    // DQMStore services   
    dqm = edm::Service<DQMStore>().operator->();
   edm::ParameterSet mc = iConfig.getParameter<edm::ParameterSet>("mcFlavours");
   m_mcLabels = mc.getParameterNamesForType<std::vector<unsigned int> >();
-  minTag=iConfig.getParameter<double>("minTag");
+  minTags=iConfig.getParameter< std::vector<double> >("minTags");
   maxTag=iConfig.getParameter<double>("maxTag");
 }
 
@@ -47,79 +50,108 @@ HLTBTagHarvestingAnalyzer::beginJob()
 void 
 HLTBTagHarvestingAnalyzer::endJob() 
 {
-std::cout<<"I' HLTBTagHarvestingAnalyzer::endJob"<<std::endl;
-   if ( dqm )
-   {
-      std::string dqmFolder_hist = Form("HLT/BTag/%s",hltPathName_.c_str());
-//      dqm->cd(dqmFolder_hist);
-      std::string effDir = Form("HLT/BTag/%s/efficiency",hltPathName_.c_str());
+    using namespace edm;
+
+	std::cout<<"HLTBTagHarvestingAnalyzer::endJob"<<std::endl;
+
+    
+   assert(hltPathNames_.size()== minTags.size());
+
+
+
+  	Exception excp(errors::LogicError);
+
+
+	if (! dqm) {  excp << "DQM is not ready";            excp.raise(); }
+
+   std::string dqmFolder_hist;
+   for (unsigned int ind=0; ind<hltPathNames_.size();ind++) {
+
+
+
+	  dqmFolder_hist = Form("HLT/BTag/%s",hltPathNames_[ind].c_str());
+
+      std::string effDir = Form("HLT/BTag/%s/efficiency",hltPathNames_[ind].c_str());
       dqm->setCurrentFolder(effDir);
-    cout<<"Eff dir "<<effDir<<endl;
+//      cout<<"Eff dir "<<effDir<<endl;
 
 
 /*    MonitorElement *denME = NULL;
     MonitorElement *numME = NULL;
-*/ 	TH1 *den =NULL;
+*/ 	
+
+    TH1 *den =NULL;
     TH1 *num =NULL; 
 
 		
 /// 1D and 2D for L25 discriminator
-map<TString,TProfile*> efficsL25;
-  for (unsigned int i = 0; i < m_mcLabels.size(); ++i)
-{
+	map<TString,TProfile*> efficsL25;
+	map<TString,bool> efficsL25OK;
 
-     TString label="JetTag_L25_";
-     TString flavour= m_mcLabels[i].c_str();
-     label+=flavour;
+	  for (unsigned int i = 0; i < m_mcLabels.size(); ++i)
+		{
+			 bool isOK=false;
+		     TString label="JetTag_L25_";
+		     TString flavour= m_mcLabels[i].c_str();
+		     label+=flavour;
 
 
-   GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0);
-    efficsL25[flavour]=calculateEfficiency1D(num,den,(label+"_efficiency_vs_disc").Data());
+		//  std::cout<<"Calculate Effl25 for "<<label<<std::endl;
+		    isOK=GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0,minTags[ind],maxTag);
+		    if (isOK)   efficsL25[flavour]=calculateEfficiency1D(num,den,(label+"_efficiency_vs_disc").Data()); 
+            efficsL25OK[flavour] = isOK;
 
    
-    label="JetTag_L25_";
-    label+=flavour+TString("_disc_pT");
+		    label="JetTag_L25_";
+		    label+=flavour+TString("_disc_pT");
     
-    GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,1);
-    TProfile * eff=calculateEfficiency1D(num,den,(label+"_efficiency_vs_pT").Data());
-    delete eff;
-	} /// for mc labels
+		    isOK=GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,1,minTags[ind],maxTag);
+			if (isOK) {
+				    TProfile * eff=calculateEfficiency1D(num,den,(label+"_efficiency_vs_pT").Data());
+				    delete eff;
+			}
+		} /// for mc labels
+
 ///save mistagrate vs b-eff plots
 
-	mistagrate(efficsL25["b"], efficsL25["c"], "L25_b_c_mistagrate" ); 
-	mistagrate(efficsL25["b"], efficsL25["light"], "L25_b_light_mistagrate" ); 
-	mistagrate(efficsL25["b"], efficsL25["g"], "L25_b_g_mistagrate" ); 
+	if (efficsL25OK["b"] && efficsL25OK["c"]) mistagrate(efficsL25["b"], efficsL25["c"], "L25_b_c_mistagrate" ); 
+	if (efficsL25OK["b"] && efficsL25OK["light"]) mistagrate(efficsL25["b"], efficsL25["light"], "L25_b_light_mistagrate" ); 
+	if (efficsL25OK["b"] && efficsL25OK["g"]) mistagrate(efficsL25["b"], efficsL25["g"], "L25_b_g_mistagrate" ); 
 
 /// 1D && 2D for L3 discriminator
 
-map<TString,TProfile*> efficsL3;
-  for (unsigned int i = 0; i < m_mcLabels.size(); ++i)
-{
+	map<TString,TProfile*> efficsL3;
+    map<TString,bool> efficsL3OK;
 
-     TString label="JetTag_L3_";
-     TString flavour= m_mcLabels[i].c_str();
-     label+=flavour;
-
-
-   GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0);
-    efficsL3[flavour]=calculateEfficiency1D(num,den,(label+"_efficiency_vs_disc").Data());
+	  for (unsigned int i = 0; i < m_mcLabels.size(); ++i)
+		{
+             bool isOK=false;
+		     TString label="JetTag_L3_";
+		     TString flavour= m_mcLabels[i].c_str();
+		     label+=flavour;
 
 
-    label="JetTag_L3_";
-    label+=flavour+TString("_disc_pT");
+			   isOK=GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,0,minTags[ind],maxTag);
+		       if (isOK) efficsL3[flavour]=calculateEfficiency1D(num,den,(label+"_efficiency_vs_disc").Data());
+               efficsL3OK[flavour]=isOK;
 
-    GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,1);
-    TProfile * eff=calculateEfficiency1D(num,den,(label+"_efficiency_vs_pT").Data());
-    delete eff;
+			   label="JetTag_L3_";
+			   label+=flavour+TString("_disc_pT");
+
+			   isOK=GetNumDenumerators ((TString(dqmFolder_hist)+"/"+label).Data(),(TString(dqmFolder_hist)+"/"+label).Data(),num,den,1,minTags[ind],maxTag);
+				if (isOK) {
+	    		   TProfile * eff=calculateEfficiency1D(num,den,(label+"_efficiency_vs_pT").Data());
+				    delete eff;
+				}
     } /// for mc labels
 
 ///save mistagrate vs b-eff plots
-    mistagrate(efficsL3["b"], efficsL3["c"], "L3_b_c_mistagrate" );
-    mistagrate(efficsL3["b"], efficsL3["light"], "L3_b_light_mistagrate" );
-    mistagrate(efficsL3["b"], efficsL3["g"], "L3_b_g_mistagrate" );
+    if (efficsL3OK["b"] && efficsL3OK["c"])      mistagrate(efficsL3["b"], efficsL3["c"], "L3_b_c_mistagrate" );
+    if (efficsL3OK["b"] && efficsL3OK["light"])  mistagrate(efficsL3["b"], efficsL3["light"], "L3_b_light_mistagrate" );
+    if (efficsL3OK["b"] && efficsL3OK["g"])      mistagrate(efficsL3["b"], efficsL3["g"], "L3_b_g_mistagrate" );
 
 
-   } /// if dqm
+   } /// for triggers
  }
 
 /*
@@ -128,7 +160,7 @@ map<TString,TProfile*> efficsL3;
 			type =0 for eff_vs_discriminator
 			type =1 for eff_vs_pT ot eff_vs_Eta
 */
-void HLTBTagHarvestingAnalyzer::GetNumDenumerators(string num,string den,TH1 * & ptrnum,TH1* & ptrden,int type)
+bool HLTBTagHarvestingAnalyzer::GetNumDenumerators(string num,string den,TH1 * & ptrnum,TH1* & ptrden,int type,double minTag, double maxTag)
 {
 
     MonitorElement *denME = NULL;
@@ -138,7 +170,7 @@ void HLTBTagHarvestingAnalyzer::GetNumDenumerators(string num,string den,TH1 * &
 if(denME==0 || numME==0){
     cout << "Could not find MEs: "<<den<<endl;
     cout << "Could not find MEs: "<<num<<endl;
-    return;
+    return false;
   } else {
     cout << "found MEs: "<<den<<endl;
 
@@ -184,13 +216,15 @@ if (type==0)
     ptrnum->SetBinContent(1,numH1->Integral());
     ptrden->SetBinContent(1,numH1->Integral());
     for  (int j=2;j<=numH1->GetNbinsX();j++) {
+//	std::cout<<"1Bin #"<<j<<" content "<<numH1->Integral()-numH1->Integral(1,j-1)<<std::endl;
+//	std::cout<<"2Bin #"<<j<<" content "<<numH1->Integral()<<std::endl;
          ptrnum->SetBinContent(j,numH1->Integral()-numH1->Integral(1,j-1));
          ptrden->SetBinContent(j,numH1->Integral());
         }
 
 
 }
-return;
+return true;
 }
 
 
@@ -235,6 +269,8 @@ return;
 TProfile*  HLTBTagHarvestingAnalyzer::calculateEfficiency1D( TH1* num, TH1* den, string effName ){
   TProfile* eff;
 
+ std::cout<<"Efficiency name: "<<effName<<std::endl;
+
   if(num->GetXaxis()->GetXbins()->GetSize()==0){
     eff = new TProfile(effName.c_str(),effName.c_str(),num->GetXaxis()->GetNbins(),num->GetXaxis()->GetXmin(),num->GetXaxis()->GetXmax());
   }else{
@@ -260,9 +296,10 @@ TProfile*  HLTBTagHarvestingAnalyzer::calculateEfficiency1D( TH1* num, TH1* den,
 //    cout<<"bin "<<i<<" eff "<<e<<endl;
     low=TEfficiency::Wilson((double)den->GetBinContent(i),(double)num->GetBinContent(i),0.683,false);
     high=TEfficiency::Wilson((double)den->GetBinContent(i),(double)num->GetBinContent(i),0.683,true);
-#else
+#else    
     Efficiency( (double)num->GetBinContent(i), (double)den->GetBinContent(i), 0.683, e, low, high );
 #endif
+    
     double err = e-low>high-e ? e-low : high-e;
     //here is the trick to store info in TProfile:
     eff->SetBinContent( i, e );

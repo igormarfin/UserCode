@@ -10,7 +10,7 @@ import FWCore.ParameterSet.Config as cms
 
 # only run on events with L2 jets
 require_hltJets = cms.EDFilter("RequireModule",
-    requirement = cms.InputTag("hltCaloJetL1FastJetCorrected","","HLTX")
+    requirement = cms.InputTag("hltCaloJetL1FastJetCorrected","","HLT")
 )
 
 
@@ -42,7 +42,7 @@ hltPartons = cms.EDProducer("PartonSelector",
 # flavour by reference
 # see "PhysicsTools/JetMCAlgos/data/IC5CaloJetsMCFlavour.cff"
 hltJetsbyRef = cms.EDProducer("JetPartonMatcher",
-    jets = cms.InputTag("hltCaloJetL1FastJetCorrected","","HLTX"),
+    jets = cms.InputTag("hltCaloJetL1FastJetCorrected","","HLT"),
     coneSizeToAssociate = cms.double(0.3),
     partons = cms.InputTag("hltPartons")
 )
@@ -56,12 +56,25 @@ hltJetsbyValPhys = cms.EDProducer("JetFlavourIdentifier",
 
 # flavour by value, algorithmic definition
 # see "PhysicsTools/JetMCAlgos/data/IC5CaloJetsMCFlavour.cff"
+
 hltJetsbyValAlgo = cms.EDProducer("JetFlavourIdentifier",
     srcByReference = cms.InputTag("hltJetsbyRef"),
     physicsDefinition = cms.bool(False)
 )
 
-hltJetMCTools = cms.Sequence(require_hltJets*hltPartons*hltJetsbyRef*hltJetsbyValPhys+hltJetsbyValAlgo)
+# additional tests
+#require_hltJetsbyValPhys = cms.EDFilter("RequireModule",
+#    requirement = cms.InputTag("hltJetsbyValPhys")
+#)
+
+#require_hltJetsbyValAlgo = cms.EDFilter("RequireModule",
+#    requirement = cms.InputTag("hltJetsbyValAlgo")
+#)
+
+
+hltJetMCTools = cms.Sequence(require_hltJets*hltPartons*hltJetsbyRef*hltJetsbyValPhys*hltJetsbyValAlgo
+#*require_hltJetsbyValPhys*require_hltJetsbyValAlgo
+)
 
 
 

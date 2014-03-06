@@ -16,6 +16,9 @@
 #include "DataFormats/JetReco/interface/Jet.h"
 #include "DataFormats/BTauReco/interface/JetTag.h"
 #include "DataFormats/BTauReco/interface/TrackIPTagInfo.h"
+#include "DataFormats/BTauReco/interface/SecondaryVertexTagInfo.h"
+
+
 
 // Trigger
 #include "DataFormats/Common/interface/TriggerResults.h"
@@ -77,15 +80,15 @@ class HLTBTagPerformanceAnalyzer : public edm::EDAnalyzer {
       
       // ----------member data ---------------------------
       InputTag hlTriggerResults_;
-      std::string hltPathName_;
+      std::vector<std::string> hltPathNames_;
       HLTConfigProvider hltConfigProvider_;
       bool triggerConfChanged_;
 
       
-      InputTag l25IPTagInfoCollection_;
-      InputTag l3IPTagInfoCollection_;
-      InputTag l25JetTagCollection_;
-      InputTag l3JetTagCollection_;
+      std::vector<InputTag> l25IPTagInfoCollection_;
+      std::vector<InputTag> l3IPTagInfoCollection_;
+      std::vector<InputTag> l25JetTagCollection_;
+      std::vector<InputTag> l3JetTagCollection_;
       InputTag trackIPTagInfoCollection_;
       InputTag offlineJetTagCollection_;
       
@@ -104,22 +107,27 @@ typedef std::vector<flavour_t>  flavours_t;
 
 
       double minJetPT_;
-      unsigned int hltPathIndex_;
+std::vector<int> hltPathIndexs_;
 
 // data not supported 
 //      bool isData_;
-      std::string btagAlgo_;
+
+      std::vector<std::string> btagAlgos_;
 
       DQMStore * dqm;
 
 //is HLT OK?
-bool _isfoundHLT;
+std::vector<bool> _isfoundHLTs;
  
+
+	 /// DQM folder handle
+	std::vector<std::string> folders;
 
 
       // Histogram handler
-      std::map<std::string, MonitorElement *> H1_;
-      std::map<std::string, MonitorElement *> H2_;
+      std::vector< std::map<std::string, MonitorElement *> > H1_;
+      std::vector< std::map<std::string, MonitorElement *> > H2_;
+
 
 };
 

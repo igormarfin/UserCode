@@ -2,8 +2,8 @@ import FWCore.ParameterSet.Config as cms
 
 
 bTagPostValidation = cms.EDAnalyzer("HLTBTagHarvestingAnalyzer",
-   HLTPathName     = cms.string('HLT_DiJet40Eta2p6_BTagIP3DFastPV'),
-   minTag=cms.double(3.41), # TCHP , 6 -- TCH6
+   HLTPathNames     = cms.vstring('HLT_DiJet40Eta2p6_BTagIP3DFastPV'),
+   minTags=cms.vdouble(3.41), # TCHP , 6 -- TCH6
    maxTag=cms.double(100.),
   # MC stuff
    mcFlavours = cms.PSet(

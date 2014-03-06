@@ -61,7 +61,7 @@ class HLTBTagHarvestingAnalyzer : public edm::EDAnalyzer , public TGraphAsymmErr
       virtual void endJob() ;
 
      TProfile * calculateEfficiency1D( TH1* num, TH1* den, string name );
-     void GetNumDenumerators(string num,string den,TH1 * & ptrnum,TH1* & ptrden,int type);
+     bool GetNumDenumerators(string num,string den,TH1 * & ptrnum,TH1* & ptrden,int type, double minTag, double maxTag);
      void mistagrate( TProfile* num, TProfile* den, string effName );
       virtual void beginRun(edm::Run const&, edm::EventSetup const&);
       virtual void endRun(edm::Run const&, edm::EventSetup const&);
@@ -69,7 +69,7 @@ class HLTBTagHarvestingAnalyzer : public edm::EDAnalyzer , public TGraphAsymmErr
       virtual void endLuminosityBlock(edm::LuminosityBlock const&, edm::EventSetup const&);
         
       // ----------member data ---------------------------
-      std::string hltPathName_;
+      std::vector<std::string>  hltPathNames_;
 
 typedef unsigned int            flavour_t;
 typedef std::vector<flavour_t>  flavours_t;
@@ -77,7 +77,7 @@ typedef std::vector<flavour_t>  flavours_t;
       std::vector<std::string>  m_mcLabels;         // MC truth match - labels
       std::vector<flavours_t>   m_mcFlavours;       // MC truth match - flavours selection
       bool                      m_mcMatching;       // MC truth matching anabled/disabled
-		double minTag;
+		std::vector<double> minTags;
 		double maxTag;
       DQMStore * dqm;
       // Histogram handler
